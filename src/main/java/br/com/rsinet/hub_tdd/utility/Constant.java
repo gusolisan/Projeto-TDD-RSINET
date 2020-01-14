@@ -1,7 +1,7 @@
 package br.com.rsinet.hub_tdd.utility;
 
 public class Constant {
-	public static final String usuario = "DasdGs";
+	public static final String usuario = "DRrGusqqwaes";
 	public static final String senha = "Gus098";
 	public static final String email = "test@email.conssagrado";
 	public static final String url = "https://www.advantageonlineshopping.com/#/";

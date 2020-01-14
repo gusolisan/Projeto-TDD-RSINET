@@ -6,13 +6,15 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import br.com.rsinet.hub_tdd.utility.Constant;
+
 public class PaginaPrincipal {
 
 	private static WebElement element;
 
 	public static WebElement botaoConta(WebDriver driver) {
 		WebDriverWait wait = new WebDriverWait(driver, 10);
-		WebElement element = wait.until(ExpectedConditions.elementToBeClickable(By.id("menuUser")));
+		WebElement element = wait.until(ExpectedConditions.elementToBeClickable(By.id("hrefUserIcon")));
 		return element;
 	}
 
@@ -26,8 +28,11 @@ public class PaginaPrincipal {
 		return element;
 	}
 
-	public static WebElement botaoDeslogar(WebDriver driver) {
-		element = driver.findElement(By.className("option roboto-medium ng-scope"));
+	// Página com usuario logado:
+
+	public static WebElement nomeUsuarioLogado(WebDriver driver) {
+		WebDriverWait wait = new WebDriverWait(driver, 10);
+		element = wait.until(ExpectedConditions.elementToBeClickable(By.partialLinkText(Constant.usuario)));
 		return element;
 	}
 
@@ -35,9 +40,14 @@ public class PaginaPrincipal {
 		element = driver.findElement(By.linkText("My account"));
 		return element;
 	}
-	
+
 	public static WebElement botaoMyOrders(WebDriver driver) {
 		element = driver.findElement(By.linkText("My orders"));
+		return element;
+	}
+
+	public static WebElement botaoDeslogar(WebDriver driver) {
+		element = driver.findElement(By.className("option roboto-medium ng-scope"));
 		return element;
 	}
 }

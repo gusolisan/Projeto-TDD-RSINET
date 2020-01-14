@@ -91,7 +91,13 @@ public class PaginaDeCadastro {
 
 	public static WebElement botaoRegistrar(WebDriver driver) {
 		WebDriverWait wait = new WebDriverWait(driver, 10);
-		WebElement element = wait.until(ExpectedConditions.elementToBeClickable(By.id("register_btnundefined")));
+		element = wait.until(ExpectedConditions.elementToBeClickable(By.id("register_btnundefined")));
 		return element;
 	}
+
+//	public static WebElement mensagemDeUsuarioExistente(WebDriver driver) {
+//		WebDriverWait wait = new WebDriverWait(driver, 10);
+//		element = wait.until(ExpectedConditions.attributeToBe(By.className("center block smollMargin invalid")));
+//		return element;
+//	}
 }

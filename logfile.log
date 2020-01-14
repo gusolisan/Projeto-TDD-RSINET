@@ -1,0 +1,75 @@
+2020-01-14 16:06:04,667 INFO  [CenarioCadastroTest] Inicializado o driver do navegador Google Chrome 
+2020-01-14 16:06:04,676 INFO  [CenarioCadastroTest] Inicializado comando de espera ImplicityWait 
+2020-01-14 16:06:05,642 INFO  [CenarioCadastroTest] Navegador inicializado com o site https://www.advantageonlineshopping.com/#/ 
+2020-01-14 16:06:09,807 INFO  [CenarioCadastroTest] Navegador maximizado 
+2020-01-14 16:06:10,138 INFO  [CadastroAction] Botao da pagina de login clicado 
+2020-01-14 16:06:10,915 INFO  [CadastroAction] Botao criar nova conta clicado, navegador redirecionado para a pagina de cadastro 
+2020-01-14 16:06:11,856 INFO  [CadastroAction] Preenchendo formulario de cadastro: 
+2020-01-14 16:06:11,856 INFO  [CadastroAction] Nome de usuario inserido 
+2020-01-14 16:06:12,859 INFO  [CadastroAction] E-mail inserido 
+2020-01-14 16:06:13,365 INFO  [CadastroAction] Senha criada e inserida 
+2020-01-14 16:06:13,939 INFO  [CadastroAction] Confirmada a senha 
+2020-01-14 16:06:14,224 INFO  [CadastroAction] Primeiro nome inserido 
+2020-01-14 16:06:14,487 INFO  [CadastroAction] Sobrenome inserido 
+2020-01-14 16:06:14,879 INFO  [CadastroAction] Numero de telefone inserido 
+2020-01-14 16:06:15,105 INFO  [CadastroAction] País local selecionado 
+2020-01-14 16:06:15,412 INFO  [CadastroAction] Nome da cidade inserido 
+2020-01-14 16:06:15,777 INFO  [CadastroAction] Endereço inserido 
+2020-01-14 16:06:15,971 INFO  [CadastroAction] Estado inserido 
+2020-01-14 16:06:16,275 INFO  [CadastroAction] CEP inserido 
+2020-01-14 16:06:16,497 INFO  [NovoUsuario] Botao receber novas promoções deselecionado 
+2020-01-14 16:06:16,694 INFO  [NovoUsuario] Botao concordar com os termos selecionado 
+2020-01-14 16:06:42,908 INFO  [CenarioCadastroTest] Inicializado o driver do navegador Google Chrome 
+2020-01-14 16:06:42,930 INFO  [CenarioCadastroTest] Inicializado comando de espera ImplicityWait 
+2020-01-14 16:06:43,973 INFO  [CenarioCadastroTest] Navegador inicializado com o site https://www.advantageonlineshopping.com/#/ 
+2020-01-14 16:06:48,142 INFO  [CenarioCadastroTest] Navegador maximizado 
+2020-01-14 16:06:48,442 INFO  [CadastroAction] Botao da pagina de login clicado 
+2020-01-14 16:06:49,328 INFO  [CadastroAction] Botao criar nova conta clicado, navegador redirecionado para a pagina de cadastro 
+2020-01-14 16:06:49,935 INFO  [CadastroAction] Preenchendo formulario de cadastro: 
+2020-01-14 16:06:49,935 INFO  [CadastroAction] Nome de usuario inserido 
+2020-01-14 16:06:50,583 INFO  [CadastroAction] E-mail inserido 
+2020-01-14 16:06:50,828 INFO  [CadastroAction] Senha criada e inserida 
+2020-01-14 16:06:51,138 INFO  [CadastroAction] Confirmada a senha 
+2020-01-14 16:06:51,515 INFO  [CadastroAction] Primeiro nome inserido 
+2020-01-14 16:06:51,807 INFO  [CadastroAction] Sobrenome inserido 
+2020-01-14 16:06:52,180 INFO  [CadastroAction] Numero de telefone inserido 
+2020-01-14 16:06:52,420 INFO  [CadastroAction] País local selecionado 
+2020-01-14 16:06:52,785 INFO  [CadastroAction] Nome da cidade inserido 
+2020-01-14 16:06:53,127 INFO  [CadastroAction] Endereço inserido 
+2020-01-14 16:06:53,351 INFO  [CadastroAction] Estado inserido 
+2020-01-14 16:06:53,685 INFO  [CadastroAction] CEP inserido 
+2020-01-14 16:06:53,908 INFO  [NovoUsuario] Botao receber novas promoções deselecionado 
+2020-01-14 16:06:54,103 INFO  [NovoUsuario] Botao concordar com os termos selecionado 
+2020-01-14 16:06:55,955 INFO  [CenarioCadastroTest] Navegador fechado 
+2020-01-14 16:07:01,446 INFO  [CenarioCadastroTest] Inicializado o driver do navegador Google Chrome 
+2020-01-14 16:07:01,454 INFO  [CenarioCadastroTest] Inicializado comando de espera ImplicityWait 
+2020-01-14 16:07:02,485 INFO  [CenarioCadastroTest] Navegador inicializado com o site https://www.advantageonlineshopping.com/#/ 
+2020-01-14 16:07:06,653 INFO  [CenarioCadastroTest] Navegador maximizado 
+2020-01-14 16:07:06,922 INFO  [LoginAction] Botao da pagina de login clicado 
+2020-01-14 16:07:07,304 INFO  [LoginAction] Nome de usuário inserido 
+2020-01-14 16:07:07,730 INFO  [LoginAction] Senha inserida 
+2020-01-14 16:07:08,043 INFO  [LoginAction] Botao de logar clicado 
+2020-01-14 16:07:08,043 INFO  [LoginUsuario] Usuario logado 
+2020-01-14 16:07:09,245 INFO  [CenarioCadastroTest] Navegador fechado 
+2020-01-14 16:07:14,706 INFO  [CenarioCadastroTest] Inicializado o driver do navegador Google Chrome 
+2020-01-14 16:07:14,710 INFO  [CenarioCadastroTest] Inicializado comando de espera ImplicityWait 
+2020-01-14 16:07:15,745 INFO  [CenarioCadastroTest] Navegador inicializado com o site https://www.advantageonlineshopping.com/#/ 
+2020-01-14 16:07:19,913 INFO  [CenarioCadastroTest] Navegador maximizado 
+2020-01-14 16:07:20,249 INFO  [CadastroAction] Botao da pagina de login clicado 
+2020-01-14 16:07:20,990 INFO  [CadastroAction] Botao criar nova conta clicado, navegador redirecionado para a pagina de cadastro 
+2020-01-14 16:07:21,715 INFO  [CadastroAction] Preenchendo formulario de cadastro: 
+2020-01-14 16:07:21,715 INFO  [CadastroAction] Nome de usuario inserido 
+2020-01-14 16:07:22,321 INFO  [CadastroAction] E-mail inserido 
+2020-01-14 16:07:22,540 INFO  [CadastroAction] Senha criada e inserida 
+2020-01-14 16:07:22,785 INFO  [CadastroAction] Confirmada a senha 
+2020-01-14 16:07:23,308 INFO  [CadastroAction] Primeiro nome inserido 
+2020-01-14 16:07:23,690 INFO  [CadastroAction] Sobrenome inserido 
+2020-01-14 16:07:24,193 INFO  [CadastroAction] Numero de telefone inserido 
+2020-01-14 16:07:24,407 INFO  [CadastroAction] País local selecionado 
+2020-01-14 16:07:24,828 INFO  [CadastroAction] Nome da cidade inserido 
+2020-01-14 16:07:25,087 INFO  [CadastroAction] Endereço inserido 
+2020-01-14 16:07:25,333 INFO  [CadastroAction] Estado inserido 
+2020-01-14 16:07:25,774 INFO  [CadastroAction] CEP inserido 
+2020-01-14 16:07:26,083 INFO  [NovoUsuario] Botao receber novas promoções deselecionado 
+2020-01-14 16:07:26,388 INFO  [NovoUsuario] Botao concordar com os termos selecionado 
+2020-01-14 16:07:27,452 INFO  [CenarioCadastroTest] Navegador fechado 

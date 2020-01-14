@@ -21,7 +21,8 @@ public class PaginaDeLogin {
 	}
 
 	public static WebElement botaoLogar(WebDriver driver) {
-		element = driver.findElement(By.id("sign_in_btnundefined"));
+		WebDriverWait wait = new WebDriverWait(driver, 10);
+		element = wait.until(ExpectedConditions.elementToBeClickable(By.id("sign_in_btnundefined")));
 		return element;
 	}
 	

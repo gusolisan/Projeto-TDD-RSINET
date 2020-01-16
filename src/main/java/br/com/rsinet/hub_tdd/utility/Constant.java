@@ -1,16 +1,54 @@
 package br.com.rsinet.hub_tdd.utility;
 
 public class Constant {
-	public static final String usuario = "DRrGusqqwaes";
-	public static final String senha = "Gus098";
-	public static final String email = "test@email.conssagrado";
 	public static final String url = "https://www.advantageonlineshopping.com/#/";
-	public static final String primeiroNome = "Gusstavo";
-	public static final String ultimoNome = "Santos";
-	public static final String telefone = "(11)1234-5678";
-	public static final String nacionalidade = "Brazil";
-	public static final String cidade = "Guarulhos";
-	public static final String endereco = "Rua teste";
-	public static final String estado = "SP";
-	public static final String cep = "12345-678";
+	public static final String Path_DadosParaTeste = "C:\\Users\\g.santos\\Documents\\Massa de dados\\DadosParaTeste.xlsx";
+
+	public static final String usuario() throws Exception {
+		return ExcelUtils.getCellData(1, 0);
+	}
+
+	public static final String senha() throws Exception {
+		return ExcelUtils.getCellData(1, 1);
+	}
+
+	public static final String email() throws Exception {
+		return ExcelUtils.getCellData(1, 2);
+	}
+
+	public static final String nome() throws Exception {
+		return ExcelUtils.getCellData(1, 3);
+	}
+
+	public static final String sobrenome() throws Exception {
+		return ExcelUtils.getCellData(1, 4);
+	}
+
+	public static final String telefone() throws Exception {
+		return ExcelUtils.getCellData(1, 5);
+	}
+
+	public static final String nacionalidade() throws Exception {
+		return ExcelUtils.getCellData(1, 6);
+	}
+
+	public static final String cidade() throws Exception {
+		return ExcelUtils.getCellData(1, 7);
+	}
+
+	public static final String endereco() throws Exception {
+		return ExcelUtils.getCellData(1, 8);
+	}
+
+	public static final String estado() throws Exception {
+		return ExcelUtils.getCellData(1, 9);
+	}
+
+	public static final String cep() throws Exception {
+		return ExcelUtils.getCellData(1, 10);
+	}
+
+	public static String produtoEsperado() throws Exception {
+		return ExcelUtils.getCellData(1, 0);
+	}
 }

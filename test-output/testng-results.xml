@@ -8,7 +8,7 @@
       <![CDATA[Formulário de cadastro preenchido | ]]>
     </line>
     <line>
-      <![CDATA[Cadastro validade e concluido com sucesso | ]]>
+      <![CDATA[Cadastro validado e concluido com sucesso | ]]>
     </line>
     <line>
       <![CDATA[Aplicação Web Finalizada]]>
@@ -35,16 +35,16 @@
       <![CDATA[Aplicação Web Finalizada]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="51426" started-at="2020-01-14T16:06:36 BRT" finished-at="2020-01-14T16:07:27 BRT">
+  <suite name="Default suite" duration-ms="42572" started-at="2020-01-15T16:25:26 BRT" finished-at="2020-01-15T16:26:09 BRT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="51426" started-at="2020-01-14T16:06:36 BRT" finished-at="2020-01-14T16:07:27 BRT">
-      <class name="br.com.rsinet.hub_tdd.Test.CenarioCadastroTest">
-        <test-method status="PASS" signature="iniciaNavegadorESite()[pri:0, instance:br.com.rsinet.hub_tdd.Test.CenarioCadastroTest@458c1321]" name="iniciaNavegadorESite" is-config="true" duration-ms="12065" started-at="2020-01-14T16:06:36 BRT" finished-at="2020-01-14T16:06:48 BRT">
+    <test name="Default test" duration-ms="42572" started-at="2020-01-15T16:25:26 BRT" finished-at="2020-01-15T16:26:09 BRT">
+      <class name="br.com.rsinet.hub_tdd.Test.TestRunner">
+        <test-method status="PASS" signature="iniciaConfiguracoes()[pri:0, instance:br.com.rsinet.hub_tdd.Test.TestRunner@fad74ee]" name="iniciaConfiguracoes" is-config="true" duration-ms="11119" started-at="2020-01-15T16:25:26 BRT" finished-at="2020-01-15T16:25:38 BRT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- iniciaNavegadorESite -->
-        <test-method status="PASS" signature="deveCadastrarNovoUsuario()[pri:1, instance:br.com.rsinet.hub_tdd.Test.CenarioCadastroTest@458c1321]" name="deveCadastrarNovoUsuario" duration-ms="6751" started-at="2020-01-14T16:06:48 BRT" finished-at="2020-01-14T16:06:54 BRT">
+        </test-method> <!-- iniciaConfiguracoes -->
+        <test-method status="PASS" signature="deveCadastrarNovoUsuario()[pri:0, instance:br.com.rsinet.hub_tdd.Test.TestRunner@fad74ee]" name="deveCadastrarNovoUsuario" duration-ms="4031" started-at="2020-01-15T16:25:38 BRT" finished-at="2020-01-15T16:25:42 BRT">
           <reporter-output>
             <line>
               <![CDATA[Aplicação Web inicializada | ]]>
@@ -53,22 +53,22 @@
               <![CDATA[Formulário de cadastro preenchido | ]]>
             </line>
             <line>
-              <![CDATA[Cadastro validade e concluido com sucesso | ]]>
+              <![CDATA[Cadastro validado e concluido com sucesso | ]]>
             </line>
             <line>
               <![CDATA[Aplicação Web Finalizada]]>
             </line>
           </reporter-output>
         </test-method> <!-- deveCadastrarNovoUsuario -->
-        <test-method status="PASS" signature="encerraNavegador()[pri:0, instance:br.com.rsinet.hub_tdd.Test.CenarioCadastroTest@458c1321]" name="encerraNavegador" is-config="true" duration-ms="1059" started-at="2020-01-14T16:06:54 BRT" finished-at="2020-01-14T16:06:55 BRT">
+        <test-method status="PASS" signature="encerraConfiguracoes()[pri:0, instance:br.com.rsinet.hub_tdd.Test.TestRunner@fad74ee]" name="encerraConfiguracoes" is-config="true" duration-ms="605" started-at="2020-01-15T16:25:42 BRT" finished-at="2020-01-15T16:25:42 BRT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- encerraNavegador -->
-        <test-method status="PASS" signature="iniciaNavegadorESite()[pri:0, instance:br.com.rsinet.hub_tdd.Test.CenarioCadastroTest@458c1321]" name="iniciaNavegadorESite" is-config="true" duration-ms="10691" started-at="2020-01-14T16:06:55 BRT" finished-at="2020-01-14T16:07:06 BRT">
+        </test-method> <!-- encerraConfiguracoes -->
+        <test-method status="PASS" signature="iniciaConfiguracoes()[pri:0, instance:br.com.rsinet.hub_tdd.Test.TestRunner@fad74ee]" name="iniciaConfiguracoes" is-config="true" duration-ms="10168" started-at="2020-01-15T16:25:42 BRT" finished-at="2020-01-15T16:25:52 BRT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- iniciaNavegadorESite -->
-        <test-method status="PASS" signature="deveLogarUsuarioExistente()[pri:2, instance:br.com.rsinet.hub_tdd.Test.CenarioCadastroTest@458c1321]" name="deveLogarUsuarioExistente" duration-ms="1850" started-at="2020-01-14T16:07:06 BRT" finished-at="2020-01-14T16:07:08 BRT">
+        </test-method> <!-- iniciaConfiguracoes -->
+        <test-method status="PASS" signature="deveLogarUsuarioExistente()[pri:1, instance:br.com.rsinet.hub_tdd.Test.TestRunner@fad74ee]" name="deveLogarUsuarioExistente" duration-ms="1793" started-at="2020-01-15T16:25:52 BRT" finished-at="2020-01-15T16:25:54 BRT">
           <reporter-output>
             <line>
               <![CDATA[Aplicação Web iniciada | ]]>
@@ -81,15 +81,15 @@
             </line>
           </reporter-output>
         </test-method> <!-- deveLogarUsuarioExistente -->
-        <test-method status="PASS" signature="encerraNavegador()[pri:0, instance:br.com.rsinet.hub_tdd.Test.CenarioCadastroTest@458c1321]" name="encerraNavegador" is-config="true" duration-ms="739" started-at="2020-01-14T16:07:08 BRT" finished-at="2020-01-14T16:07:09 BRT">
+        <test-method status="PASS" signature="encerraConfiguracoes()[pri:0, instance:br.com.rsinet.hub_tdd.Test.TestRunner@fad74ee]" name="encerraConfiguracoes" is-config="true" duration-ms="874" started-at="2020-01-15T16:25:54 BRT" finished-at="2020-01-15T16:25:55 BRT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- encerraNavegador -->
-        <test-method status="PASS" signature="iniciaNavegadorESite()[pri:0, instance:br.com.rsinet.hub_tdd.Test.CenarioCadastroTest@458c1321]" name="iniciaNavegadorESite" is-config="true" duration-ms="10669" started-at="2020-01-14T16:07:09 BRT" finished-at="2020-01-14T16:07:19 BRT">
+        </test-method> <!-- encerraConfiguracoes -->
+        <test-method status="PASS" signature="iniciaConfiguracoes()[pri:0, instance:br.com.rsinet.hub_tdd.Test.TestRunner@fad74ee]" name="iniciaConfiguracoes" is-config="true" duration-ms="10151" started-at="2020-01-15T16:25:55 BRT" finished-at="2020-01-15T16:26:05 BRT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- iniciaNavegadorESite -->
-        <test-method status="PASS" signature="naoDeveCadastrarUsuarioExistente()[pri:3, instance:br.com.rsinet.hub_tdd.Test.CenarioCadastroTest@458c1321]" name="naoDeveCadastrarUsuarioExistente" duration-ms="6758" started-at="2020-01-14T16:07:19 BRT" finished-at="2020-01-14T16:07:26 BRT">
+        </test-method> <!-- iniciaConfiguracoes -->
+        <test-method status="PASS" signature="naoDeveCadastrarUsuarioExistente()[pri:2, instance:br.com.rsinet.hub_tdd.Test.TestRunner@fad74ee]" name="naoDeveCadastrarUsuarioExistente" duration-ms="3174" started-at="2020-01-15T16:26:05 BRT" finished-at="2020-01-15T16:26:08 BRT">
           <reporter-output>
             <line>
               <![CDATA[Aplicação Web inicializada | ]]>
@@ -105,11 +105,11 @@
             </line>
           </reporter-output>
         </test-method> <!-- naoDeveCadastrarUsuarioExistente -->
-        <test-method status="PASS" signature="encerraNavegador()[pri:0, instance:br.com.rsinet.hub_tdd.Test.CenarioCadastroTest@458c1321]" name="encerraNavegador" is-config="true" duration-ms="776" started-at="2020-01-14T16:07:26 BRT" finished-at="2020-01-14T16:07:27 BRT">
+        <test-method status="PASS" signature="encerraConfiguracoes()[pri:0, instance:br.com.rsinet.hub_tdd.Test.TestRunner@fad74ee]" name="encerraConfiguracoes" is-config="true" duration-ms="620" started-at="2020-01-15T16:26:08 BRT" finished-at="2020-01-15T16:26:09 BRT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- encerraNavegador -->
-      </class> <!-- br.com.rsinet.hub_tdd.Test.CenarioCadastroTest -->
+        </test-method> <!-- encerraConfiguracoes -->
+      </class> <!-- br.com.rsinet.hub_tdd.Test.TestRunner -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

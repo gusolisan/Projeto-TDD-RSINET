@@ -18,21 +18,28 @@ public class PaginaPrincipal {
 		return element;
 	}
 
-	public static WebElement Pesquisa(WebDriver driver) {
+	public static WebElement botaoPesquisa(WebDriver driver) {
 		element = driver.findElement(By.id("menuSearch"));
+		return element;
+	}
+	
+	public static WebElement limparPesquisa(WebDriver driver) {
+		WebDriverWait wait = new WebDriverWait(driver, 10);
+		WebElement element = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"search\"]/div/div")));
 		return element;
 	}
 
 	public static WebElement campoPesquisa(WebDriver driver) {
-		element = driver.findElement(By.id("autoComplete"));
+		WebDriverWait wait = new WebDriverWait(driver, 10);
+		element = wait.until(ExpectedConditions.elementToBeClickable(By.id("autoComplete")));
 		return element;
 	}
 
-	// Página com usuario logado:
+//	Página com usuario logado:
 
-	public static WebElement nomeUsuarioLogado(WebDriver driver) {
+	public static WebElement nomeUsuarioLogado(WebDriver driver) throws Exception {
 		WebDriverWait wait = new WebDriverWait(driver, 10);
-		element = wait.until(ExpectedConditions.elementToBeClickable(By.partialLinkText(Constant.usuario)));
+		element = wait.until(ExpectedConditions.elementToBeClickable(By.partialLinkText(Constant.usuario())));
 		return element;
 	}
 

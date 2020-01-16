@@ -1,60 +1,60 @@
-package br.com.rsinet.hub_tdd.pageObjects;
+package br.com.rsinet.hub_tdd.pageObjectFactory;
 
-import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.How;
 
-import br.com.rsinet.hub_tdd.utility.Constant;
+public class HomePage_POF {
 
-public class PaginaPrincipal {
+	final WebDriver driver;
 
-	private static WebElement element;
-
-	public static WebElement botaoConta(WebDriver driver) {
-		WebDriverWait wait = new WebDriverWait(driver, 10);
-		WebElement element = wait.until(ExpectedConditions.elementToBeClickable(By.id("hrefUserIcon")));
-		return element;
+	public HomePage_POF(WebDriver driver) {
+		this.driver = driver;
 	}
 
-	public static WebElement botaoPesquisa(WebDriver driver) {
-		element = driver.findElement(By.id("menuSearch"));
-		return element;
-	}
-	
-	public static WebElement limparPesquisa(WebDriver driver) {
-		WebDriverWait wait = new WebDriverWait(driver, 10);
-		WebElement element = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"search\"]/div/div")));
-		return element;
+	@FindBy(how = How.ID, using = "hrefUserIcon")
+	private WebElement botaoConta;
+
+	@FindBy(how = How.ID, using = "menuSearch")
+	private WebElement botaoPesquisa;
+
+	@FindBy(how = How.ID, using = "autoComplete")
+	private WebElement campoPesquisa;
+
+	@FindBy(how = How.PARTIAL_LINK_TEXT, using = "hi-user containMiniTitle ng-binding")
+	private WebElement nomeUsuarioLogado;
+
+	@FindBy(how = How.LINK_TEXT, using = "My account")
+	private WebElement botaoMyAccount;
+
+	@FindBy(how = How.LINK_TEXT, using = "My orders")
+	private WebElement botaoMyOrders;
+
+	@FindBy(how = How.CLASS_NAME, using = "option roboto-medium ng-scope")
+	private WebElement botaoDeslogar;
+
+	public void clicaEmBotaoConta() {
+		botaoConta.click();
 	}
 
-	public static WebElement campoPesquisa(WebDriver driver) {
-		WebDriverWait wait = new WebDriverWait(driver, 10);
-		element = wait.until(ExpectedConditions.elementToBeClickable(By.id("autoComplete")));
-		return element;
+	public void pesquisarProduto(String produto) {
+		botaoPesquisa.click();
+		campoPesquisa.sendKeys(produto);
+		campoPesquisa.sendKeys(Keys.ENTER);
 	}
 
-//	Página com usuario logado:
-
-	public static WebElement nomeUsuarioLogado(WebDriver driver) throws Exception {
-		WebDriverWait wait = new WebDriverWait(driver, 10);
-		element = wait.until(ExpectedConditions.elementToBeClickable(By.partialLinkText(Constant.usuario())));
-		return element;
+	public void myAccount() {
+		botaoMyAccount.click();
 	}
 
-	public static WebElement botaoMyAccount(WebDriver driver) {
-		element = driver.findElement(By.linkText("My account"));
-		return element;
+	public void myOrders() {
+		botaoMyOrders.click();
 	}
 
-	public static WebElement botaoMyOrders(WebDriver driver) {
-		element = driver.findElement(By.linkText("My orders"));
-		return element;
+	public void deslogar() {
+		botaoDeslogar.click();
 	}
 
-	public static WebElement botaoDeslogar(WebDriver driver) {
-		element = driver.findElement(By.className("option roboto-medium ng-scope"));
-		return element;
-	}
 }

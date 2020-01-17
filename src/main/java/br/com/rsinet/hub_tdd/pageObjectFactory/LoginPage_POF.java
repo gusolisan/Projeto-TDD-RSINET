@@ -4,6 +4,8 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class LoginPage_POF {
 
@@ -32,13 +34,5 @@ public class LoginPage_POF {
 
 	public void clicaEmBotaoLogar() {
 		botaoLogar.click();
-	}
-
-	public String nomeDeUsuario() {
-		return nomeDeUsuario.toString();
-	}
-	
-	public WebElement getNomeDeUsuario() {
-		return nomeDeUsuario;
 	}
 }

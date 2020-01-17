@@ -1,6 +1,7 @@
 package br.com.rsinet.hub_tdd.Test;
 
 import org.apache.log4j.Logger;
+import org.apache.log4j.xml.DOMConfigurator;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
@@ -15,13 +16,15 @@ import br.com.rsinet.hub_tdd.pageObjectFactory.RegisterPage_POF;
 import br.com.rsinet.hub_tdd.utility.Constant;
 import br.com.rsinet.hub_tdd.utility.DriverFactory;
 import br.com.rsinet.hub_tdd.utility.ExcelUtils;
+import br.com.rsinet.hub_tdd.utility.Screenshot;
 
 public class CenarioCadastroTest {
 
-	private static WebDriver driver;
-	private static Logger log = Logger.getLogger("Config");
+	private static Logger log = Logger.getLogger("ConfigInicial");
 	private static Logger cadastro = Logger.getLogger("Cadastro");
 	private static Logger login = Logger.getLogger("Login");
+
+	WebDriver driver;
 
 	HomePage_POF HomePage;
 	LoginPage_POF LoginPage;
@@ -29,8 +32,11 @@ public class CenarioCadastroTest {
 
 	@BeforeMethod
 	public void iniciaConfiguracoes() throws Exception {
-		driver = DriverFactory.getDriver();
-		log.info("Driver inicializado");
+		DOMConfigurator.configure("log4j.xml");
+		log.info("Configuracoes iniciais em andamento");
+
+		driver = DriverFactory.driverInit();
+		log.info("Driver fabricado");
 
 		HomePage = PageFactory.initElements(driver, HomePage_POF.class);
 		log.info("HomePageFactory inicializado");
@@ -43,15 +49,16 @@ public class CenarioCadastroTest {
 
 		ExcelUtils.setExcelFile(Constant.Path_DadosParaTeste, "CenariosDeTeste");
 		log.info("Massa de dados inicializada");
+		log.info("Configuracoes iniciais concluidas");
 	}
 
 	@AfterMethod
 	public void encerraConfiguracoes() {
-		DriverFactory.quitDriver(driver);
+		DriverFactory.driverQuit(driver);
 		log.info("Navegador encerrado");
 	}
 
-	@Test(priority = 0, testName = "CadastrarNovoUsuario", suiteName = "Cenario de Cadastro")
+	@Test(priority = 0)
 	public void deveCadastrarNovoUsuario() throws Exception {
 		Reporter.log("Aplicação Web inicializada | ");
 
@@ -106,16 +113,18 @@ public class CenarioCadastroTest {
 
 		RegisterPage.clicaNoBotaoRegistrar();
 		cadastro.info("Botao register clicado");
-		cadastro.info("cadastro finalizado");
 
 		Reporter.log("Cadastro realizado com sucesso | ");
 
-		Assert.assertEquals(LoginPage.getNomeDeUsuario(), Constant.usuario());
+		Assert.assertEquals(HomePage.nomeUsuarioLogado(), Constant.usuario());
+
+		Screenshot.printScreen("CadastroRealizado", driver);
+		cadastro.info("Print da tela efetuado");
 
 		Reporter.log("Aplicação Web encerrada");
 	}
 
-	@Test(priority = 1, testName = "LogarUsuarioExistente", suiteName = "Cenario de Cadastro")
+	@Test(priority = 1)
 	public void deveLogarUsuarioExistente() throws Exception {
 		Reporter.log("Aplicação Web inicializada | ");
 
@@ -124,21 +133,24 @@ public class CenarioCadastroTest {
 
 		LoginPage.insereUsuario(Constant.usuario());
 		login.info("Nome de usuario inserido no campo username");
-		
+
 		LoginPage.insereSenha(Constant.senha());
 		login.info("Senha do usuario inserida no campo password");
-		
+
 		LoginPage.clicaEmBotaoLogar();
 		login.info("Botao login clicado");
-		
+
 		Reporter.log("Login realizado com sucesso | ");
-		
-		Assert.assertTrue(LoginPage.getNomeDeUsuario().isDisplayed());
-		
+
+		Assert.assertTrue(HomePage.nomeUsuarioLogadoApareceNaTela());
+
+		Screenshot.printScreen("LoginEfetuado", driver);
+		login.info("Print da tela efetuado");
+
 		Reporter.log("Aplicação Web encerrada");
 	}
 
-	@Test(priority = 2, testName = "CadastrarUsuarioExistente", suiteName = "Cenario de Cadastro")
+	@Test(priority = 2)
 	public void naoDeveCadastrarUsuarioExistente() throws Exception {
 		Reporter.log("Aplicação Web inicializada | ");
 
@@ -193,11 +205,10 @@ public class CenarioCadastroTest {
 
 		RegisterPage.clicaNoBotaoRegistrar();
 		cadastro.info("Botao register clicado");
-		cadastro.info("cadastro finalizado");
 
 		Reporter.log("Cadastro não realizado (usuario já existente) | ");
 
-		Assert.assertEquals(LoginPage.getNomeDeUsuario(), Constant.usuario());
+		Assert.assertFalse(HomePage.nomeUsuarioLogadoApareceNaTela());
 
 		Reporter.log("Aplicação Web encerrada");
 	}

@@ -3,11 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="br.com.rsinet.hub_tdd.Test.TestCenario2">
+      <class name="br.com.rsinet.hub_tdd.Test.CenarioCadastroTest">
         <methods>
-          <include name="buscaDeProduto"/>
+          <include name="iniciaConfiguracoes"/>
+          <include name="encerraConfiguracoes"/>
+          <include name="naoDeveCadastrarUsuarioExistente"/>
+          <include name="deveLogarUsuarioExistente"/>
         </methods>
-      </class> <!-- br.com.rsinet.hub_tdd.Test.TestCenario2 -->
+      </class> <!-- br.com.rsinet.hub_tdd.Test.CenarioCadastroTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

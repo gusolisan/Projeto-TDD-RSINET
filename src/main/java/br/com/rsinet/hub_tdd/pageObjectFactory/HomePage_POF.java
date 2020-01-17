@@ -5,6 +5,10 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+import br.com.rsinet.hub_tdd.utility.Constant;
 
 public class HomePage_POF {
 
@@ -23,7 +27,7 @@ public class HomePage_POF {
 	@FindBy(how = How.ID, using = "autoComplete")
 	private WebElement campoPesquisa;
 
-	@FindBy(how = How.PARTIAL_LINK_TEXT, using = "hi-user containMiniTitle ng-binding")
+	@FindBy(how = How.XPATH, using = "//*[@id=\"menuUserLink\"]/span")
 	private WebElement nomeUsuarioLogado;
 
 	@FindBy(how = How.LINK_TEXT, using = "My account")
@@ -36,7 +40,8 @@ public class HomePage_POF {
 	private WebElement botaoDeslogar;
 
 	public void clicaEmBotaoConta() {
-		botaoConta.click();
+		WebDriverWait wait = new WebDriverWait(driver, 10);
+		wait.until(ExpectedConditions.elementToBeClickable(botaoConta)).click();
 	}
 
 	public void pesquisarProduto(String produto) {
@@ -55,6 +60,26 @@ public class HomePage_POF {
 
 	public void deslogar() {
 		botaoDeslogar.click();
+	}
+
+	public boolean nomeUsuarioLogadoApareceNaTela() throws Exception {
+		WebDriverWait wait = new WebDriverWait(driver, 10);
+		try {
+			wait.until(ExpectedConditions.textToBePresentInElement(nomeUsuarioLogado, Constant.usuario()));
+			return nomeUsuarioLogado.isDisplayed();
+		} catch (Exception e) {
+			return nomeUsuarioLogado.isDisplayed();
+		}
+	}
+
+	public String nomeUsuarioLogado() {
+		WebDriverWait wait = new WebDriverWait(driver, 10);
+		try {
+			wait.until(ExpectedConditions.textToBePresentInElement(nomeUsuarioLogado, Constant.usuario()));
+			return nomeUsuarioLogado.getText();
+		} catch (Exception e) {
+			return nomeUsuarioLogado.getText();
+		}
 	}
 
 }

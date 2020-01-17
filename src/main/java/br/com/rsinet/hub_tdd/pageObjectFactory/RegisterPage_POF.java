@@ -101,7 +101,7 @@ public class RegisterPage_POF {
 
 	public void insereNacionalidade(String nacionalidadeDoUsuario) {
 		Select select = new Select(nacionalidade);
-		select.deselectByVisibleText(nacionalidadeDoUsuario);
+		select.selectByVisibleText(nacionalidadeDoUsuario);
 	}
 
 	public void insereCidade(String cidadeDoUsuario) {

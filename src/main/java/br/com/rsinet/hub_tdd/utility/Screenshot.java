@@ -8,10 +8,11 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 
 public class Screenshot {
-	public static void printScreen(String nomeDoArquivoImagem, WebDriver driver) throws Exception {
+	
+	public static void printScreen(WebDriver driver, String nomeDoArquivoImagem, String caminhoDeArmazenamento) throws Exception {
 		TakesScreenshot scrShot = ((TakesScreenshot) driver);
 		File srcFile = scrShot.getScreenshotAs(OutputType.FILE);
-		String imageFileDir = "C:\\Users\\g.santos\\eclipse-workspace\\ProjetoTDD\\src\\main\\java\\br\\com\\rsinet\\hub_tdd\\screenshotsDosTestes\\Cenario de Cadastro\\";
-		FileUtils.copyFile(srcFile, new File(imageFileDir, nomeDoArquivoImagem + ".jpg"));
+		String imageFileDir = caminhoDeArmazenamento;
+		FileUtils.copyFile(srcFile, new File(imageFileDir, nomeDoArquivoImagem + ".png"));
 	}
 }

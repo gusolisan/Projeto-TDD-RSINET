@@ -477,3 +477,1177 @@
 2020-01-17 02:00:09,143 INFO  [Cadastro] Botao register clicado 
 2020-01-17 02:00:20,480 INFO  [DriverFactory] Driver encerrado 
 2020-01-17 02:00:20,480 INFO  [ConfigInicial] Navegador encerrado 
+2020-01-17 12:16:57,078 INFO  [ConfigInicial] Configuracoes iniciais em andamento 
+2020-01-17 12:17:03,105 INFO  [DriverFactory] Driver criado 
+2020-01-17 12:17:04,030 INFO  [DriverFactory] Navegador inicializado com o site https://www.advantageonlineshopping.com/#/ 
+2020-01-17 12:17:08,158 INFO  [DriverFactory] Navegador maximizado 
+2020-01-17 12:17:08,164 INFO  [DriverFactory] Comando de espera ImplicityWait inicializado 
+2020-01-17 12:17:08,164 INFO  [ConfigInicial] Driver fabricado 
+2020-01-17 12:17:08,182 INFO  [ConfigInicial] HomePageFactory inicializada 
+2020-01-17 12:17:08,185 INFO  [ConfigInicial] SearchPageFactory inicializada 
+2020-01-17 12:17:08,712 INFO  [ConfigInicial] Massa de dados inicializada 
+2020-01-17 12:17:08,712 INFO  [ConfigInicial] Configuracoes iniciais concluidas 
+2020-01-17 12:17:08,852 INFO  [HomePage Actions] Botao pesquisar clicado 
+2020-01-17 12:17:09,293 INFO  [HomePage Actions] Nome do produto inserido: HP USB 3 BUTTON OPTICAL MOUSE 
+2020-01-17 12:17:09,323 INFO  [HomePage Actions] Produto pesquisado 
+2020-01-17 12:17:09,401 INFO  [ConfigInicial] Configuracoes iniciais em andamento 
+2020-01-17 12:17:14,434 INFO  [DriverFactory] Driver criado 
+2020-01-17 12:17:15,326 INFO  [DriverFactory] Navegador inicializado com o site https://www.advantageonlineshopping.com/#/ 
+2020-01-17 12:17:19,454 INFO  [DriverFactory] Navegador maximizado 
+2020-01-17 12:17:19,457 INFO  [DriverFactory] Comando de espera ImplicityWait inicializado 
+2020-01-17 12:17:19,457 INFO  [ConfigInicial] Driver fabricado 
+2020-01-17 12:17:19,458 INFO  [ConfigInicial] HomePageFactory inicializada 
+2020-01-17 12:17:19,458 INFO  [ConfigInicial] SearchPageFactory inicializada 
+2020-01-17 12:17:19,489 INFO  [ConfigInicial] Massa de dados inicializada 
+2020-01-17 12:17:19,489 INFO  [ConfigInicial] Configuracoes iniciais concluidas 
+2020-01-17 12:17:19,620 INFO  [HomePage Actions] Botao pesquisar clicado 
+2020-01-17 12:17:20,116 INFO  [HomePage Actions] Nome do produto inserido: HP USB 3 BUTTON OPTICAL MOUSE 
+2020-01-17 12:17:20,142 INFO  [HomePage Actions] Produto pesquisado 
+2020-01-17 12:18:45,412 INFO  [ConfigInicial] Configuracoes iniciais em andamento 
+2020-01-17 12:18:51,219 INFO  [DriverFactory] Driver criado 
+2020-01-17 12:18:52,278 INFO  [DriverFactory] Navegador inicializado com o site https://www.advantageonlineshopping.com/#/ 
+2020-01-17 12:18:56,405 INFO  [DriverFactory] Navegador maximizado 
+2020-01-17 12:18:56,410 INFO  [DriverFactory] Comando de espera ImplicityWait inicializado 
+2020-01-17 12:18:56,410 INFO  [ConfigInicial] Driver fabricado 
+2020-01-17 12:18:56,430 INFO  [ConfigInicial] HomePageFactory inicializada 
+2020-01-17 12:18:56,433 INFO  [ConfigInicial] SearchPageFactory inicializada 
+2020-01-17 12:18:56,852 INFO  [ConfigInicial] Massa de dados inicializada 
+2020-01-17 12:18:56,852 INFO  [ConfigInicial] Configuracoes iniciais concluidas 
+2020-01-17 12:18:56,980 INFO  [HomePage Actions] Botao pesquisar clicado 
+2020-01-17 12:18:57,457 INFO  [HomePage Actions] Nome do produto inserido: HP USB 3 BUTTON OPTICAL MOUSE 
+2020-01-17 12:18:57,486 INFO  [HomePage Actions] Produto pesquisado 
+2020-01-17 12:18:57,589 INFO  [ConfigInicial] Configuracoes iniciais em andamento 
+2020-01-17 12:19:02,631 INFO  [DriverFactory] Driver criado 
+2020-01-17 12:19:03,684 INFO  [DriverFactory] Navegador inicializado com o site https://www.advantageonlineshopping.com/#/ 
+2020-01-17 12:19:07,811 INFO  [DriverFactory] Navegador maximizado 
+2020-01-17 12:19:07,815 INFO  [DriverFactory] Comando de espera ImplicityWait inicializado 
+2020-01-17 12:19:07,815 INFO  [ConfigInicial] Driver fabricado 
+2020-01-17 12:19:07,815 INFO  [ConfigInicial] HomePageFactory inicializada 
+2020-01-17 12:19:07,815 INFO  [ConfigInicial] SearchPageFactory inicializada 
+2020-01-17 12:19:07,855 INFO  [ConfigInicial] Massa de dados inicializada 
+2020-01-17 12:19:07,855 INFO  [ConfigInicial] Configuracoes iniciais concluidas 
+2020-01-17 12:19:07,964 INFO  [HomePage Actions] Botao pesquisar clicado 
+2020-01-17 12:19:08,183 INFO  [HomePage Actions] Nome do produto inserido: mouse hp 
+2020-01-17 12:19:08,214 INFO  [HomePage Actions] Produto pesquisado 
+2020-01-17 12:21:55,440 INFO  [ConfigInicial] Configuracoes iniciais em andamento 
+2020-01-17 12:22:01,212 INFO  [DriverFactory] Driver criado 
+2020-01-17 12:22:02,093 INFO  [DriverFactory] Navegador inicializado com o site https://www.advantageonlineshopping.com/#/ 
+2020-01-17 12:22:06,229 INFO  [DriverFactory] Navegador maximizado 
+2020-01-17 12:22:06,233 INFO  [DriverFactory] Comando de espera ImplicityWait inicializado 
+2020-01-17 12:22:06,233 INFO  [ConfigInicial] Driver fabricado 
+2020-01-17 12:22:06,251 INFO  [ConfigInicial] HomePageFactory inicializada 
+2020-01-17 12:22:06,254 INFO  [ConfigInicial] SearchPageFactory inicializada 
+2020-01-17 12:22:06,667 INFO  [ConfigInicial] Massa de dados inicializada 
+2020-01-17 12:22:06,667 INFO  [ConfigInicial] Configuracoes iniciais concluidas 
+2020-01-17 12:22:06,797 INFO  [HomePage Actions] Botao pesquisar clicado 
+2020-01-17 12:22:07,238 INFO  [HomePage Actions] Nome do produto inserido: HP USB 3 BUTTON OPTICAL MOUSE 
+2020-01-17 12:22:07,271 INFO  [HomePage Actions] Produto pesquisado 
+2020-01-17 12:22:07,347 INFO  [ConfigInicial] Configuracoes iniciais em andamento 
+2020-01-17 12:22:12,390 INFO  [DriverFactory] Driver criado 
+2020-01-17 12:22:13,261 INFO  [DriverFactory] Navegador inicializado com o site https://www.advantageonlineshopping.com/#/ 
+2020-01-17 12:22:17,391 INFO  [DriverFactory] Navegador maximizado 
+2020-01-17 12:22:17,395 INFO  [DriverFactory] Comando de espera ImplicityWait inicializado 
+2020-01-17 12:22:17,395 INFO  [ConfigInicial] Driver fabricado 
+2020-01-17 12:22:17,396 INFO  [ConfigInicial] HomePageFactory inicializada 
+2020-01-17 12:22:17,396 INFO  [ConfigInicial] SearchPageFactory inicializada 
+2020-01-17 12:22:17,423 INFO  [ConfigInicial] Massa de dados inicializada 
+2020-01-17 12:22:17,423 INFO  [ConfigInicial] Configuracoes iniciais concluidas 
+2020-01-17 12:22:17,535 INFO  [HomePage Actions] Botao pesquisar clicado 
+2020-01-17 12:22:17,740 INFO  [HomePage Actions] Nome do produto inserido: mouse hp 
+2020-01-17 12:22:17,770 INFO  [HomePage Actions] Produto pesquisado 
+2020-01-17 12:47:28,660 INFO  [ConfigInicial] Configuracoes iniciais em andamento 
+2020-01-17 12:47:34,495 INFO  [DriverFactory] Driver criado 
+2020-01-17 12:47:36,129 INFO  [DriverFactory] Navegador inicializado com o site https://www.advantageonlineshopping.com/#/ 
+2020-01-17 12:47:40,265 INFO  [DriverFactory] Navegador maximizado 
+2020-01-17 12:47:40,271 INFO  [DriverFactory] Comando de espera ImplicityWait inicializado 
+2020-01-17 12:47:40,271 INFO  [ConfigInicial] Driver fabricado 
+2020-01-17 12:47:40,288 INFO  [ConfigInicial] HomePageFactory inicializada 
+2020-01-17 12:47:40,289 INFO  [ConfigInicial] SearchPageFactory inicializada 
+2020-01-17 12:47:40,702 INFO  [ConfigInicial] Massa de dados inicializada 
+2020-01-17 12:47:40,702 INFO  [ConfigInicial] Configuracoes iniciais concluidas 
+2020-01-17 12:47:40,824 INFO  [HomePage Actions] Botao pesquisar clicado 
+2020-01-17 12:47:41,270 INFO  [HomePage Actions] Nome do produto inserido: HP USB 3 BUTTON OPTICAL MOUSE 
+2020-01-17 12:47:41,298 INFO  [HomePage Actions] Produto pesquisado 
+2020-01-17 12:47:41,377 INFO  [ConfigInicial] Configuracoes iniciais em andamento 
+2020-01-17 12:47:46,413 INFO  [DriverFactory] Driver criado 
+2020-01-17 12:47:47,283 INFO  [DriverFactory] Navegador inicializado com o site https://www.advantageonlineshopping.com/#/ 
+2020-01-17 12:47:51,411 INFO  [DriverFactory] Navegador maximizado 
+2020-01-17 12:47:51,414 INFO  [DriverFactory] Comando de espera ImplicityWait inicializado 
+2020-01-17 12:47:51,414 INFO  [ConfigInicial] Driver fabricado 
+2020-01-17 12:47:51,414 INFO  [ConfigInicial] HomePageFactory inicializada 
+2020-01-17 12:47:51,414 INFO  [ConfigInicial] SearchPageFactory inicializada 
+2020-01-17 12:47:51,447 INFO  [ConfigInicial] Massa de dados inicializada 
+2020-01-17 12:47:51,447 INFO  [ConfigInicial] Configuracoes iniciais concluidas 
+2020-01-17 12:47:51,561 INFO  [HomePage Actions] Botao pesquisar clicado 
+2020-01-17 12:47:51,769 INFO  [HomePage Actions] Nome do produto inserido: mouse hp 
+2020-01-17 12:47:51,801 INFO  [HomePage Actions] Produto pesquisado 
+2020-01-17 12:54:41,027 INFO  [ConfigInicial] Configuracoes iniciais em andamento 
+2020-01-17 12:54:46,834 INFO  [DriverFactory] Driver criado 
+2020-01-17 12:54:47,800 INFO  [DriverFactory] Navegador inicializado com o site https://www.advantageonlineshopping.com/#/ 
+2020-01-17 12:54:51,928 INFO  [DriverFactory] Navegador maximizado 
+2020-01-17 12:54:51,933 INFO  [DriverFactory] Comando de espera ImplicityWait inicializado 
+2020-01-17 12:54:51,933 INFO  [ConfigInicial] Driver fabricado 
+2020-01-17 12:54:51,952 INFO  [ConfigInicial] HomePageFactory inicializada 
+2020-01-17 12:54:51,953 INFO  [ConfigInicial] SearchPageFactory inicializada 
+2020-01-17 12:54:52,402 INFO  [ConfigInicial] Massa de dados inicializada 
+2020-01-17 12:54:52,402 INFO  [ConfigInicial] Configuracoes iniciais concluidas 
+2020-01-17 12:54:52,534 INFO  [HomePage Actions] Botao pesquisar clicado 
+2020-01-17 12:54:52,980 INFO  [HomePage Actions] Nome do produto inserido: HP USB 3 BUTTON OPTICAL MOUSE 
+2020-01-17 12:54:53,009 INFO  [HomePage Actions] Produto pesquisado 
+2020-01-17 12:54:53,086 INFO  [ConfigInicial] Configuracoes iniciais em andamento 
+2020-01-17 12:54:58,149 INFO  [DriverFactory] Driver criado 
+2020-01-17 12:54:59,054 INFO  [DriverFactory] Navegador inicializado com o site https://www.advantageonlineshopping.com/#/ 
+2020-01-17 12:55:03,186 INFO  [DriverFactory] Navegador maximizado 
+2020-01-17 12:55:03,190 INFO  [DriverFactory] Comando de espera ImplicityWait inicializado 
+2020-01-17 12:55:03,190 INFO  [ConfigInicial] Driver fabricado 
+2020-01-17 12:55:03,191 INFO  [ConfigInicial] HomePageFactory inicializada 
+2020-01-17 12:55:03,191 INFO  [ConfigInicial] SearchPageFactory inicializada 
+2020-01-17 12:55:03,224 INFO  [ConfigInicial] Massa de dados inicializada 
+2020-01-17 12:55:03,224 INFO  [ConfigInicial] Configuracoes iniciais concluidas 
+2020-01-17 12:55:03,340 INFO  [HomePage Actions] Botao pesquisar clicado 
+2020-01-17 12:55:03,558 INFO  [HomePage Actions] Nome do produto inserido: mouse hp 
+2020-01-17 12:55:03,590 INFO  [HomePage Actions] Produto pesquisado 
+2020-01-17 13:20:20,685 INFO  [ConfigInicial] Configuracoes iniciais em andamento 
+2020-01-17 13:20:26,488 INFO  [DriverFactory] Driver criado 
+2020-01-17 13:20:27,368 INFO  [DriverFactory] Navegador inicializado com o site https://www.advantageonlineshopping.com/#/ 
+2020-01-17 13:20:31,501 INFO  [DriverFactory] Navegador maximizado 
+2020-01-17 13:20:31,508 INFO  [DriverFactory] Comando de espera ImplicityWait inicializado 
+2020-01-17 13:20:31,509 INFO  [ConfigInicial] Driver fabricado 
+2020-01-17 13:20:31,526 INFO  [ConfigInicial] HomePageFactory inicializada 
+2020-01-17 13:20:31,526 INFO  [ConfigInicial] SearchPageFactory inicializada 
+2020-01-17 13:20:31,934 INFO  [ConfigInicial] Massa de dados inicializada 
+2020-01-17 13:20:31,934 INFO  [ConfigInicial] Configuracoes iniciais concluidas 
+2020-01-17 13:20:32,074 INFO  [HomePage Actions] Botao pesquisar clicado 
+2020-01-17 13:20:32,527 INFO  [HomePage Actions] Nome do produto inserido: HP USB 3 BUTTON OPTICAL MOUSE 
+2020-01-17 13:20:32,555 INFO  [HomePage Actions] Produto pesquisado 
+2020-01-17 13:20:43,149 INFO  [ConfigInicial] Configuracoes iniciais em andamento 
+2020-01-17 13:20:48,222 INFO  [DriverFactory] Driver criado 
+2020-01-17 13:20:49,162 INFO  [DriverFactory] Navegador inicializado com o site https://www.advantageonlineshopping.com/#/ 
+2020-01-17 13:20:53,289 INFO  [DriverFactory] Navegador maximizado 
+2020-01-17 13:20:53,293 INFO  [DriverFactory] Comando de espera ImplicityWait inicializado 
+2020-01-17 13:20:53,293 INFO  [ConfigInicial] Driver fabricado 
+2020-01-17 13:20:53,293 INFO  [ConfigInicial] HomePageFactory inicializada 
+2020-01-17 13:20:53,294 INFO  [ConfigInicial] SearchPageFactory inicializada 
+2020-01-17 13:20:53,328 INFO  [ConfigInicial] Massa de dados inicializada 
+2020-01-17 13:20:53,328 INFO  [ConfigInicial] Configuracoes iniciais concluidas 
+2020-01-17 13:20:53,445 INFO  [HomePage Actions] Botao pesquisar clicado 
+2020-01-17 13:20:53,652 INFO  [HomePage Actions] Nome do produto inserido: mouse hp 
+2020-01-17 13:20:53,684 INFO  [HomePage Actions] Produto pesquisado 
+2020-01-17 13:26:55,476 INFO  [ConfigInicial] Configuracoes iniciais em andamento 
+2020-01-17 13:27:01,247 INFO  [DriverFactory] Driver criado 
+2020-01-17 13:27:02,145 INFO  [DriverFactory] Navegador inicializado com o site https://www.advantageonlineshopping.com/#/ 
+2020-01-17 13:27:06,281 INFO  [DriverFactory] Navegador maximizado 
+2020-01-17 13:27:06,285 INFO  [DriverFactory] Comando de espera ImplicityWait inicializado 
+2020-01-17 13:27:06,285 INFO  [ConfigInicial] Driver fabricado 
+2020-01-17 13:27:06,303 INFO  [ConfigInicial] HomePageFactory inicializada 
+2020-01-17 13:27:06,304 INFO  [ConfigInicial] SearchPageFactory inicializada 
+2020-01-17 13:27:06,751 INFO  [ConfigInicial] Massa de dados inicializada 
+2020-01-17 13:27:06,751 INFO  [ConfigInicial] Configuracoes iniciais concluidas 
+2020-01-17 13:27:06,881 INFO  [HomePage Actions] Botao pesquisar clicado 
+2020-01-17 13:27:07,363 INFO  [HomePage Actions] Nome do produto inserido: HP USB 3 BUTTON OPTICAL MOUSE 
+2020-01-17 13:27:07,395 INFO  [HomePage Actions] Produto pesquisado 
+2020-01-17 13:27:07,483 INFO  [ConfigInicial] Configuracoes iniciais em andamento 
+2020-01-17 13:27:12,511 INFO  [DriverFactory] Driver criado 
+2020-01-17 13:27:13,428 INFO  [DriverFactory] Navegador inicializado com o site https://www.advantageonlineshopping.com/#/ 
+2020-01-17 13:27:17,566 INFO  [DriverFactory] Navegador maximizado 
+2020-01-17 13:27:17,570 INFO  [DriverFactory] Comando de espera ImplicityWait inicializado 
+2020-01-17 13:27:17,570 INFO  [ConfigInicial] Driver fabricado 
+2020-01-17 13:27:17,571 INFO  [ConfigInicial] HomePageFactory inicializada 
+2020-01-17 13:27:17,571 INFO  [ConfigInicial] SearchPageFactory inicializada 
+2020-01-17 13:27:17,606 INFO  [ConfigInicial] Massa de dados inicializada 
+2020-01-17 13:27:17,606 INFO  [ConfigInicial] Configuracoes iniciais concluidas 
+2020-01-17 13:27:17,719 INFO  [HomePage Actions] Botao pesquisar clicado 
+2020-01-17 13:27:17,926 INFO  [HomePage Actions] Nome do produto inserido: mouse hp 
+2020-01-17 13:27:17,956 INFO  [HomePage Actions] Produto pesquisado 
+2020-01-17 13:31:01,434 INFO  [ConfigInicial] Configuracoes iniciais em andamento 
+2020-01-17 13:31:07,329 INFO  [DriverFactory] Driver criado 
+2020-01-17 13:31:08,138 INFO  [DriverFactory] Navegador inicializado com o site https://www.advantageonlineshopping.com/#/ 
+2020-01-17 13:31:12,268 INFO  [DriverFactory] Navegador maximizado 
+2020-01-17 13:31:12,274 INFO  [DriverFactory] Comando de espera ImplicityWait inicializado 
+2020-01-17 13:31:12,274 INFO  [ConfigInicial] Driver fabricado 
+2020-01-17 13:31:12,290 INFO  [ConfigInicial] HomePageFactory inicializada 
+2020-01-17 13:31:12,291 INFO  [ConfigInicial] SearchPageFactory inicializada 
+2020-01-17 13:31:12,740 INFO  [ConfigInicial] Massa de dados inicializada 
+2020-01-17 13:31:12,740 INFO  [ConfigInicial] Configuracoes iniciais concluidas 
+2020-01-17 13:31:12,874 INFO  [HomePage Actions] Botao pesquisar clicado 
+2020-01-17 13:31:13,323 INFO  [HomePage Actions] Nome do produto inserido: HP USB 3 BUTTON OPTICAL MOUSE 
+2020-01-17 13:31:13,350 INFO  [HomePage Actions] Produto pesquisado 
+2020-01-17 13:31:13,432 INFO  [ConfigInicial] Configuracoes iniciais em andamento 
+2020-01-17 13:31:18,459 INFO  [DriverFactory] Driver criado 
+2020-01-17 13:31:19,339 INFO  [DriverFactory] Navegador inicializado com o site https://www.advantageonlineshopping.com/#/ 
+2020-01-17 13:31:23,474 INFO  [DriverFactory] Navegador maximizado 
+2020-01-17 13:31:23,477 INFO  [DriverFactory] Comando de espera ImplicityWait inicializado 
+2020-01-17 13:31:23,477 INFO  [ConfigInicial] Driver fabricado 
+2020-01-17 13:31:23,477 INFO  [ConfigInicial] HomePageFactory inicializada 
+2020-01-17 13:31:23,477 INFO  [ConfigInicial] SearchPageFactory inicializada 
+2020-01-17 13:31:23,513 INFO  [ConfigInicial] Massa de dados inicializada 
+2020-01-17 13:31:23,513 INFO  [ConfigInicial] Configuracoes iniciais concluidas 
+2020-01-17 13:31:23,626 INFO  [HomePage Actions] Botao pesquisar clicado 
+2020-01-17 13:31:23,828 INFO  [HomePage Actions] Nome do produto inserido: mouse hp 
+2020-01-17 13:31:23,857 INFO  [HomePage Actions] Produto pesquisado 
+2020-01-17 13:37:07,614 INFO  [ConfigInicial] Configuracoes iniciais em andamento 
+2020-01-17 13:37:13,632 INFO  [DriverFactory] Driver criado 
+2020-01-17 13:37:14,414 INFO  [DriverFactory] Navegador inicializado com o site https://www.advantageonlineshopping.com/#/ 
+2020-01-17 13:37:18,546 INFO  [DriverFactory] Navegador maximizado 
+2020-01-17 13:37:18,549 INFO  [DriverFactory] Comando de espera ImplicityWait inicializado 
+2020-01-17 13:37:18,549 INFO  [ConfigInicial] Driver fabricado 
+2020-01-17 13:37:18,570 INFO  [ConfigInicial] HomePageFactory inicializada 
+2020-01-17 13:37:18,571 INFO  [ConfigInicial] SearchPageFactory inicializada 
+2020-01-17 13:37:19,052 INFO  [ConfigInicial] Massa de dados inicializada 
+2020-01-17 13:37:19,052 INFO  [ConfigInicial] Configuracoes iniciais concluidas 
+2020-01-17 13:37:19,199 INFO  [HomePage Actions] Botao pesquisar clicado 
+2020-01-17 13:37:19,849 INFO  [HomePage Actions] Nome do produto inserido: HP USB 3 BUTTON OPTICAL MOUSE 
+2020-01-17 13:37:19,882 INFO  [HomePage Actions] Produto pesquisado 
+2020-01-17 13:37:19,976 INFO  [ConfigInicial] Configuracoes iniciais em andamento 
+2020-01-17 13:37:25,007 INFO  [DriverFactory] Driver criado 
+2020-01-17 13:37:25,918 INFO  [DriverFactory] Navegador inicializado com o site https://www.advantageonlineshopping.com/#/ 
+2020-01-17 13:37:30,047 INFO  [DriverFactory] Navegador maximizado 
+2020-01-17 13:37:30,050 INFO  [DriverFactory] Comando de espera ImplicityWait inicializado 
+2020-01-17 13:37:30,050 INFO  [ConfigInicial] Driver fabricado 
+2020-01-17 13:37:30,051 INFO  [ConfigInicial] HomePageFactory inicializada 
+2020-01-17 13:37:30,051 INFO  [ConfigInicial] SearchPageFactory inicializada 
+2020-01-17 13:37:30,086 INFO  [ConfigInicial] Massa de dados inicializada 
+2020-01-17 13:37:30,086 INFO  [ConfigInicial] Configuracoes iniciais concluidas 
+2020-01-17 13:37:30,216 INFO  [HomePage Actions] Botao pesquisar clicado 
+2020-01-17 13:37:30,419 INFO  [HomePage Actions] Nome do produto inserido: mouse hp 
+2020-01-17 13:37:30,448 INFO  [HomePage Actions] Produto pesquisado 
+2020-01-17 13:47:40,550 INFO  [ConfigInicial] Configuracoes iniciais em andamento 
+2020-01-17 13:47:46,350 INFO  [DriverFactory] Driver criado 
+2020-01-17 13:47:47,261 INFO  [DriverFactory] Navegador inicializado com o site https://www.advantageonlineshopping.com/#/ 
+2020-01-17 13:47:51,394 INFO  [DriverFactory] Navegador maximizado 
+2020-01-17 13:47:51,399 INFO  [DriverFactory] Comando de espera ImplicityWait inicializado 
+2020-01-17 13:47:51,399 INFO  [ConfigInicial] Driver fabricado 
+2020-01-17 13:47:51,417 INFO  [ConfigInicial] HomePageFactory inicializado 
+2020-01-17 13:47:51,418 INFO  [ConfigInicial] LoginPageFactory inicializado 
+2020-01-17 13:47:51,421 INFO  [ConfigInicial] RegisterPageFactory inicializado 
+2020-01-17 13:47:51,835 INFO  [ConfigInicial] Massa de dados inicializada 
+2020-01-17 13:47:51,835 INFO  [ConfigInicial] Configuracoes iniciais concluidas 
+2020-01-17 13:47:51,983 INFO  [Cadastro] Botao conta clicado 
+2020-01-17 13:47:52,633 INFO  [Cadastro] Botao criar nova conta clicado 
+2020-01-17 13:47:52,948 INFO  [Cadastro] Iniciado o cadastro 
+2020-01-17 13:47:52,948 INFO  [Cadastro] Nome de usuario inserido 
+2020-01-17 13:47:53,132 INFO  [Cadastro] Email inserido 
+2020-01-17 13:47:53,265 INFO  [Cadastro] Senha inserida 
+2020-01-17 13:47:53,396 INFO  [Cadastro] Senha confirmada 
+2020-01-17 13:47:53,528 INFO  [Cadastro] Nome inserido 
+2020-01-17 13:47:53,649 INFO  [Cadastro] Sobrenome inserido 
+2020-01-17 13:47:53,804 INFO  [Cadastro] Telefone inserido 
+2020-01-17 13:47:54,142 INFO  [Cadastro] Nacionalidade selecionada 
+2020-01-17 13:47:54,281 INFO  [Cadastro] Cidade inserida 
+2020-01-17 13:47:54,561 INFO  [Cadastro] Endereco inserido 
+2020-01-17 13:47:54,640 INFO  [Cadastro] Estado inserido 
+2020-01-17 13:47:54,775 INFO  [Cadastro] CEP inserido 
+2020-01-17 13:47:54,843 INFO  [Cadastro] Botao promocoes clicado 
+2020-01-17 13:47:54,935 INFO  [Cadastro] Botao termos de uso clicado 
+2020-01-17 13:47:55,038 INFO  [Cadastro] Botao register clicado 
+2020-01-17 13:48:58,869 INFO  [ConfigInicial] Configuracoes iniciais em andamento 
+2020-01-17 13:49:04,656 INFO  [DriverFactory] Driver criado 
+2020-01-17 13:49:05,588 INFO  [DriverFactory] Navegador inicializado com o site https://www.advantageonlineshopping.com/#/ 
+2020-01-17 13:49:09,719 INFO  [DriverFactory] Navegador maximizado 
+2020-01-17 13:49:09,723 INFO  [DriverFactory] Comando de espera ImplicityWait inicializado 
+2020-01-17 13:49:09,723 INFO  [ConfigInicial] Driver fabricado 
+2020-01-17 13:49:09,741 INFO  [ConfigInicial] HomePageFactory inicializado 
+2020-01-17 13:49:09,743 INFO  [ConfigInicial] LoginPageFactory inicializado 
+2020-01-17 13:49:09,745 INFO  [ConfigInicial] RegisterPageFactory inicializado 
+2020-01-17 13:49:10,189 INFO  [ConfigInicial] Massa de dados inicializada 
+2020-01-17 13:49:10,189 INFO  [ConfigInicial] Configuracoes iniciais concluidas 
+2020-01-17 13:49:10,341 INFO  [Cadastro] Botao conta clicado 
+2020-01-17 13:49:10,977 INFO  [Cadastro] Botao criar nova conta clicado 
+2020-01-17 13:49:11,303 INFO  [Cadastro] Iniciado o cadastro 
+2020-01-17 13:49:11,303 INFO  [Cadastro] Nome de usuario inserido 
+2020-01-17 13:49:11,492 INFO  [Cadastro] Email inserido 
+2020-01-17 13:49:11,636 INFO  [Cadastro] Senha inserida 
+2020-01-17 13:49:11,787 INFO  [Cadastro] Senha confirmada 
+2020-01-17 13:49:11,936 INFO  [Cadastro] Nome inserido 
+2020-01-17 13:49:12,056 INFO  [Cadastro] Sobrenome inserido 
+2020-01-17 13:49:12,236 INFO  [Cadastro] Telefone inserido 
+2020-01-17 13:49:12,536 INFO  [Cadastro] Nacionalidade selecionada 
+2020-01-17 13:49:12,675 INFO  [Cadastro] Cidade inserida 
+2020-01-17 13:49:12,950 INFO  [Cadastro] Endereco inserido 
+2020-01-17 13:49:13,035 INFO  [Cadastro] Estado inserido 
+2020-01-17 13:49:13,167 INFO  [Cadastro] CEP inserido 
+2020-01-17 13:49:13,234 INFO  [Cadastro] Botao promocoes clicado 
+2020-01-17 13:49:13,326 INFO  [Cadastro] Botao termos de uso clicado 
+2020-01-17 13:49:13,429 INFO  [Cadastro] Botao register clicado 
+2020-01-17 13:49:14,619 INFO  [Cadastro] Print da tela efetuado 
+2020-01-17 13:49:15,272 INFO  [DriverFactory] Driver encerrado 
+2020-01-17 13:49:15,272 INFO  [ConfigInicial] Navegador encerrado 
+2020-01-17 13:49:15,279 INFO  [ConfigInicial] Configuracoes iniciais em andamento 
+2020-01-17 13:49:20,358 INFO  [DriverFactory] Driver criado 
+2020-01-17 13:49:21,267 INFO  [DriverFactory] Navegador inicializado com o site https://www.advantageonlineshopping.com/#/ 
+2020-01-17 13:49:25,392 INFO  [DriverFactory] Navegador maximizado 
+2020-01-17 13:49:25,395 INFO  [DriverFactory] Comando de espera ImplicityWait inicializado 
+2020-01-17 13:49:25,395 INFO  [ConfigInicial] Driver fabricado 
+2020-01-17 13:49:25,395 INFO  [ConfigInicial] HomePageFactory inicializado 
+2020-01-17 13:49:25,395 INFO  [ConfigInicial] LoginPageFactory inicializado 
+2020-01-17 13:49:25,396 INFO  [ConfigInicial] RegisterPageFactory inicializado 
+2020-01-17 13:49:25,432 INFO  [ConfigInicial] Massa de dados inicializada 
+2020-01-17 13:49:25,433 INFO  [ConfigInicial] Configuracoes iniciais concluidas 
+2020-01-17 13:49:25,562 INFO  [Login] Botao conta clicado 
+2020-01-17 13:49:25,646 INFO  [Login] Nome de usuario inserido no campo username 
+2020-01-17 13:49:26,175 INFO  [Login] Senha do usuario inserida no campo password 
+2020-01-17 13:49:26,245 INFO  [Login] Botao login clicado 
+2020-01-17 13:49:27,475 INFO  [Login] Print da tela efetuado 
+2020-01-17 13:49:28,102 INFO  [DriverFactory] Driver encerrado 
+2020-01-17 13:49:28,102 INFO  [ConfigInicial] Navegador encerrado 
+2020-01-17 13:49:28,106 INFO  [ConfigInicial] Configuracoes iniciais em andamento 
+2020-01-17 13:49:33,148 INFO  [DriverFactory] Driver criado 
+2020-01-17 13:49:34,223 INFO  [DriverFactory] Navegador inicializado com o site https://www.advantageonlineshopping.com/#/ 
+2020-01-17 13:49:38,347 INFO  [DriverFactory] Navegador maximizado 
+2020-01-17 13:49:38,352 INFO  [DriverFactory] Comando de espera ImplicityWait inicializado 
+2020-01-17 13:49:38,352 INFO  [ConfigInicial] Driver fabricado 
+2020-01-17 13:49:38,352 INFO  [ConfigInicial] HomePageFactory inicializado 
+2020-01-17 13:49:38,353 INFO  [ConfigInicial] LoginPageFactory inicializado 
+2020-01-17 13:49:38,353 INFO  [ConfigInicial] RegisterPageFactory inicializado 
+2020-01-17 13:49:38,376 INFO  [ConfigInicial] Massa de dados inicializada 
+2020-01-17 13:49:38,376 INFO  [ConfigInicial] Configuracoes iniciais concluidas 
+2020-01-17 13:49:38,516 INFO  [Cadastro] Botao conta clicado 
+2020-01-17 13:49:39,147 INFO  [Cadastro] Botao criar nova conta clicado 
+2020-01-17 13:49:39,456 INFO  [Cadastro] Iniciado o cadastro 
+2020-01-17 13:49:39,456 INFO  [Cadastro] Nome de usuario inserido 
+2020-01-17 13:49:39,637 INFO  [Cadastro] Email inserido 
+2020-01-17 13:49:39,784 INFO  [Cadastro] Senha inserida 
+2020-01-17 13:49:39,913 INFO  [Cadastro] Senha confirmada 
+2020-01-17 13:49:40,056 INFO  [Cadastro] Nome inserido 
+2020-01-17 13:49:40,179 INFO  [Cadastro] Sobrenome inserido 
+2020-01-17 13:49:40,353 INFO  [Cadastro] Telefone inserido 
+2020-01-17 13:49:40,577 INFO  [Cadastro] Nacionalidade selecionada 
+2020-01-17 13:49:40,726 INFO  [Cadastro] Cidade inserida 
+2020-01-17 13:49:41,027 INFO  [Cadastro] Endereco inserido 
+2020-01-17 13:49:41,106 INFO  [Cadastro] Estado inserido 
+2020-01-17 13:49:41,248 INFO  [Cadastro] CEP inserido 
+2020-01-17 13:49:41,325 INFO  [Cadastro] Botao promocoes clicado 
+2020-01-17 13:49:41,413 INFO  [Cadastro] Botao termos de uso clicado 
+2020-01-17 13:49:41,517 INFO  [Cadastro] Botao register clicado 
+2020-01-17 13:49:52,284 INFO  [Cadastro] Print da tela efetuado 
+2020-01-17 13:49:52,892 INFO  [DriverFactory] Driver encerrado 
+2020-01-17 13:49:52,892 INFO  [ConfigInicial] Navegador encerrado 
+2020-01-17 13:53:58,841 INFO  [ConfigInicial] Configuracoes iniciais em andamento 
+2020-01-17 13:54:50,031 INFO  [ConfigInicial] Configuracoes iniciais em andamento 
+2020-01-17 13:54:55,836 INFO  [DriverFactory] Driver criado 
+2020-01-17 13:54:57,135 INFO  [DriverFactory] Navegador inicializado com o site https://www.advantageonlineshopping.com/#/ 
+2020-01-17 13:55:01,266 INFO  [DriverFactory] Navegador maximizado 
+2020-01-17 13:55:01,272 INFO  [DriverFactory] Comando de espera ImplicityWait inicializado 
+2020-01-17 13:55:01,272 INFO  [ConfigInicial] Driver fabricado 
+2020-01-17 13:55:01,290 INFO  [ConfigInicial] HomePageFactory inicializado 
+2020-01-17 13:55:01,291 INFO  [ConfigInicial] LoginPageFactory inicializado 
+2020-01-17 13:55:01,294 INFO  [ConfigInicial] RegisterPageFactory inicializado 
+2020-01-17 13:55:01,702 INFO  [ConfigInicial] Massa de dados inicializada 
+2020-01-17 13:55:01,702 INFO  [ConfigInicial] Configuracoes iniciais concluidas 
+2020-01-17 13:55:01,867 INFO  [Cadastro] Botao conta clicado 
+2020-01-17 13:55:02,503 INFO  [Cadastro] Botao criar nova conta clicado 
+2020-01-17 13:55:02,833 INFO  [Cadastro] Iniciado o cadastro 
+2020-01-17 13:55:02,833 INFO  [Cadastro] Nome de usuario inserido 
+2020-01-17 13:55:03,017 INFO  [Cadastro] Email inserido 
+2020-01-17 13:55:03,142 INFO  [Cadastro] Senha inserida 
+2020-01-17 13:55:03,280 INFO  [Cadastro] Senha confirmada 
+2020-01-17 13:55:03,402 INFO  [Cadastro] Nome inserido 
+2020-01-17 13:55:03,515 INFO  [Cadastro] Sobrenome inserido 
+2020-01-17 13:55:03,694 INFO  [Cadastro] Telefone inserido 
+2020-01-17 13:55:04,191 INFO  [Cadastro] Nacionalidade selecionada 
+2020-01-17 13:55:04,331 INFO  [Cadastro] Cidade inserida 
+2020-01-17 13:55:04,620 INFO  [Cadastro] Endereco inserido 
+2020-01-17 13:55:04,700 INFO  [Cadastro] Estado inserido 
+2020-01-17 13:55:04,833 INFO  [Cadastro] CEP inserido 
+2020-01-17 13:55:04,908 INFO  [Cadastro] Botao promocoes clicado 
+2020-01-17 13:55:04,997 INFO  [Cadastro] Botao termos de uso clicado 
+2020-01-17 13:55:05,131 INFO  [Cadastro] Botao register clicado 
+2020-01-17 13:55:06,336 INFO  [Cadastro] Print da tela efetuado 
+2020-01-17 13:55:06,991 INFO  [DriverFactory] Driver encerrado 
+2020-01-17 13:55:06,991 INFO  [ConfigInicial] Navegador encerrado 
+2020-01-17 13:55:07,002 INFO  [ConfigInicial] Configuracoes iniciais em andamento 
+2020-01-17 13:55:12,070 INFO  [DriverFactory] Driver criado 
+2020-01-17 13:55:12,985 INFO  [DriverFactory] Navegador inicializado com o site https://www.advantageonlineshopping.com/#/ 
+2020-01-17 13:55:17,114 INFO  [DriverFactory] Navegador maximizado 
+2020-01-17 13:55:17,116 INFO  [DriverFactory] Comando de espera ImplicityWait inicializado 
+2020-01-17 13:55:17,116 INFO  [ConfigInicial] Driver fabricado 
+2020-01-17 13:55:17,116 INFO  [ConfigInicial] HomePageFactory inicializado 
+2020-01-17 13:55:17,116 INFO  [ConfigInicial] LoginPageFactory inicializado 
+2020-01-17 13:55:17,117 INFO  [ConfigInicial] RegisterPageFactory inicializado 
+2020-01-17 13:55:17,150 INFO  [ConfigInicial] Massa de dados inicializada 
+2020-01-17 13:55:17,150 INFO  [ConfigInicial] Configuracoes iniciais concluidas 
+2020-01-17 13:55:17,284 INFO  [Login] Botao conta clicado 
+2020-01-17 13:55:17,373 INFO  [Login] Nome de usuario inserido no campo username 
+2020-01-17 13:55:17,899 INFO  [Login] Senha do usuario inserida no campo password 
+2020-01-17 13:55:17,976 INFO  [Login] Botao login clicado 
+2020-01-17 13:55:19,207 INFO  [Login] Print da tela efetuado 
+2020-01-17 13:55:19,842 INFO  [DriverFactory] Driver encerrado 
+2020-01-17 13:55:19,842 INFO  [ConfigInicial] Navegador encerrado 
+2020-01-17 13:55:19,846 INFO  [ConfigInicial] Configuracoes iniciais em andamento 
+2020-01-17 13:55:24,909 INFO  [DriverFactory] Driver criado 
+2020-01-17 13:55:25,779 INFO  [DriverFactory] Navegador inicializado com o site https://www.advantageonlineshopping.com/#/ 
+2020-01-17 13:55:29,908 INFO  [DriverFactory] Navegador maximizado 
+2020-01-17 13:55:29,912 INFO  [DriverFactory] Comando de espera ImplicityWait inicializado 
+2020-01-17 13:55:29,912 INFO  [ConfigInicial] Driver fabricado 
+2020-01-17 13:55:29,912 INFO  [ConfigInicial] HomePageFactory inicializado 
+2020-01-17 13:55:29,912 INFO  [ConfigInicial] LoginPageFactory inicializado 
+2020-01-17 13:55:29,912 INFO  [ConfigInicial] RegisterPageFactory inicializado 
+2020-01-17 13:55:29,934 INFO  [ConfigInicial] Massa de dados inicializada 
+2020-01-17 13:55:29,934 INFO  [ConfigInicial] Configuracoes iniciais concluidas 
+2020-01-17 13:55:30,068 INFO  [Cadastro] Botao conta clicado 
+2020-01-17 13:55:30,711 INFO  [Cadastro] Botao criar nova conta clicado 
+2020-01-17 13:55:31,047 INFO  [Cadastro] Iniciado o cadastro 
+2020-01-17 13:55:31,047 INFO  [Cadastro] Nome de usuario inserido 
+2020-01-17 13:55:31,219 INFO  [Cadastro] Email inserido 
+2020-01-17 13:55:31,367 INFO  [Cadastro] Senha inserida 
+2020-01-17 13:55:31,503 INFO  [Cadastro] Senha confirmada 
+2020-01-17 13:55:31,633 INFO  [Cadastro] Nome inserido 
+2020-01-17 13:55:31,751 INFO  [Cadastro] Sobrenome inserido 
+2020-01-17 13:55:31,928 INFO  [Cadastro] Telefone inserido 
+2020-01-17 13:55:32,256 INFO  [Cadastro] Nacionalidade selecionada 
+2020-01-17 13:55:32,398 INFO  [Cadastro] Cidade inserida 
+2020-01-17 13:55:32,544 INFO  [Cadastro] Endereco inserido 
+2020-01-17 13:55:32,624 INFO  [Cadastro] Estado inserido 
+2020-01-17 13:55:32,752 INFO  [Cadastro] CEP inserido 
+2020-01-17 13:55:32,827 INFO  [Cadastro] Botao promocoes clicado 
+2020-01-17 13:55:32,915 INFO  [Cadastro] Botao termos de uso clicado 
+2020-01-17 13:55:33,020 INFO  [Cadastro] Botao register clicado 
+2020-01-17 13:55:43,888 INFO  [Cadastro] Print da tela efetuado 
+2020-01-17 13:55:44,522 INFO  [DriverFactory] Driver encerrado 
+2020-01-17 13:55:44,523 INFO  [ConfigInicial] Navegador encerrado 
+2020-01-17 13:56:10,587 INFO  [ConfigInicial] Configuracoes iniciais em andamento 
+2020-01-17 13:56:16,391 INFO  [DriverFactory] Driver criado 
+2020-01-17 13:56:17,303 INFO  [DriverFactory] Navegador inicializado com o site https://www.advantageonlineshopping.com/#/ 
+2020-01-17 13:56:21,429 INFO  [DriverFactory] Navegador maximizado 
+2020-01-17 13:56:21,434 INFO  [DriverFactory] Comando de espera ImplicityWait inicializado 
+2020-01-17 13:56:21,434 INFO  [ConfigInicial] Driver fabricado 
+2020-01-17 13:56:21,453 INFO  [ConfigInicial] HomePageFactory inicializada 
+2020-01-17 13:56:21,455 INFO  [ConfigInicial] SearchPageFactory inicializada 
+2020-01-17 13:56:21,898 INFO  [ConfigInicial] Massa de dados inicializada 
+2020-01-17 13:56:21,898 INFO  [ConfigInicial] Configuracoes iniciais concluidas 
+2020-01-17 13:56:22,031 INFO  [HomePage Actions] Botao pesquisar clicado 
+2020-01-17 13:56:22,503 INFO  [HomePage Actions] Nome do produto inserido: HP USB 3 BUTTON OPTICAL MOUSE 
+2020-01-17 13:56:22,533 INFO  [HomePage Actions] Produto pesquisado 
+2020-01-17 13:56:23,224 INFO  [DriverFactory] Driver encerrado 
+2020-01-17 13:56:23,224 INFO  [ConfigInicial] Navegador encerrado 
+2020-01-17 13:56:23,234 INFO  [ConfigInicial] Configuracoes iniciais em andamento 
+2020-01-17 13:56:28,294 INFO  [DriverFactory] Driver criado 
+2020-01-17 13:56:29,072 INFO  [DriverFactory] Navegador inicializado com o site https://www.advantageonlineshopping.com/#/ 
+2020-01-17 13:56:33,198 INFO  [DriverFactory] Navegador maximizado 
+2020-01-17 13:56:33,201 INFO  [DriverFactory] Comando de espera ImplicityWait inicializado 
+2020-01-17 13:56:33,201 INFO  [ConfigInicial] Driver fabricado 
+2020-01-17 13:56:33,201 INFO  [ConfigInicial] HomePageFactory inicializada 
+2020-01-17 13:56:33,201 INFO  [ConfigInicial] SearchPageFactory inicializada 
+2020-01-17 13:56:33,239 INFO  [ConfigInicial] Massa de dados inicializada 
+2020-01-17 13:56:33,240 INFO  [ConfigInicial] Configuracoes iniciais concluidas 
+2020-01-17 13:56:33,369 INFO  [HomePage Actions] Botao pesquisar clicado 
+2020-01-17 13:56:33,588 INFO  [HomePage Actions] Nome do produto inserido: mouse hp 
+2020-01-17 13:56:33,618 INFO  [HomePage Actions] Produto pesquisado 
+2020-01-17 13:56:34,459 INFO  [DriverFactory] Driver encerrado 
+2020-01-17 13:56:34,459 INFO  [ConfigInicial] Navegador encerrado 
+2020-01-17 14:02:43,938 INFO  [ConfigInicial] Configuracoes iniciais em andamento 
+2020-01-17 14:03:33,762 INFO  [ConfigInicial] Configuracoes iniciais em andamento 
+2020-01-17 14:03:39,582 INFO  [DriverFactory] Driver criado 
+2020-01-17 14:03:40,501 INFO  [DriverFactory] Navegador inicializado com o site https://www.advantageonlineshopping.com/#/ 
+2020-01-17 14:03:44,629 INFO  [DriverFactory] Navegador maximizado 
+2020-01-17 14:03:44,633 INFO  [DriverFactory] Comando de espera ImplicityWait inicializado 
+2020-01-17 14:03:44,633 INFO  [ConfigInicial] Driver fabricado 
+2020-01-17 14:03:44,651 INFO  [ConfigInicial] HomePageFactory inicializado 
+2020-01-17 14:03:44,652 INFO  [ConfigInicial] LoginPageFactory inicializado 
+2020-01-17 14:03:44,656 INFO  [ConfigInicial] RegisterPageFactory inicializado 
+2020-01-17 14:03:45,068 INFO  [ConfigInicial] Massa de dados inicializada 
+2020-01-17 14:03:45,068 INFO  [ConfigInicial] Configuracoes iniciais concluidas 
+2020-01-17 14:03:45,215 INFO  [Cadastro] Botao conta clicado 
+2020-01-17 14:03:45,868 INFO  [Cadastro] Botao criar nova conta clicado 
+2020-01-17 14:03:46,179 INFO  [Cadastro] Iniciado o cadastro 
+2020-01-17 14:03:46,179 INFO  [Cadastro] Nome de usuario inserido 
+2020-01-17 14:03:46,369 INFO  [Cadastro] Email inserido 
+2020-01-17 14:03:46,501 INFO  [Cadastro] Senha inserida 
+2020-01-17 14:03:46,631 INFO  [Cadastro] Senha confirmada 
+2020-01-17 14:03:46,765 INFO  [Cadastro] Nome inserido 
+2020-01-17 14:03:46,897 INFO  [Cadastro] Sobrenome inserido 
+2020-01-17 14:03:47,066 INFO  [Cadastro] Telefone inserido 
+2020-01-17 14:03:47,409 INFO  [Cadastro] Nacionalidade selecionada 
+2020-01-17 14:03:47,547 INFO  [Cadastro] Cidade inserida 
+2020-01-17 14:03:47,845 INFO  [Cadastro] Endereco inserido 
+2020-01-17 14:03:47,923 INFO  [Cadastro] Estado inserido 
+2020-01-17 14:03:48,056 INFO  [Cadastro] CEP inserido 
+2020-01-17 14:03:48,122 INFO  [Cadastro] Botao promocoes clicado 
+2020-01-17 14:03:48,216 INFO  [Cadastro] Botao termos de uso clicado 
+2020-01-17 14:03:48,319 INFO  [Cadastro] Botao register clicado 
+2020-01-17 14:03:49,509 INFO  [Cadastro] Print da tela efetuado 
+2020-01-17 14:03:50,142 INFO  [DriverFactory] Driver encerrado 
+2020-01-17 14:03:50,142 INFO  [ConfigInicial] Navegador encerrado 
+2020-01-17 14:03:50,152 INFO  [ConfigInicial] Configuracoes iniciais em andamento 
+2020-01-17 14:03:55,216 INFO  [DriverFactory] Driver criado 
+2020-01-17 14:03:56,116 INFO  [DriverFactory] Navegador inicializado com o site https://www.advantageonlineshopping.com/#/ 
+2020-01-17 14:04:00,243 INFO  [DriverFactory] Navegador maximizado 
+2020-01-17 14:04:00,245 INFO  [DriverFactory] Comando de espera ImplicityWait inicializado 
+2020-01-17 14:04:00,245 INFO  [ConfigInicial] Driver fabricado 
+2020-01-17 14:04:00,246 INFO  [ConfigInicial] HomePageFactory inicializado 
+2020-01-17 14:04:00,246 INFO  [ConfigInicial] LoginPageFactory inicializado 
+2020-01-17 14:04:00,246 INFO  [ConfigInicial] RegisterPageFactory inicializado 
+2020-01-17 14:04:00,277 INFO  [ConfigInicial] Massa de dados inicializada 
+2020-01-17 14:04:00,277 INFO  [ConfigInicial] Configuracoes iniciais concluidas 
+2020-01-17 14:04:00,424 INFO  [Login] Botao conta clicado 
+2020-01-17 14:04:00,498 INFO  [Login] Nome de usuario inserido no campo username 
+2020-01-17 14:04:01,044 INFO  [Login] Senha do usuario inserida no campo password 
+2020-01-17 14:04:01,103 INFO  [Login] Botao login clicado 
+2020-01-17 14:04:02,306 INFO  [Login] Print da tela efetuado 
+2020-01-17 14:04:02,920 INFO  [DriverFactory] Driver encerrado 
+2020-01-17 14:04:02,920 INFO  [ConfigInicial] Navegador encerrado 
+2020-01-17 14:04:02,929 INFO  [ConfigInicial] Configuracoes iniciais em andamento 
+2020-01-17 14:04:07,985 INFO  [DriverFactory] Driver criado 
+2020-01-17 14:04:08,865 INFO  [DriverFactory] Navegador inicializado com o site https://www.advantageonlineshopping.com/#/ 
+2020-01-17 14:04:12,989 INFO  [DriverFactory] Navegador maximizado 
+2020-01-17 14:04:12,994 INFO  [DriverFactory] Comando de espera ImplicityWait inicializado 
+2020-01-17 14:04:12,994 INFO  [ConfigInicial] Driver fabricado 
+2020-01-17 14:04:12,994 INFO  [ConfigInicial] HomePageFactory inicializado 
+2020-01-17 14:04:12,994 INFO  [ConfigInicial] LoginPageFactory inicializado 
+2020-01-17 14:04:12,994 INFO  [ConfigInicial] RegisterPageFactory inicializado 
+2020-01-17 14:04:13,017 INFO  [ConfigInicial] Massa de dados inicializada 
+2020-01-17 14:04:13,017 INFO  [ConfigInicial] Configuracoes iniciais concluidas 
+2020-01-17 14:04:13,160 INFO  [Cadastro] Botao conta clicado 
+2020-01-17 14:04:13,798 INFO  [Cadastro] Botao criar nova conta clicado 
+2020-01-17 14:04:14,105 INFO  [Cadastro] Iniciado o cadastro 
+2020-01-17 14:04:14,105 INFO  [Cadastro] Nome de usuario inserido 
+2020-01-17 14:04:14,285 INFO  [Cadastro] Email inserido 
+2020-01-17 14:04:14,419 INFO  [Cadastro] Senha inserida 
+2020-01-17 14:04:14,555 INFO  [Cadastro] Senha confirmada 
+2020-01-17 14:04:14,697 INFO  [Cadastro] Nome inserido 
+2020-01-17 14:04:14,817 INFO  [Cadastro] Sobrenome inserido 
+2020-01-17 14:04:14,988 INFO  [Cadastro] Telefone inserido 
+2020-01-17 14:04:15,366 INFO  [Cadastro] Nacionalidade selecionada 
+2020-01-17 14:04:15,515 INFO  [Cadastro] Cidade inserida 
+2020-01-17 14:04:15,788 INFO  [Cadastro] Endereco inserido 
+2020-01-17 14:04:15,865 INFO  [Cadastro] Estado inserido 
+2020-01-17 14:04:15,988 INFO  [Cadastro] CEP inserido 
+2020-01-17 14:04:16,074 INFO  [Cadastro] Botao promocoes clicado 
+2020-01-17 14:04:16,152 INFO  [Cadastro] Botao termos de uso clicado 
+2020-01-17 14:04:16,268 INFO  [Cadastro] Botao register clicado 
+2020-01-17 14:04:26,702 INFO  [Cadastro] Print da tela efetuado 
+2020-01-17 14:04:27,316 INFO  [DriverFactory] Driver encerrado 
+2020-01-17 14:04:27,316 INFO  [ConfigInicial] Navegador encerrado 
+2020-01-17 14:24:25,244 INFO  [ConfigInicial] Configuracoes iniciais em andamento 
+2020-01-17 14:24:31,008 INFO  [DriverFactory] Driver criado 
+2020-01-17 14:24:31,945 INFO  [DriverFactory] Navegador inicializado com o site https://www.advantageonlineshopping.com/#/ 
+2020-01-17 14:24:36,089 INFO  [DriverFactory] Navegador maximizado 
+2020-01-17 14:24:36,093 INFO  [DriverFactory] Comando de espera ImplicityWait inicializado 
+2020-01-17 14:24:36,093 INFO  [ConfigInicial] Driver fabricado 
+2020-01-17 14:24:36,110 INFO  [ConfigInicial] HomePageFactory inicializada 
+2020-01-17 14:24:36,111 INFO  [ConfigInicial] SearchPageFactory inicializada 
+2020-01-17 14:24:36,525 INFO  [ConfigInicial] Massa de dados inicializada 
+2020-01-17 14:24:36,525 INFO  [ConfigInicial] Configuracoes iniciais concluidas 
+2020-01-17 14:24:36,672 INFO  [HomePage Actions] Botao pesquisar clicado 
+2020-01-17 14:24:37,139 INFO  [HomePage Actions] Nome do produto inserido: HP USB 3 BUTTON OPTICAL MOUSE 
+2020-01-17 14:24:37,166 INFO  [HomePage Actions] Produto pesquisado 
+2020-01-17 14:24:37,854 INFO  [DriverFactory] Driver encerrado 
+2020-01-17 14:24:37,854 INFO  [ConfigInicial] Navegador encerrado 
+2020-01-17 14:24:37,864 INFO  [ConfigInicial] Configuracoes iniciais em andamento 
+2020-01-17 14:24:42,905 INFO  [DriverFactory] Driver criado 
+2020-01-17 14:24:43,799 INFO  [DriverFactory] Navegador inicializado com o site https://www.advantageonlineshopping.com/#/ 
+2020-01-17 14:24:47,928 INFO  [DriverFactory] Navegador maximizado 
+2020-01-17 14:24:47,931 INFO  [DriverFactory] Comando de espera ImplicityWait inicializado 
+2020-01-17 14:24:47,931 INFO  [ConfigInicial] Driver fabricado 
+2020-01-17 14:24:47,931 INFO  [ConfigInicial] HomePageFactory inicializada 
+2020-01-17 14:24:47,931 INFO  [ConfigInicial] SearchPageFactory inicializada 
+2020-01-17 14:24:47,962 INFO  [ConfigInicial] Massa de dados inicializada 
+2020-01-17 14:24:47,962 INFO  [ConfigInicial] Configuracoes iniciais concluidas 
+2020-01-17 14:24:48,077 INFO  [HomePage Actions] Botao pesquisar clicado 
+2020-01-17 14:24:48,283 INFO  [HomePage Actions] Nome do produto inserido: mouse hp 
+2020-01-17 14:24:48,309 INFO  [HomePage Actions] Produto pesquisado 
+2020-01-17 14:24:49,155 INFO  [DriverFactory] Driver encerrado 
+2020-01-17 14:24:49,155 INFO  [ConfigInicial] Navegador encerrado 
+2020-01-17 14:24:58,842 INFO  [ConfigInicial] Configuracoes iniciais em andamento 
+2020-01-17 14:25:04,677 INFO  [DriverFactory] Driver criado 
+2020-01-17 14:25:06,368 INFO  [DriverFactory] Navegador inicializado com o site https://www.advantageonlineshopping.com/#/ 
+2020-01-17 14:25:10,520 INFO  [DriverFactory] Navegador maximizado 
+2020-01-17 14:25:10,527 INFO  [DriverFactory] Comando de espera ImplicityWait inicializado 
+2020-01-17 14:25:10,527 INFO  [ConfigInicial] Driver fabricado 
+2020-01-17 14:25:10,556 INFO  [ConfigInicial] HomePageFactory inicializado 
+2020-01-17 14:25:10,558 INFO  [ConfigInicial] LoginPageFactory inicializado 
+2020-01-17 14:25:10,563 INFO  [ConfigInicial] RegisterPageFactory inicializado 
+2020-01-17 14:25:11,008 INFO  [ConfigInicial] Massa de dados inicializada 
+2020-01-17 14:25:11,008 INFO  [ConfigInicial] Configuracoes iniciais concluidas 
+2020-01-17 14:25:11,149 INFO  [Cadastro] Botao conta clicado 
+2020-01-17 14:25:11,788 INFO  [Cadastro] Botao criar nova conta clicado 
+2020-01-17 14:25:12,132 INFO  [Cadastro] Iniciado o cadastro 
+2020-01-17 14:25:12,132 INFO  [Cadastro] Nome de usuario inserido 
+2020-01-17 14:25:12,314 INFO  [Cadastro] Email inserido 
+2020-01-17 14:25:12,452 INFO  [Cadastro] Senha inserida 
+2020-01-17 14:25:12,592 INFO  [Cadastro] Senha confirmada 
+2020-01-17 14:25:12,733 INFO  [Cadastro] Nome inserido 
+2020-01-17 14:25:12,878 INFO  [Cadastro] Sobrenome inserido 
+2020-01-17 14:25:13,062 INFO  [Cadastro] Telefone inserido 
+2020-01-17 14:25:13,297 INFO  [Cadastro] Nacionalidade selecionada 
+2020-01-17 14:25:13,444 INFO  [Cadastro] Cidade inserida 
+2020-01-17 14:25:13,735 INFO  [Cadastro] Endereco inserido 
+2020-01-17 14:25:13,824 INFO  [Cadastro] Estado inserido 
+2020-01-17 14:25:13,952 INFO  [Cadastro] CEP inserido 
+2020-01-17 14:25:14,030 INFO  [Cadastro] Botao promocoes clicado 
+2020-01-17 14:25:15,736 INFO  [DriverFactory] Driver encerrado 
+2020-01-17 14:25:15,736 INFO  [ConfigInicial] Navegador encerrado 
+2020-01-17 14:25:15,755 INFO  [ConfigInicial] Configuracoes iniciais em andamento 
+2020-01-17 14:25:20,810 INFO  [DriverFactory] Driver criado 
+2020-01-17 14:25:21,721 INFO  [DriverFactory] Navegador inicializado com o site https://www.advantageonlineshopping.com/#/ 
+2020-01-17 14:25:25,862 INFO  [DriverFactory] Navegador maximizado 
+2020-01-17 14:25:25,866 INFO  [DriverFactory] Comando de espera ImplicityWait inicializado 
+2020-01-17 14:25:25,866 INFO  [ConfigInicial] Driver fabricado 
+2020-01-17 14:25:25,866 INFO  [ConfigInicial] HomePageFactory inicializado 
+2020-01-17 14:25:25,866 INFO  [ConfigInicial] LoginPageFactory inicializado 
+2020-01-17 14:25:25,866 INFO  [ConfigInicial] RegisterPageFactory inicializado 
+2020-01-17 14:25:25,898 INFO  [ConfigInicial] Massa de dados inicializada 
+2020-01-17 14:25:25,898 INFO  [ConfigInicial] Configuracoes iniciais concluidas 
+2020-01-17 14:25:26,041 INFO  [Login] Botao conta clicado 
+2020-01-17 14:25:26,141 INFO  [Login] Nome de usuario inserido no campo username 
+2020-01-17 14:25:26,670 INFO  [Login] Senha do usuario inserida no campo password 
+2020-01-17 14:25:26,737 INFO  [Login] Botao login clicado 
+2020-01-17 14:25:37,541 INFO  [DriverFactory] Driver encerrado 
+2020-01-17 14:25:37,541 INFO  [ConfigInicial] Navegador encerrado 
+2020-01-17 14:25:37,547 INFO  [ConfigInicial] Configuracoes iniciais em andamento 
+2020-01-17 14:25:42,587 INFO  [DriverFactory] Driver criado 
+2020-01-17 14:25:43,487 INFO  [DriverFactory] Navegador inicializado com o site https://www.advantageonlineshopping.com/#/ 
+2020-01-17 14:25:47,614 INFO  [DriverFactory] Navegador maximizado 
+2020-01-17 14:25:47,615 INFO  [DriverFactory] Comando de espera ImplicityWait inicializado 
+2020-01-17 14:25:47,615 INFO  [ConfigInicial] Driver fabricado 
+2020-01-17 14:25:47,615 INFO  [ConfigInicial] HomePageFactory inicializado 
+2020-01-17 14:25:47,616 INFO  [ConfigInicial] LoginPageFactory inicializado 
+2020-01-17 14:25:47,616 INFO  [ConfigInicial] RegisterPageFactory inicializado 
+2020-01-17 14:25:47,639 INFO  [ConfigInicial] Massa de dados inicializada 
+2020-01-17 14:25:47,639 INFO  [ConfigInicial] Configuracoes iniciais concluidas 
+2020-01-17 14:25:47,773 INFO  [Cadastro] Botao conta clicado 
+2020-01-17 14:25:48,407 INFO  [Cadastro] Botao criar nova conta clicado 
+2020-01-17 14:25:48,790 INFO  [Cadastro] Iniciado o cadastro 
+2020-01-17 14:25:48,790 INFO  [Cadastro] Nome de usuario inserido 
+2020-01-17 14:25:48,969 INFO  [Cadastro] Email inserido 
+2020-01-17 14:25:49,121 INFO  [Cadastro] Senha inserida 
+2020-01-17 14:25:49,240 INFO  [Cadastro] Senha confirmada 
+2020-01-17 14:25:49,372 INFO  [Cadastro] Nome inserido 
+2020-01-17 14:25:49,487 INFO  [Cadastro] Sobrenome inserido 
+2020-01-17 14:25:49,667 INFO  [Cadastro] Telefone inserido 
+2020-01-17 14:25:50,046 INFO  [Cadastro] Nacionalidade selecionada 
+2020-01-17 14:25:50,188 INFO  [Cadastro] Cidade inserida 
+2020-01-17 14:25:50,472 INFO  [Cadastro] Endereco inserido 
+2020-01-17 14:25:50,552 INFO  [Cadastro] Estado inserido 
+2020-01-17 14:25:50,685 INFO  [Cadastro] CEP inserido 
+2020-01-17 14:25:50,760 INFO  [Cadastro] Botao promocoes clicado 
+2020-01-17 14:25:50,854 INFO  [Cadastro] Botao termos de uso clicado 
+2020-01-17 14:25:50,972 INFO  [Cadastro] Botao register clicado 
+2020-01-17 14:25:52,147 INFO  [DriverFactory] Driver encerrado 
+2020-01-17 14:25:52,147 INFO  [ConfigInicial] Navegador encerrado 
+2020-01-17 14:29:03,013 INFO  [ConfigInicial] Configuracoes iniciais em andamento 
+2020-01-17 14:29:09,811 INFO  [DriverFactory] Driver criado 
+2020-01-17 14:29:10,775 INFO  [DriverFactory] Navegador inicializado com o site https://www.advantageonlineshopping.com/#/ 
+2020-01-17 14:29:14,948 INFO  [DriverFactory] Navegador maximizado 
+2020-01-17 14:29:14,957 INFO  [DriverFactory] Comando de espera ImplicityWait inicializado 
+2020-01-17 14:29:14,957 INFO  [ConfigInicial] Driver fabricado 
+2020-01-17 14:29:14,996 INFO  [ConfigInicial] HomePageFactory inicializado 
+2020-01-17 14:29:15,000 INFO  [ConfigInicial] LoginPageFactory inicializado 
+2020-01-17 14:29:15,006 INFO  [ConfigInicial] RegisterPageFactory inicializado 
+2020-01-17 14:29:15,840 INFO  [ConfigInicial] Massa de dados inicializada 
+2020-01-17 14:29:15,840 INFO  [ConfigInicial] Configuracoes iniciais concluidas 
+2020-01-17 14:29:16,183 INFO  [Cadastro] Botao conta clicado 
+2020-01-17 14:29:16,983 INFO  [Cadastro] Botao criar nova conta clicado 
+2020-01-17 14:29:17,458 INFO  [Cadastro] Iniciado o cadastro 
+2020-01-17 14:29:17,458 INFO  [Cadastro] Nome de usuario inserido 
+2020-01-17 14:29:17,789 INFO  [Cadastro] Email inserido 
+2020-01-17 14:29:18,152 INFO  [Cadastro] Senha inserida 
+2020-01-17 14:29:18,548 INFO  [Cadastro] Senha confirmada 
+2020-01-17 14:29:18,954 INFO  [Cadastro] Nome inserido 
+2020-01-17 14:29:19,223 INFO  [Cadastro] Sobrenome inserido 
+2020-01-17 14:29:19,663 INFO  [Cadastro] Telefone inserido 
+2020-01-17 14:29:19,951 INFO  [Cadastro] Nacionalidade selecionada 
+2020-01-17 14:29:20,263 INFO  [Cadastro] Cidade inserida 
+2020-01-17 14:29:20,903 INFO  [Cadastro] Endereco inserido 
+2020-01-17 14:29:21,089 INFO  [Cadastro] Estado inserido 
+2020-01-17 14:29:21,408 INFO  [Cadastro] CEP inserido 
+2020-01-17 14:29:21,582 INFO  [Cadastro] Botao promocoes clicado 
+2020-01-17 14:29:21,778 INFO  [Cadastro] Botao termos de uso clicado 
+2020-01-17 14:29:22,020 INFO  [Cadastro] Botao register clicado 
+2020-01-17 14:29:23,897 INFO  [Cadastro] Print da tela efetuado 
+2020-01-17 14:29:24,602 INFO  [DriverFactory] Driver encerrado 
+2020-01-17 14:29:24,602 INFO  [ConfigInicial] Navegador encerrado 
+2020-01-17 14:29:24,626 INFO  [ConfigInicial] Configuracoes iniciais em andamento 
+2020-01-17 14:29:30,099 INFO  [DriverFactory] Driver criado 
+2020-01-17 14:29:31,155 INFO  [DriverFactory] Navegador inicializado com o site https://www.advantageonlineshopping.com/#/ 
+2020-01-17 14:29:35,451 INFO  [DriverFactory] Navegador maximizado 
+2020-01-17 14:29:35,458 INFO  [DriverFactory] Comando de espera ImplicityWait inicializado 
+2020-01-17 14:29:35,458 INFO  [ConfigInicial] Driver fabricado 
+2020-01-17 14:29:35,458 INFO  [ConfigInicial] HomePageFactory inicializado 
+2020-01-17 14:29:35,458 INFO  [ConfigInicial] LoginPageFactory inicializado 
+2020-01-17 14:29:35,458 INFO  [ConfigInicial] RegisterPageFactory inicializado 
+2020-01-17 14:29:35,531 INFO  [ConfigInicial] Massa de dados inicializada 
+2020-01-17 14:29:35,531 INFO  [ConfigInicial] Configuracoes iniciais concluidas 
+2020-01-17 14:29:35,865 INFO  [Login] Botao conta clicado 
+2020-01-17 14:29:36,207 INFO  [Login] Nome de usuario inserido no campo username 
+2020-01-17 14:29:36,628 INFO  [Login] Senha do usuario inserida no campo password 
+2020-01-17 14:29:36,755 INFO  [Login] Botao login clicado 
+2020-01-17 14:29:37,531 INFO  [DriverFactory] Driver encerrado 
+2020-01-17 14:29:37,531 INFO  [ConfigInicial] Navegador encerrado 
+2020-01-17 14:29:37,550 INFO  [ConfigInicial] Configuracoes iniciais em andamento 
+2020-01-17 14:29:43,019 INFO  [DriverFactory] Driver criado 
+2020-01-17 14:29:43,951 INFO  [DriverFactory] Navegador inicializado com o site https://www.advantageonlineshopping.com/#/ 
+2020-01-17 14:29:48,110 INFO  [DriverFactory] Navegador maximizado 
+2020-01-17 14:29:48,114 INFO  [DriverFactory] Comando de espera ImplicityWait inicializado 
+2020-01-17 14:29:48,114 INFO  [ConfigInicial] Driver fabricado 
+2020-01-17 14:29:48,114 INFO  [ConfigInicial] HomePageFactory inicializado 
+2020-01-17 14:29:48,114 INFO  [ConfigInicial] LoginPageFactory inicializado 
+2020-01-17 14:29:48,114 INFO  [ConfigInicial] RegisterPageFactory inicializado 
+2020-01-17 14:29:48,160 INFO  [ConfigInicial] Massa de dados inicializada 
+2020-01-17 14:29:48,160 INFO  [ConfigInicial] Configuracoes iniciais concluidas 
+2020-01-17 14:29:48,458 INFO  [Cadastro] Botao conta clicado 
+2020-01-17 14:29:49,237 INFO  [Cadastro] Botao criar nova conta clicado 
+2020-01-17 14:29:49,718 INFO  [Cadastro] Iniciado o cadastro 
+2020-01-17 14:29:49,718 INFO  [Cadastro] Nome de usuario inserido 
+2020-01-17 14:29:50,248 INFO  [Cadastro] Email inserido 
+2020-01-17 14:29:50,564 INFO  [Cadastro] Senha inserida 
+2020-01-17 14:29:51,075 INFO  [Cadastro] Senha confirmada 
+2020-01-17 14:29:51,405 INFO  [Cadastro] Nome inserido 
+2020-01-17 14:29:51,702 INFO  [Cadastro] Sobrenome inserido 
+2020-01-17 14:29:52,266 INFO  [Cadastro] Telefone inserido 
+2020-01-17 14:29:52,460 INFO  [Cadastro] Nacionalidade selecionada 
+2020-01-17 14:29:52,758 INFO  [Cadastro] Cidade inserida 
+2020-01-17 14:29:53,132 INFO  [Cadastro] Endereco inserido 
+2020-01-17 14:29:53,360 INFO  [Cadastro] Estado inserido 
+2020-01-17 14:29:53,635 INFO  [Cadastro] CEP inserido 
+2020-01-17 14:29:53,805 INFO  [Cadastro] Botao promocoes clicado 
+2020-01-17 14:29:53,981 INFO  [Cadastro] Botao termos de uso clicado 
+2020-01-17 14:29:54,292 INFO  [Cadastro] Botao register clicado 
+2020-01-17 14:29:54,772 INFO  [Cadastro] Print da tela efetuado 
+2020-01-17 14:29:55,459 INFO  [DriverFactory] Driver encerrado 
+2020-01-17 14:29:55,459 INFO  [ConfigInicial] Navegador encerrado 
+2020-01-17 16:40:04,048 INFO  [ConfigInicial] Configuracoes iniciais em andamento 
+2020-01-17 16:40:11,275 INFO  [DriverFactory] Driver criado 
+2020-01-17 16:40:13,086 INFO  [DriverFactory] Navegador inicializado com o site https://www.advantageonlineshopping.com/#/ 
+2020-01-17 16:40:17,297 INFO  [DriverFactory] Navegador maximizado 
+2020-01-17 16:40:17,307 INFO  [DriverFactory] Comando de espera ImplicityWait inicializado 
+2020-01-17 16:40:17,307 INFO  [ConfigInicial] Driver fabricado 
+2020-01-17 16:40:17,353 INFO  [ConfigInicial] HomePageFactory inicializada 
+2020-01-17 16:40:17,356 INFO  [ConfigInicial] ProductPageFactory inicializada 
+2020-01-17 16:40:18,436 INFO  [ConfigInicial] Massa de dados inicializada 
+2020-01-17 16:40:18,436 INFO  [ConfigInicial] Configuracoes iniciais concluidas 
+2020-01-17 16:40:23,519 INFO  [ConfigInicial] Navegador encerrado 
+2020-01-17 16:42:53,316 INFO  [ConfigInicial] Configuracoes iniciais em andamento 
+2020-01-17 16:43:00,088 INFO  [DriverFactory] Driver criado 
+2020-01-17 16:43:01,021 INFO  [DriverFactory] Navegador inicializado com o site https://www.advantageonlineshopping.com/#/ 
+2020-01-17 16:43:05,192 INFO  [DriverFactory] Navegador maximizado 
+2020-01-17 16:43:05,203 INFO  [DriverFactory] Comando de espera ImplicityWait inicializado 
+2020-01-17 16:43:05,203 INFO  [ConfigInicial] Driver fabricado 
+2020-01-17 16:43:05,258 INFO  [ConfigInicial] HomePageFactory inicializada 
+2020-01-17 16:43:05,265 INFO  [ConfigInicial] ProductPageFactory inicializada 
+2020-01-17 16:43:06,166 INFO  [ConfigInicial] Massa de dados inicializada 
+2020-01-17 16:43:06,166 INFO  [ConfigInicial] Configuracoes iniciais concluidas 
+2020-01-17 16:43:12,254 INFO  [ConfigInicial] Navegador encerrado 
+2020-01-17 16:47:28,268 INFO  [ConfigInicial] Configuracoes iniciais em andamento 
+2020-01-17 16:47:34,829 INFO  [DriverFactory] Driver criado 
+2020-01-17 16:47:35,782 INFO  [DriverFactory] Navegador inicializado com o site https://www.advantageonlineshopping.com/#/ 
+2020-01-17 16:47:39,959 INFO  [DriverFactory] Navegador maximizado 
+2020-01-17 16:47:39,969 INFO  [DriverFactory] Comando de espera ImplicityWait inicializado 
+2020-01-17 16:47:39,969 INFO  [ConfigInicial] Driver fabricado 
+2020-01-17 16:47:40,021 INFO  [ConfigInicial] HomePageFactory inicializada 
+2020-01-17 16:47:40,028 INFO  [ConfigInicial] ProductPageFactory inicializada 
+2020-01-17 16:47:41,032 INFO  [ConfigInicial] Massa de dados inicializada 
+2020-01-17 16:47:41,032 INFO  [ConfigInicial] Configuracoes iniciais concluidas 
+2020-01-17 16:47:47,179 INFO  [ConfigInicial] Navegador encerrado 
+2020-01-17 16:48:28,157 INFO  [ConfigInicial] Configuracoes iniciais em andamento 
+2020-01-17 16:48:35,422 INFO  [DriverFactory] Driver criado 
+2020-01-17 16:48:36,474 INFO  [DriverFactory] Navegador inicializado com o site https://www.advantageonlineshopping.com/#/ 
+2020-01-17 16:48:40,670 INFO  [DriverFactory] Navegador maximizado 
+2020-01-17 16:48:40,678 INFO  [DriverFactory] Comando de espera ImplicityWait inicializado 
+2020-01-17 16:48:40,678 INFO  [ConfigInicial] Driver fabricado 
+2020-01-17 16:48:40,721 INFO  [ConfigInicial] HomePageFactory inicializada 
+2020-01-17 16:48:40,725 INFO  [ConfigInicial] ProductPageFactory inicializada 
+2020-01-17 16:48:41,598 INFO  [ConfigInicial] Massa de dados inicializada 
+2020-01-17 16:48:41,598 INFO  [ConfigInicial] Configuracoes iniciais concluidas 
+2020-01-17 16:48:42,042 INFO  [ConfigInicial] Navegador encerrado 
+2020-01-17 16:54:08,526 INFO  [ConfigInicial] Configuracoes iniciais em andamento 
+2020-01-17 16:54:15,349 INFO  [DriverFactory] Driver criado 
+2020-01-17 16:54:16,886 INFO  [DriverFactory] Navegador inicializado com o site https://www.advantageonlineshopping.com/#/ 
+2020-01-17 16:54:21,047 INFO  [DriverFactory] Navegador maximizado 
+2020-01-17 16:54:21,054 INFO  [DriverFactory] Comando de espera ImplicityWait inicializado 
+2020-01-17 16:54:21,054 INFO  [ConfigInicial] Driver fabricado 
+2020-01-17 16:54:21,119 INFO  [ConfigInicial] HomePageFactory inicializada 
+2020-01-17 16:54:21,126 INFO  [ConfigInicial] ProductPageFactory inicializada 
+2020-01-17 16:54:22,018 INFO  [ConfigInicial] Massa de dados inicializada 
+2020-01-17 16:54:22,018 INFO  [ConfigInicial] Configuracoes iniciais concluidas 
+2020-01-17 16:54:38,311 INFO  [ConfigInicial] Navegador encerrado 
+2020-01-17 16:56:36,956 INFO  [ConfigInicial] Configuracoes iniciais em andamento 
+2020-01-17 16:56:44,030 INFO  [DriverFactory] Driver criado 
+2020-01-17 16:56:44,963 INFO  [DriverFactory] Navegador inicializado com o site https://www.advantageonlineshopping.com/#/ 
+2020-01-17 16:56:49,124 INFO  [DriverFactory] Navegador maximizado 
+2020-01-17 16:56:49,131 INFO  [DriverFactory] Comando de espera ImplicityWait inicializado 
+2020-01-17 16:56:49,132 INFO  [ConfigInicial] Driver fabricado 
+2020-01-17 16:56:49,190 INFO  [ConfigInicial] HomePageFactory inicializada 
+2020-01-17 16:56:49,194 INFO  [ConfigInicial] ProductPageFactory inicializada 
+2020-01-17 16:56:50,192 INFO  [ConfigInicial] Massa de dados inicializada 
+2020-01-17 16:56:50,192 INFO  [ConfigInicial] Configuracoes iniciais concluidas 
+2020-01-17 16:56:50,799 INFO  [ConfigInicial] Navegador encerrado 
+2020-01-17 16:58:02,880 INFO  [ConfigInicial] Configuracoes iniciais em andamento 
+2020-01-17 16:58:10,520 INFO  [DriverFactory] Driver criado 
+2020-01-17 16:58:11,589 INFO  [DriverFactory] Navegador inicializado com o site https://www.advantageonlineshopping.com/#/ 
+2020-01-17 16:58:15,908 INFO  [DriverFactory] Navegador maximizado 
+2020-01-17 16:58:15,917 INFO  [DriverFactory] Comando de espera ImplicityWait inicializado 
+2020-01-17 16:58:15,917 INFO  [ConfigInicial] Driver fabricado 
+2020-01-17 16:58:15,966 INFO  [ConfigInicial] HomePageFactory inicializada 
+2020-01-17 16:58:15,969 INFO  [ConfigInicial] ProductPageFactory inicializada 
+2020-01-17 16:58:16,873 INFO  [ConfigInicial] Massa de dados inicializada 
+2020-01-17 16:58:16,873 INFO  [ConfigInicial] Configuracoes iniciais concluidas 
+2020-01-17 16:58:18,385 INFO  [ConfigInicial] Navegador encerrado 
+2020-01-17 17:00:05,007 INFO  [ConfigInicial] Configuracoes iniciais em andamento 
+2020-01-17 17:00:13,481 INFO  [DriverFactory] Driver criado 
+2020-01-17 17:00:14,574 INFO  [DriverFactory] Navegador inicializado com o site https://www.advantageonlineshopping.com/#/ 
+2020-01-17 17:00:18,957 INFO  [DriverFactory] Navegador maximizado 
+2020-01-17 17:00:18,968 INFO  [DriverFactory] Comando de espera ImplicityWait inicializado 
+2020-01-17 17:00:18,969 INFO  [ConfigInicial] Driver fabricado 
+2020-01-17 17:00:19,036 INFO  [ConfigInicial] HomePageFactory inicializada 
+2020-01-17 17:00:19,040 INFO  [ConfigInicial] ProductPageFactory inicializada 
+2020-01-17 17:00:20,099 INFO  [ConfigInicial] Massa de dados inicializada 
+2020-01-17 17:00:20,099 INFO  [ConfigInicial] Configuracoes iniciais concluidas 
+2020-01-17 17:00:36,013 INFO  [ConfigInicial] Navegador encerrado 
+2020-01-17 17:01:12,632 INFO  [ConfigInicial] Configuracoes iniciais em andamento 
+2020-01-17 17:01:20,211 INFO  [DriverFactory] Driver criado 
+2020-01-17 17:01:21,247 INFO  [DriverFactory] Navegador inicializado com o site https://www.advantageonlineshopping.com/#/ 
+2020-01-17 17:01:25,455 INFO  [DriverFactory] Navegador maximizado 
+2020-01-17 17:01:25,464 INFO  [DriverFactory] Comando de espera ImplicityWait inicializado 
+2020-01-17 17:01:25,464 INFO  [ConfigInicial] Driver fabricado 
+2020-01-17 17:01:25,504 INFO  [ConfigInicial] HomePageFactory inicializada 
+2020-01-17 17:01:25,508 INFO  [ConfigInicial] ProductPageFactory inicializada 
+2020-01-17 17:01:26,366 INFO  [ConfigInicial] Massa de dados inicializada 
+2020-01-17 17:01:26,366 INFO  [ConfigInicial] Configuracoes iniciais concluidas 
+2020-01-17 17:01:42,351 INFO  [ConfigInicial] Navegador encerrado 
+2020-01-17 17:01:59,926 INFO  [ConfigInicial] Configuracoes iniciais em andamento 
+2020-01-17 17:02:06,852 INFO  [DriverFactory] Driver criado 
+2020-01-17 17:02:09,750 INFO  [DriverFactory] Navegador inicializado com o site https://www.advantageonlineshopping.com/#/ 
+2020-01-17 17:02:13,926 INFO  [DriverFactory] Navegador maximizado 
+2020-01-17 17:02:13,932 INFO  [DriverFactory] Comando de espera ImplicityWait inicializado 
+2020-01-17 17:02:13,933 INFO  [ConfigInicial] Driver fabricado 
+2020-01-17 17:02:13,977 INFO  [ConfigInicial] HomePageFactory inicializada 
+2020-01-17 17:02:13,980 INFO  [ConfigInicial] ProductPageFactory inicializada 
+2020-01-17 17:02:14,897 INFO  [ConfigInicial] Massa de dados inicializada 
+2020-01-17 17:02:14,897 INFO  [ConfigInicial] Configuracoes iniciais concluidas 
+2020-01-17 17:02:15,844 INFO  [ConfigInicial] Navegador encerrado 
+2020-01-17 17:04:42,143 INFO  [ConfigInicial] Configuracoes iniciais em andamento 
+2020-01-17 17:04:49,518 INFO  [DriverFactory] Driver criado 
+2020-01-17 17:04:50,473 INFO  [DriverFactory] Navegador inicializado com o site https://www.advantageonlineshopping.com/#/ 
+2020-01-17 17:04:54,635 INFO  [DriverFactory] Navegador maximizado 
+2020-01-17 17:04:54,642 INFO  [DriverFactory] Comando de espera ImplicityWait inicializado 
+2020-01-17 17:04:54,642 INFO  [ConfigInicial] Driver fabricado 
+2020-01-17 17:04:54,697 INFO  [ConfigInicial] HomePageFactory inicializada 
+2020-01-17 17:04:54,701 INFO  [ConfigInicial] ProductPageFactory inicializada 
+2020-01-17 17:04:55,686 INFO  [ConfigInicial] Massa de dados inicializada 
+2020-01-17 17:04:55,686 INFO  [ConfigInicial] Configuracoes iniciais concluidas 
+2020-01-17 17:04:57,249 INFO  [ConfigInicial] Navegador encerrado 
+2020-01-17 17:05:37,847 INFO  [ConfigInicial] Configuracoes iniciais em andamento 
+2020-01-17 17:05:45,250 INFO  [DriverFactory] Driver criado 
+2020-01-17 17:05:46,330 INFO  [DriverFactory] Navegador inicializado com o site https://www.advantageonlineshopping.com/#/ 
+2020-01-17 17:05:50,521 INFO  [DriverFactory] Navegador maximizado 
+2020-01-17 17:05:50,528 INFO  [DriverFactory] Comando de espera ImplicityWait inicializado 
+2020-01-17 17:05:50,528 INFO  [ConfigInicial] Driver fabricado 
+2020-01-17 17:05:50,577 INFO  [ConfigInicial] HomePageFactory inicializada 
+2020-01-17 17:05:50,580 INFO  [ConfigInicial] ProductPageFactory inicializada 
+2020-01-17 17:05:51,649 INFO  [ConfigInicial] Massa de dados inicializada 
+2020-01-17 17:05:51,649 INFO  [ConfigInicial] Configuracoes iniciais concluidas 
+2020-01-17 17:06:07,561 INFO  [ConfigInicial] Navegador encerrado 
+2020-01-17 17:08:12,429 INFO  [ConfigInicial] Configuracoes iniciais em andamento 
+2020-01-17 17:08:19,710 INFO  [DriverFactory] Driver criado 
+2020-01-17 17:08:20,780 INFO  [DriverFactory] Navegador inicializado com o site https://www.advantageonlineshopping.com/#/ 
+2020-01-17 17:08:24,966 INFO  [DriverFactory] Navegador maximizado 
+2020-01-17 17:08:24,970 INFO  [DriverFactory] Comando de espera ImplicityWait inicializado 
+2020-01-17 17:08:24,970 INFO  [ConfigInicial] Driver fabricado 
+2020-01-17 17:08:25,016 INFO  [ConfigInicial] HomePageFactory inicializada 
+2020-01-17 17:08:25,019 INFO  [ConfigInicial] ProductPageFactory inicializada 
+2020-01-17 17:08:25,988 INFO  [ConfigInicial] Massa de dados inicializada 
+2020-01-17 17:08:25,988 INFO  [ConfigInicial] Configuracoes iniciais concluidas 
+2020-01-17 17:08:41,961 INFO  [ConfigInicial] Navegador encerrado 
+2020-01-17 17:09:02,767 INFO  [ConfigInicial] Configuracoes iniciais em andamento 
+2020-01-17 17:09:09,618 INFO  [DriverFactory] Driver criado 
+2020-01-17 17:09:10,604 INFO  [DriverFactory] Navegador inicializado com o site https://www.advantageonlineshopping.com/#/ 
+2020-01-17 17:09:14,790 INFO  [DriverFactory] Navegador maximizado 
+2020-01-17 17:09:14,797 INFO  [DriverFactory] Comando de espera ImplicityWait inicializado 
+2020-01-17 17:09:14,798 INFO  [ConfigInicial] Driver fabricado 
+2020-01-17 17:09:14,839 INFO  [ConfigInicial] HomePageFactory inicializada 
+2020-01-17 17:09:14,841 INFO  [ConfigInicial] ProductPageFactory inicializada 
+2020-01-17 17:09:15,729 INFO  [ConfigInicial] Massa de dados inicializada 
+2020-01-17 17:09:15,729 INFO  [ConfigInicial] Configuracoes iniciais concluidas 
+2020-01-17 17:09:31,604 INFO  [ConfigInicial] Navegador encerrado 
+2020-01-17 17:10:09,088 INFO  [ConfigInicial] Configuracoes iniciais em andamento 
+2020-01-17 17:10:15,748 INFO  [DriverFactory] Driver criado 
+2020-01-17 17:10:17,483 INFO  [DriverFactory] Navegador inicializado com o site https://www.advantageonlineshopping.com/#/ 
+2020-01-17 17:10:21,675 INFO  [DriverFactory] Navegador maximizado 
+2020-01-17 17:10:21,683 INFO  [DriverFactory] Comando de espera ImplicityWait inicializado 
+2020-01-17 17:10:21,683 INFO  [ConfigInicial] Driver fabricado 
+2020-01-17 17:10:21,729 INFO  [ConfigInicial] HomePageFactory inicializada 
+2020-01-17 17:10:21,735 INFO  [ConfigInicial] ProductPageFactory inicializada 
+2020-01-17 17:10:22,881 INFO  [ConfigInicial] Massa de dados inicializada 
+2020-01-17 17:10:22,881 INFO  [ConfigInicial] Configuracoes iniciais concluidas 
+2020-01-17 17:10:28,390 INFO  [ConfigInicial] Navegador encerrado 
+2020-01-17 17:12:23,696 INFO  [ConfigInicial] Configuracoes iniciais em andamento 
+2020-01-17 17:12:31,029 INFO  [DriverFactory] Driver criado 
+2020-01-17 17:12:32,034 INFO  [DriverFactory] Navegador inicializado com o site https://www.advantageonlineshopping.com/#/ 
+2020-01-17 17:12:36,210 INFO  [DriverFactory] Navegador maximizado 
+2020-01-17 17:12:36,217 INFO  [DriverFactory] Comando de espera ImplicityWait inicializado 
+2020-01-17 17:12:36,217 INFO  [ConfigInicial] Driver fabricado 
+2020-01-17 17:12:36,256 INFO  [ConfigInicial] HomePageFactory inicializada 
+2020-01-17 17:12:36,259 INFO  [ConfigInicial] ProductPageFactory inicializada 
+2020-01-17 17:12:37,143 INFO  [ConfigInicial] Massa de dados inicializada 
+2020-01-17 17:12:37,143 INFO  [ConfigInicial] Configuracoes iniciais concluidas 
+2020-01-17 17:12:38,143 INFO  [ConfigInicial] Navegador encerrado 
+2020-01-17 17:13:44,417 INFO  [ConfigInicial] Configuracoes iniciais em andamento 
+2020-01-17 17:13:52,204 INFO  [DriverFactory] Driver criado 
+2020-01-17 17:13:53,177 INFO  [DriverFactory] Navegador inicializado com o site https://www.advantageonlineshopping.com/#/ 
+2020-01-17 17:13:57,385 INFO  [DriverFactory] Navegador maximizado 
+2020-01-17 17:13:57,397 INFO  [DriverFactory] Comando de espera ImplicityWait inicializado 
+2020-01-17 17:13:57,397 INFO  [ConfigInicial] Driver fabricado 
+2020-01-17 17:13:57,453 INFO  [ConfigInicial] HomePageFactory inicializada 
+2020-01-17 17:13:57,466 INFO  [ConfigInicial] ProductPageFactory inicializada 
+2020-01-17 17:13:58,380 INFO  [ConfigInicial] Massa de dados inicializada 
+2020-01-17 17:13:58,380 INFO  [ConfigInicial] Configuracoes iniciais concluidas 
+2020-01-17 17:13:58,865 INFO  [ConfigInicial] Navegador encerrado 
+2020-01-17 17:14:11,117 INFO  [ConfigInicial] Configuracoes iniciais em andamento 
+2020-01-17 17:14:18,914 INFO  [DriverFactory] Driver criado 
+2020-01-17 17:14:20,001 INFO  [DriverFactory] Navegador inicializado com o site https://www.advantageonlineshopping.com/#/ 
+2020-01-17 17:14:24,179 INFO  [DriverFactory] Navegador maximizado 
+2020-01-17 17:14:24,189 INFO  [DriverFactory] Comando de espera ImplicityWait inicializado 
+2020-01-17 17:14:24,189 INFO  [ConfigInicial] Driver fabricado 
+2020-01-17 17:14:24,238 INFO  [ConfigInicial] HomePageFactory inicializada 
+2020-01-17 17:14:24,242 INFO  [ConfigInicial] ProductPageFactory inicializada 
+2020-01-17 17:14:25,153 INFO  [ConfigInicial] Massa de dados inicializada 
+2020-01-17 17:14:25,153 INFO  [ConfigInicial] Configuracoes iniciais concluidas 
+2020-01-17 17:14:25,494 INFO  [ConfigInicial] Navegador encerrado 
+2020-01-17 17:24:23,957 INFO  [ConfigInicial] Configuracoes iniciais em andamento 
+2020-01-17 17:24:30,674 INFO  [DriverFactory] Driver criado 
+2020-01-17 17:24:32,289 INFO  [DriverFactory] Navegador inicializado com o site https://www.advantageonlineshopping.com/#/ 
+2020-01-17 17:24:36,452 INFO  [DriverFactory] Navegador maximizado 
+2020-01-17 17:24:36,459 INFO  [DriverFactory] Comando de espera ImplicityWait inicializado 
+2020-01-17 17:24:36,459 INFO  [ConfigInicial] Driver fabricado 
+2020-01-17 17:24:36,502 INFO  [ConfigInicial] HomePageFactory inicializada 
+2020-01-17 17:24:36,502 INFO  [ConfigInicial] ProductPageFactory inicializada 
+2020-01-17 17:24:37,448 INFO  [ConfigInicial] Massa de dados inicializada 
+2020-01-17 17:24:37,448 INFO  [ConfigInicial] Configuracoes iniciais concluidas 
+2020-01-17 17:24:37,628 INFO  [ConfigInicial] Navegador encerrado 
+2020-01-17 17:26:22,077 INFO  [ConfigInicial] Configuracoes iniciais em andamento 
+2020-01-17 17:26:28,831 INFO  [DriverFactory] Driver criado 
+2020-01-17 17:26:29,921 INFO  [DriverFactory] Navegador inicializado com o site https://www.advantageonlineshopping.com/#/ 
+2020-01-17 17:26:34,095 INFO  [DriverFactory] Navegador maximizado 
+2020-01-17 17:26:34,099 INFO  [DriverFactory] Comando de espera ImplicityWait inicializado 
+2020-01-17 17:26:34,099 INFO  [ConfigInicial] Driver fabricado 
+2020-01-17 17:26:34,138 INFO  [ConfigInicial] HomePageFactory inicializada 
+2020-01-17 17:26:34,143 INFO  [ConfigInicial] ProductPageFactory inicializada 
+2020-01-17 17:26:34,977 INFO  [ConfigInicial] Massa de dados inicializada 
+2020-01-17 17:26:34,977 INFO  [ConfigInicial] Configuracoes iniciais concluidas 
+2020-01-17 17:26:35,018 INFO  [ConfigInicial] Navegador encerrado 
+2020-01-17 17:26:44,971 INFO  [ConfigInicial] Configuracoes iniciais em andamento 
+2020-01-17 17:26:51,771 INFO  [DriverFactory] Driver criado 
+2020-01-17 17:26:52,702 INFO  [DriverFactory] Navegador inicializado com o site https://www.advantageonlineshopping.com/#/ 
+2020-01-17 17:26:56,739 INFO  [DriverFactory] Navegador maximizado 
+2020-01-17 17:26:56,747 INFO  [DriverFactory] Comando de espera ImplicityWait inicializado 
+2020-01-17 17:26:56,748 INFO  [ConfigInicial] Driver fabricado 
+2020-01-17 17:26:56,787 INFO  [ConfigInicial] HomePageFactory inicializada 
+2020-01-17 17:26:56,791 INFO  [ConfigInicial] ProductPageFactory inicializada 
+2020-01-17 17:26:57,665 INFO  [ConfigInicial] Massa de dados inicializada 
+2020-01-17 17:26:57,665 INFO  [ConfigInicial] Configuracoes iniciais concluidas 
+2020-01-17 17:26:57,710 INFO  [ConfigInicial] Navegador encerrado 
+2020-01-17 17:30:36,847 INFO  [ConfigInicial] Configuracoes iniciais em andamento 
+2020-01-17 17:30:43,676 INFO  [DriverFactory] Driver criado 
+2020-01-17 17:30:44,645 INFO  [DriverFactory] Navegador inicializado com o site https://www.advantageonlineshopping.com/#/ 
+2020-01-17 17:30:48,835 INFO  [DriverFactory] Navegador maximizado 
+2020-01-17 17:30:48,842 INFO  [DriverFactory] Comando de espera ImplicityWait inicializado 
+2020-01-17 17:30:48,842 INFO  [ConfigInicial] Driver fabricado 
+2020-01-17 17:30:48,904 INFO  [ConfigInicial] HomePageFactory inicializada 
+2020-01-17 17:30:48,906 INFO  [ConfigInicial] ProductPageFactory inicializada 
+2020-01-17 17:30:48,906 INFO  [ConfigInicial] Caminho para envio das capturas de tela definido 
+2020-01-17 17:30:49,979 INFO  [ConfigInicial] Massa de dados inicializada 
+2020-01-17 17:30:49,979 INFO  [ConfigInicial] Configuracoes iniciais concluidas 
+2020-01-17 17:30:50,724 INFO  [ConfigInicial] Navegador encerrado 
+2020-01-17 17:33:19,519 INFO  [ConfigInicial] Configuracoes iniciais em andamento 
+2020-01-17 17:33:26,255 INFO  [DriverFactory] Driver criado 
+2020-01-17 17:33:27,415 INFO  [DriverFactory] Navegador inicializado com o site https://www.advantageonlineshopping.com/#/ 
+2020-01-17 17:33:31,666 INFO  [DriverFactory] Navegador maximizado 
+2020-01-17 17:33:31,680 INFO  [DriverFactory] Comando de espera ImplicityWait inicializado 
+2020-01-17 17:33:31,683 INFO  [ConfigInicial] Driver fabricado 
+2020-01-17 17:33:31,757 INFO  [ConfigInicial] HomePageFactory inicializada 
+2020-01-17 17:33:31,764 INFO  [ConfigInicial] ProductPageFactory inicializada 
+2020-01-17 17:33:31,764 INFO  [ConfigInicial] Caminho para envio das capturas de tela definido 
+2020-01-17 17:33:32,685 INFO  [ConfigInicial] Massa de dados inicializada 
+2020-01-17 17:33:32,685 INFO  [ConfigInicial] Configuracoes iniciais concluidas 
+2020-01-17 17:33:34,045 INFO  [ConfigInicial] Navegador encerrado 
+2020-01-17 17:33:50,164 INFO  [ConfigInicial] Configuracoes iniciais em andamento 
+2020-01-17 17:33:57,248 INFO  [DriverFactory] Driver criado 
+2020-01-17 17:33:58,308 INFO  [DriverFactory] Navegador inicializado com o site https://www.advantageonlineshopping.com/#/ 
+2020-01-17 17:34:02,478 INFO  [DriverFactory] Navegador maximizado 
+2020-01-17 17:34:02,487 INFO  [DriverFactory] Comando de espera ImplicityWait inicializado 
+2020-01-17 17:34:02,488 INFO  [ConfigInicial] Driver fabricado 
+2020-01-17 17:34:02,535 INFO  [ConfigInicial] HomePageFactory inicializada 
+2020-01-17 17:34:02,540 INFO  [ConfigInicial] ProductPageFactory inicializada 
+2020-01-17 17:34:02,541 INFO  [ConfigInicial] Caminho para envio das capturas de tela definido 
+2020-01-17 17:34:03,602 INFO  [ConfigInicial] Massa de dados inicializada 
+2020-01-17 17:34:03,602 INFO  [ConfigInicial] Configuracoes iniciais concluidas 
+2020-01-17 17:34:04,760 INFO  [ConfigInicial] Navegador encerrado 
+2020-01-17 17:37:18,303 INFO  [ConfigInicial] Configuracoes iniciais em andamento 
+2020-01-17 17:37:24,995 INFO  [DriverFactory] Driver criado 
+2020-01-17 17:37:25,959 INFO  [DriverFactory] Navegador inicializado com o site https://www.advantageonlineshopping.com/#/ 
+2020-01-17 17:37:30,163 INFO  [DriverFactory] Navegador maximizado 
+2020-01-17 17:37:30,168 INFO  [DriverFactory] Comando de espera ImplicityWait inicializado 
+2020-01-17 17:37:30,168 INFO  [ConfigInicial] Driver fabricado 
+2020-01-17 17:37:30,217 INFO  [ConfigInicial] HomePageFactory inicializada 
+2020-01-17 17:37:30,224 INFO  [ConfigInicial] ProductPageFactory inicializada 
+2020-01-17 17:37:30,225 INFO  [ConfigInicial] Caminho para envio das capturas de tela definido 
+2020-01-17 17:37:31,156 INFO  [ConfigInicial] Massa de dados inicializada 
+2020-01-17 17:37:31,157 INFO  [ConfigInicial] Configuracoes iniciais concluidas 
+2020-01-17 17:37:32,533 INFO  [ConfigInicial] Navegador encerrado 
+2020-01-17 17:37:32,550 INFO  [ConfigInicial] Configuracoes iniciais em andamento 
+2020-01-17 17:37:37,916 INFO  [DriverFactory] Driver criado 
+2020-01-17 17:37:38,940 INFO  [DriverFactory] Navegador inicializado com o site https://www.advantageonlineshopping.com/#/ 
+2020-01-17 17:37:43,131 INFO  [DriverFactory] Navegador maximizado 
+2020-01-17 17:37:43,138 INFO  [DriverFactory] Comando de espera ImplicityWait inicializado 
+2020-01-17 17:37:43,139 INFO  [ConfigInicial] Driver fabricado 
+2020-01-17 17:37:43,140 INFO  [ConfigInicial] HomePageFactory inicializada 
+2020-01-17 17:37:43,141 INFO  [ConfigInicial] ProductPageFactory inicializada 
+2020-01-17 17:37:43,141 INFO  [ConfigInicial] Caminho para envio das capturas de tela definido 
+2020-01-17 17:37:43,219 INFO  [ConfigInicial] Massa de dados inicializada 
+2020-01-17 17:37:43,219 INFO  [ConfigInicial] Configuracoes iniciais concluidas 
+2020-01-17 17:37:44,756 INFO  [ConfigInicial] Navegador encerrado 
+2020-01-17 17:38:48,059 INFO  [ConfigInicial] Configuracoes iniciais em andamento 
+2020-01-17 17:38:54,774 INFO  [DriverFactory] Driver criado 
+2020-01-17 17:38:55,768 INFO  [DriverFactory] Navegador inicializado com o site https://www.advantageonlineshopping.com/#/ 
+2020-01-17 17:38:59,947 INFO  [DriverFactory] Navegador maximizado 
+2020-01-17 17:38:59,955 INFO  [DriverFactory] Comando de espera ImplicityWait inicializado 
+2020-01-17 17:38:59,955 INFO  [ConfigInicial] Driver fabricado 
+2020-01-17 17:38:59,995 INFO  [ConfigInicial] HomePageFactory inicializada 
+2020-01-17 17:38:59,998 INFO  [ConfigInicial] ProductPageFactory inicializada 
+2020-01-17 17:38:59,999 INFO  [ConfigInicial] Caminho para envio das capturas de tela definido 
+2020-01-17 17:39:00,848 INFO  [ConfigInicial] Massa de dados inicializada 
+2020-01-17 17:39:00,848 INFO  [ConfigInicial] Configuracoes iniciais concluidas 
+2020-01-17 17:39:01,998 INFO  [ConfigInicial] Navegador encerrado 
+2020-01-17 17:39:02,012 INFO  [ConfigInicial] Configuracoes iniciais em andamento 
+2020-01-17 17:39:07,234 INFO  [DriverFactory] Driver criado 
+2020-01-17 17:39:08,190 INFO  [DriverFactory] Navegador inicializado com o site https://www.advantageonlineshopping.com/#/ 
+2020-01-17 17:39:12,365 INFO  [DriverFactory] Navegador maximizado 
+2020-01-17 17:39:12,372 INFO  [DriverFactory] Comando de espera ImplicityWait inicializado 
+2020-01-17 17:39:12,372 INFO  [ConfigInicial] Driver fabricado 
+2020-01-17 17:39:12,373 INFO  [ConfigInicial] HomePageFactory inicializada 
+2020-01-17 17:39:12,373 INFO  [ConfigInicial] ProductPageFactory inicializada 
+2020-01-17 17:39:12,373 INFO  [ConfigInicial] Caminho para envio das capturas de tela definido 
+2020-01-17 17:39:12,433 INFO  [ConfigInicial] Massa de dados inicializada 
+2020-01-17 17:39:12,434 INFO  [ConfigInicial] Configuracoes iniciais concluidas 
+2020-01-17 17:39:13,641 INFO  [ConfigInicial] Navegador encerrado 
+2020-01-17 17:41:59,099 INFO  [ConfigInicial] Configuracoes iniciais em andamento 
+2020-01-17 17:42:06,003 INFO  [DriverFactory] Driver criado 
+2020-01-17 17:42:07,838 INFO  [DriverFactory] Navegador inicializado com o site https://www.advantageonlineshopping.com/#/ 
+2020-01-17 17:42:12,068 INFO  [DriverFactory] Navegador maximizado 
+2020-01-17 17:42:12,080 INFO  [DriverFactory] Comando de espera ImplicityWait inicializado 
+2020-01-17 17:42:12,080 INFO  [ConfigInicial] Driver fabricado 
+2020-01-17 17:42:12,135 INFO  [ConfigInicial] HomePageFactory inicializada 
+2020-01-17 17:42:12,142 INFO  [ConfigInicial] ProductPageFactory inicializada 
+2020-01-17 17:42:12,142 INFO  [ConfigInicial] Caminho para envio das capturas de tela definido 
+2020-01-17 17:42:12,980 INFO  [ConfigInicial] Massa de dados inicializada 
+2020-01-17 17:42:12,983 INFO  [ConfigInicial] Configuracoes iniciais concluidas 
+2020-01-17 17:42:15,122 INFO  [DriverFactory] Driver encerrado 
+2020-01-17 17:42:15,122 INFO  [ConfigInicial] Navegador encerrado 
+2020-01-17 17:42:15,144 INFO  [ConfigInicial] Configuracoes iniciais em andamento 
+2020-01-17 17:42:20,630 INFO  [DriverFactory] Driver criado 
+2020-01-17 17:42:21,463 INFO  [DriverFactory] Navegador inicializado com o site https://www.advantageonlineshopping.com/#/ 
+2020-01-17 17:42:25,614 INFO  [DriverFactory] Navegador maximizado 
+2020-01-17 17:42:25,622 INFO  [DriverFactory] Comando de espera ImplicityWait inicializado 
+2020-01-17 17:42:25,624 INFO  [ConfigInicial] Driver fabricado 
+2020-01-17 17:42:25,625 INFO  [ConfigInicial] HomePageFactory inicializada 
+2020-01-17 17:42:25,626 INFO  [ConfigInicial] ProductPageFactory inicializada 
+2020-01-17 17:42:25,626 INFO  [ConfigInicial] Caminho para envio das capturas de tela definido 
+2020-01-17 17:42:25,701 INFO  [ConfigInicial] Massa de dados inicializada 
+2020-01-17 17:42:25,702 INFO  [ConfigInicial] Configuracoes iniciais concluidas 
+2020-01-17 17:42:27,965 INFO  [DriverFactory] Driver encerrado 
+2020-01-17 17:42:27,965 INFO  [ConfigInicial] Navegador encerrado 
+2020-01-17 17:44:05,334 INFO  [ConfigInicial] Configuracoes iniciais em andamento 
+2020-01-17 17:44:11,921 INFO  [DriverFactory] Driver criado 
+2020-01-17 17:44:12,860 INFO  [DriverFactory] Navegador inicializado com o site https://www.advantageonlineshopping.com/#/ 
+2020-01-17 17:44:17,058 INFO  [DriverFactory] Navegador maximizado 
+2020-01-17 17:44:17,067 INFO  [DriverFactory] Comando de espera ImplicityWait inicializado 
+2020-01-17 17:44:17,067 INFO  [ConfigInicial] Driver fabricado 
+2020-01-17 17:44:17,120 INFO  [ConfigInicial] HomePageFactory inicializada 
+2020-01-17 17:44:17,126 INFO  [ConfigInicial] ProductPageFactory inicializada 
+2020-01-17 17:44:17,126 INFO  [ConfigInicial] Caminho para envio das capturas de tela definido 
+2020-01-17 17:44:18,062 INFO  [ConfigInicial] Massa de dados inicializada 
+2020-01-17 17:44:18,062 INFO  [ConfigInicial] Configuracoes iniciais concluidas 
+2020-01-17 17:44:20,380 INFO  [DriverFactory] Driver encerrado 
+2020-01-17 17:44:20,381 INFO  [ConfigInicial] Navegador encerrado 
+2020-01-17 17:44:20,407 INFO  [ConfigInicial] Configuracoes iniciais em andamento 
+2020-01-17 17:44:25,939 INFO  [DriverFactory] Driver criado 
+2020-01-17 17:44:26,967 INFO  [DriverFactory] Navegador inicializado com o site https://www.advantageonlineshopping.com/#/ 
+2020-01-17 17:44:31,158 INFO  [DriverFactory] Navegador maximizado 
+2020-01-17 17:44:31,163 INFO  [DriverFactory] Comando de espera ImplicityWait inicializado 
+2020-01-17 17:44:31,163 INFO  [ConfigInicial] Driver fabricado 
+2020-01-17 17:44:31,163 INFO  [ConfigInicial] HomePageFactory inicializada 
+2020-01-17 17:44:31,163 INFO  [ConfigInicial] ProductPageFactory inicializada 
+2020-01-17 17:44:31,166 INFO  [ConfigInicial] Caminho para envio das capturas de tela definido 
+2020-01-17 17:44:31,222 INFO  [ConfigInicial] Massa de dados inicializada 
+2020-01-17 17:44:31,222 INFO  [ConfigInicial] Configuracoes iniciais concluidas 
+2020-01-17 17:44:34,136 INFO  [DriverFactory] Driver encerrado 
+2020-01-17 17:44:34,136 INFO  [ConfigInicial] Navegador encerrado 
+2020-01-17 17:45:10,214 INFO  [ConfigInicial] Configuracoes iniciais em andamento 
+2020-01-17 17:45:16,719 INFO  [DriverFactory] Driver criado 
+2020-01-17 17:45:17,742 INFO  [DriverFactory] Navegador inicializado com o site https://www.advantageonlineshopping.com/#/ 
+2020-01-17 17:45:21,940 INFO  [DriverFactory] Navegador maximizado 
+2020-01-17 17:45:21,946 INFO  [DriverFactory] Comando de espera ImplicityWait inicializado 
+2020-01-17 17:45:21,946 INFO  [ConfigInicial] Driver fabricado 
+2020-01-17 17:45:21,990 INFO  [ConfigInicial] HomePageFactory inicializada 
+2020-01-17 17:45:21,994 INFO  [ConfigInicial] ProductPageFactory inicializada 
+2020-01-17 17:45:21,994 INFO  [ConfigInicial] Caminho para envio das capturas de tela definido 
+2020-01-17 17:45:23,040 INFO  [ConfigInicial] Massa de dados inicializada 
+2020-01-17 17:45:23,040 INFO  [ConfigInicial] Configuracoes iniciais concluidas 
+2020-01-17 17:45:25,338 INFO  [DriverFactory] Driver encerrado 
+2020-01-17 17:45:25,339 INFO  [ConfigInicial] Navegador encerrado 
+2020-01-17 17:45:25,360 INFO  [ConfigInicial] Configuracoes iniciais em andamento 
+2020-01-17 17:45:30,899 INFO  [DriverFactory] Driver criado 
+2020-01-17 17:45:31,940 INFO  [DriverFactory] Navegador inicializado com o site https://www.advantageonlineshopping.com/#/ 
+2020-01-17 17:45:36,114 INFO  [DriverFactory] Navegador maximizado 
+2020-01-17 17:45:36,122 INFO  [DriverFactory] Comando de espera ImplicityWait inicializado 
+2020-01-17 17:45:36,123 INFO  [ConfigInicial] Driver fabricado 
+2020-01-17 17:45:36,125 INFO  [ConfigInicial] HomePageFactory inicializada 
+2020-01-17 17:45:36,125 INFO  [ConfigInicial] ProductPageFactory inicializada 
+2020-01-17 17:45:36,126 INFO  [ConfigInicial] Caminho para envio das capturas de tela definido 
+2020-01-17 17:45:36,184 INFO  [ConfigInicial] Massa de dados inicializada 
+2020-01-17 17:45:36,184 INFO  [ConfigInicial] Configuracoes iniciais concluidas 
+2020-01-17 17:45:38,441 INFO  [DriverFactory] Driver encerrado 
+2020-01-17 17:45:38,441 INFO  [ConfigInicial] Navegador encerrado 
+2020-01-17 17:48:22,118 INFO  [ConfigInicial] Configuracoes iniciais em andamento 
+2020-01-17 17:48:28,678 INFO  [DriverFactory] Driver criado 
+2020-01-17 17:48:29,646 INFO  [DriverFactory] Navegador inicializado com o site https://www.advantageonlineshopping.com/#/ 
+2020-01-17 17:48:33,869 INFO  [DriverFactory] Navegador maximizado 
+2020-01-17 17:48:33,880 INFO  [DriverFactory] Comando de espera ImplicityWait inicializado 
+2020-01-17 17:48:33,881 INFO  [ConfigInicial] Driver fabricado 
+2020-01-17 17:48:33,943 INFO  [ConfigInicial] HomePageFactory inicializada 
+2020-01-17 17:48:33,947 INFO  [ConfigInicial] ProductPageFactory inicializada 
+2020-01-17 17:48:33,947 INFO  [ConfigInicial] Caminho para envio das capturas de tela definido 
+2020-01-17 17:48:34,933 INFO  [ConfigInicial] Massa de dados inicializada 
+2020-01-17 17:48:34,933 INFO  [ConfigInicial] Configuracoes iniciais concluidas 
+2020-01-17 17:48:37,295 INFO  [DriverFactory] Driver encerrado 
+2020-01-17 17:48:37,295 INFO  [ConfigInicial] Navegador encerrado 
+2020-01-17 17:48:37,317 INFO  [ConfigInicial] Configuracoes iniciais em andamento 
+2020-01-17 17:48:42,578 INFO  [DriverFactory] Driver criado 
+2020-01-17 17:48:43,577 INFO  [DriverFactory] Navegador inicializado com o site https://www.advantageonlineshopping.com/#/ 
+2020-01-17 17:48:47,763 INFO  [DriverFactory] Navegador maximizado 
+2020-01-17 17:48:47,771 INFO  [DriverFactory] Comando de espera ImplicityWait inicializado 
+2020-01-17 17:48:47,771 INFO  [ConfigInicial] Driver fabricado 
+2020-01-17 17:48:47,771 INFO  [ConfigInicial] HomePageFactory inicializada 
+2020-01-17 17:48:47,771 INFO  [ConfigInicial] ProductPageFactory inicializada 
+2020-01-17 17:48:47,771 INFO  [ConfigInicial] Caminho para envio das capturas de tela definido 
+2020-01-17 17:48:47,859 INFO  [ConfigInicial] Massa de dados inicializada 
+2020-01-17 17:48:47,860 INFO  [ConfigInicial] Configuracoes iniciais concluidas 
+2020-01-17 17:48:50,535 INFO  [DriverFactory] Driver encerrado 
+2020-01-17 17:48:50,535 INFO  [ConfigInicial] Navegador encerrado 
+2020-01-17 17:50:17,182 INFO  [ConfigInicial] Configuracoes iniciais em andamento 
+2020-01-17 17:50:23,841 INFO  [DriverFactory] Driver criado 
+2020-01-17 17:50:24,894 INFO  [DriverFactory] Navegador inicializado com o site https://www.advantageonlineshopping.com/#/ 
+2020-01-17 17:50:29,066 INFO  [DriverFactory] Navegador maximizado 
+2020-01-17 17:50:29,075 INFO  [DriverFactory] Comando de espera ImplicityWait inicializado 
+2020-01-17 17:50:29,075 INFO  [ConfigInicial] Driver fabricado 
+2020-01-17 17:50:29,114 INFO  [ConfigInicial] HomePageFactory inicializada 
+2020-01-17 17:50:29,119 INFO  [ConfigInicial] ProductPageFactory inicializada 
+2020-01-17 17:50:29,119 INFO  [ConfigInicial] Caminho para envio das capturas de tela definido 
+2020-01-17 17:50:29,927 INFO  [ConfigInicial] Massa de dados inicializada 
+2020-01-17 17:50:29,927 INFO  [ConfigInicial] Configuracoes iniciais concluidas 
+2020-01-17 17:50:36,043 INFO  [DriverFactory] Driver encerrado 
+2020-01-17 17:50:36,043 INFO  [ConfigInicial] Navegador encerrado 
+2020-01-17 17:50:36,068 INFO  [ConfigInicial] Configuracoes iniciais em andamento 
+2020-01-17 17:50:41,488 INFO  [DriverFactory] Driver criado 
+2020-01-17 17:50:42,331 INFO  [DriverFactory] Navegador inicializado com o site https://www.advantageonlineshopping.com/#/ 
+2020-01-17 17:50:46,543 INFO  [DriverFactory] Navegador maximizado 
+2020-01-17 17:50:46,550 INFO  [DriverFactory] Comando de espera ImplicityWait inicializado 
+2020-01-17 17:50:46,550 INFO  [ConfigInicial] Driver fabricado 
+2020-01-17 17:50:46,552 INFO  [ConfigInicial] HomePageFactory inicializada 
+2020-01-17 17:50:46,552 INFO  [ConfigInicial] ProductPageFactory inicializada 
+2020-01-17 17:50:46,552 INFO  [ConfigInicial] Caminho para envio das capturas de tela definido 
+2020-01-17 17:50:46,627 INFO  [ConfigInicial] Massa de dados inicializada 
+2020-01-17 17:50:46,627 INFO  [ConfigInicial] Configuracoes iniciais concluidas 
+2020-01-17 17:50:52,784 INFO  [DriverFactory] Driver encerrado 
+2020-01-17 17:50:52,784 INFO  [ConfigInicial] Navegador encerrado 

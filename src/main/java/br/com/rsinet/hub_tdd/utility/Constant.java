@@ -52,7 +52,7 @@ public class Constant {
 		return ExcelUtils.getCellData(4, 3);
 	}
 
-	public static String produtoNaoExistente() throws Exception {
+	public static String produtoInexistente() throws Exception {
 		return ExcelUtils.getCellData(5, 3);
 	}
 }

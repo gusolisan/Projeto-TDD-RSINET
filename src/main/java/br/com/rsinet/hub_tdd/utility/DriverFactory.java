@@ -7,10 +7,10 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class DriverFactory {
+	private static WebDriver driver = null;
 	private static Logger log = Logger.getLogger("DriverFactory");
 
 	public static WebDriver driverInit() {
-		WebDriver driver = null;
 		if (driver == null) {
 			driver = new ChromeDriver();
 			log.info("Driver criado");
@@ -27,7 +27,7 @@ public class DriverFactory {
 		return driver;
 	}
 
-	public static void driverQuit(WebDriver driver) {
+	public static void driverQuit() {
 		if (driver != null) {
 			driver.quit();
 			log.info("Driver encerrado");

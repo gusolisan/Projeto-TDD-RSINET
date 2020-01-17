@@ -2,7 +2,9 @@ package br.com.rsinet.hub_tdd.Test;
 
 import org.apache.log4j.Logger;
 import org.apache.log4j.xml.DOMConfigurator;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 import org.testng.Reporter;
@@ -23,12 +25,14 @@ public class CenarioCadastroTest {
 	private static Logger log = Logger.getLogger("ConfigInicial");
 	private static Logger cadastro = Logger.getLogger("Cadastro");
 	private static Logger login = Logger.getLogger("Login");
+	private static Logger print = Logger.getLogger("PrintScreen");
 
-	WebDriver driver;
+	private WebDriver driver;
 
 	HomePage_POF HomePage;
 	LoginPage_POF LoginPage;
 	RegisterPage_POF RegisterPage;
+	Screenshot capturaDeTela;
 
 	@BeforeMethod
 	public void iniciaConfiguracoes() throws Exception {
@@ -46,7 +50,7 @@ public class CenarioCadastroTest {
 
 		RegisterPage = PageFactory.initElements(driver, RegisterPage_POF.class);
 		log.info("RegisterPageFactory inicializado");
-
+		
 		ExcelUtils.setExcelFile(Constant.Path_DadosParaTeste, "CenariosDeTeste");
 		log.info("Massa de dados inicializada");
 		log.info("Configuracoes iniciais concluidas");
@@ -54,7 +58,7 @@ public class CenarioCadastroTest {
 
 	@AfterMethod
 	public void encerraConfiguracoes() {
-		DriverFactory.driverQuit(driver);
+		DriverFactory.driverQuit();
 		log.info("Navegador encerrado");
 	}
 
@@ -113,14 +117,15 @@ public class CenarioCadastroTest {
 
 		RegisterPage.clicaNoBotaoRegistrar();
 		cadastro.info("Botao register clicado");
+		
 
 		Reporter.log("Cadastro realizado com sucesso | ");
 
 		Assert.assertEquals(HomePage.nomeUsuarioLogado(), Constant.usuario());
 
-		Screenshot.printScreen("CadastroRealizado", driver);
-		cadastro.info("Print da tela efetuado");
-
+		Screenshot.printScreen(driver, "ProdutoEncontrado",
+				"C:\\Users\\g.santos\\eclipse-workspace\\ProjetoTDD\\src\\main\\java\\br\\com\\rsinet\\hub_tdd\\screenshotsDosTestes\\Cenario de Cadastro\\");
+		print.info("Print da tela efetuado");
 		Reporter.log("Aplicação Web encerrada");
 	}
 
@@ -144,8 +149,9 @@ public class CenarioCadastroTest {
 
 		Assert.assertTrue(HomePage.nomeUsuarioLogadoApareceNaTela());
 
-		Screenshot.printScreen("LoginEfetuado", driver);
-		login.info("Print da tela efetuado");
+		Screenshot.printScreen(driver, "ProdutoEncontrado",
+				"C:\\Users\\g.santos\\eclipse-workspace\\ProjetoTDD\\src\\main\\java\\br\\com\\rsinet\\hub_tdd\\screenshotsDosTestes\\Cenario de Cadastro\\");
+		print.info("Print da tela efetuado");
 
 		Reporter.log("Aplicação Web encerrada");
 	}
@@ -205,10 +211,17 @@ public class CenarioCadastroTest {
 
 		RegisterPage.clicaNoBotaoRegistrar();
 		cadastro.info("Botao register clicado");
+		
+		Actions actions = new Actions(driver);
+		actions.sendKeys(Keys.TAB).sendKeys(Keys.TAB).perform();
 
 		Reporter.log("Cadastro não realizado (usuario já existente) | ");
 
 		Assert.assertFalse(HomePage.nomeUsuarioLogadoApareceNaTela());
+		
+		Screenshot.printScreen(driver, "ProdutoEncontrado",
+				"C:\\Users\\g.santos\\eclipse-workspace\\ProjetoTDD\\src\\main\\java\\br\\com\\rsinet\\hub_tdd\\screenshotsDosTestes\\Cenario de Cadastro\\");
+		print.info("Print da tela efetuado");
 
 		Reporter.log("Aplicação Web encerrada");
 	}

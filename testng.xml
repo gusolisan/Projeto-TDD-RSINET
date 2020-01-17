@@ -1,0 +1,17 @@
+<suite name="Cenarios de Teste">
+	<test name="Testes de Cadastro">
+		<classes>
+			<class name="br.com.rsinet.hub_tdd.Test.CenarioCadastroTest" />
+		</classes>
+	</test>
+	<test name = "Testes de busca de produto pela barra de pesquisa">
+		<classes>
+			<class name="br.com.rsinet.hub_tdd.Test.CenarioBuscaProdutoPorBarraDePesquisa"/>
+		</classes>
+	</test>
+	<test name = "Testes de busca de produto pela tela">
+		<classes>
+			<class name="br.com.rsinet.hub_tdd.Test.CenarioBuscaProdutoPelaTela"/>
+		</classes>
+	</test>
+</suite>

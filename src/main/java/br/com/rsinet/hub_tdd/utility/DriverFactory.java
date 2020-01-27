@@ -15,7 +15,7 @@ public class DriverFactory {
 			driver = new ChromeDriver();
 			log.info("Driver criado");
 
-			driver.get(MassaDeDados.url);
+			driver.get(Constant.url);
 			log.info("Navegador inicializado com o site https://www.advantageonlineshopping.com/#/");
 
 			driver.manage().window().maximize();

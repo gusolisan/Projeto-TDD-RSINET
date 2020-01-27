@@ -1,9 +1,9 @@
 package br.com.rsinet.hub_tdd.utility;
 
-public class MassaDeDados {
-	private static final String printPath = "C:\\Users\\g.santos\\eclipse-workspace\\ProjetoTDD\\target\\Screenshots\\";
+public class Constant {
+	private static final String printPath = "C:\\My Workspace\\TDD\\target\\Screenshots\\";
 	public static final String url = "https://www.advantageonlineshopping.com/#/";
-	public static final String Path_DadosParaTeste = "C:\\Users\\g.santos\\eclipse-workspace\\ProjetoTDD\\src\\main\\java\\br\\com\\rsinet\\hub_tdd\\dadosParaTeste\\DadosParaTeste.xlsx";
+	public static final String Path_DadosParaTeste = "C:\\My Workspace\\TDD\\src\\main\\java\\br\\com\\rsinet\\hub_tdd\\dadosParaTeste\\DadosParaTeste.xlsx";
 
 	public static String getPrintPath() {
 		return printPath;

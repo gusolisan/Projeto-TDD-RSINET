@@ -15,14 +15,14 @@ import org.testng.annotations.Test;
 import br.com.rsinet.hub_tdd.pageObjectFactory.HomePage_POF;
 import br.com.rsinet.hub_tdd.pageObjectFactory.LoginPage_POF;
 import br.com.rsinet.hub_tdd.pageObjectFactory.RegisterPage_POF;
-import br.com.rsinet.hub_tdd.utility.MassaDeDados;
+import br.com.rsinet.hub_tdd.utility.Constant;
 import br.com.rsinet.hub_tdd.utility.DriverFactory;
 import br.com.rsinet.hub_tdd.utility.ExcelUtils;
 import br.com.rsinet.hub_tdd.utility.Screenshot;
 
 public class CenarioCadastroTest {
 
-	private static Logger log = Logger.getLogger("ConfigInicial");
+	private static Logger log = Logger.getLogger("Configs");
 	private static Logger cadastro = Logger.getLogger("Cadastro");
 	private static Logger login = Logger.getLogger("Login");
 	private static Logger print = Logger.getLogger("PrintScreen");
@@ -51,7 +51,7 @@ public class CenarioCadastroTest {
 		RegisterPage = PageFactory.initElements(driver, RegisterPage_POF.class);
 		log.info("RegisterPageFactory inicializado");
 
-		ExcelUtils.setExcelFile(MassaDeDados.Path_DadosParaTeste, "CenariosDeTeste");
+		ExcelUtils.setExcelFile(Constant.Path_DadosParaTeste, "CenariosDeTeste");
 		log.info("Massa de dados inicializada");
 		log.info("Configuracoes iniciais concluidas");
 	}
@@ -72,41 +72,41 @@ public class CenarioCadastroTest {
 		RegisterPage.clicaEmBotaoCriarConta();
 		cadastro.info("Botao criar nova conta clicado");
 
-		RegisterPage.insereUsername(MassaDeDados.usuario());
+		RegisterPage.insereUsername(Constant.usuario());
 		cadastro.info("Iniciado o cadastro");
 		cadastro.info("Nome de usuario inserido");
 
-		RegisterPage.insereEmail(MassaDeDados.email());
+		RegisterPage.insereEmail(Constant.email());
 		cadastro.info("Email inserido");
 
-		RegisterPage.insereSenha(MassaDeDados.senha());
+		RegisterPage.insereSenha(Constant.senha());
 		cadastro.info("Senha inserida");
 
-		RegisterPage.confirmaSenha(MassaDeDados.senha());
+		RegisterPage.confirmaSenha(Constant.senha());
 		cadastro.info("Senha confirmada");
 
-		RegisterPage.insereNomeDoUsuario(MassaDeDados.nome());
+		RegisterPage.insereNomeDoUsuario(Constant.nome());
 		cadastro.info("Nome inserido");
 
-		RegisterPage.insereSobrenomeDoUsuario(MassaDeDados.sobrenome());
+		RegisterPage.insereSobrenomeDoUsuario(Constant.sobrenome());
 		cadastro.info("Sobrenome inserido");
 
-		RegisterPage.insereTelefone(MassaDeDados.telefone());
+		RegisterPage.insereTelefone(Constant.telefone());
 		cadastro.info("Telefone inserido");
 
-		RegisterPage.insereNacionalidade(MassaDeDados.nacionalidade());
+		RegisterPage.insereNacionalidade(Constant.nacionalidade());
 		cadastro.info("Nacionalidade selecionada");
 
-		RegisterPage.insereCidade(MassaDeDados.cidade());
+		RegisterPage.insereCidade(Constant.cidade());
 		cadastro.info("Cidade inserida");
 
-		RegisterPage.insereEndereco(MassaDeDados.endereco());
+		RegisterPage.insereEndereco(Constant.endereco());
 		cadastro.info("Endereco inserido");
 
-		RegisterPage.insereEstado(MassaDeDados.estado());
+		RegisterPage.insereEstado(Constant.estado());
 		cadastro.info("Estado inserido");
 
-		RegisterPage.insereCEP(MassaDeDados.cep());
+		RegisterPage.insereCEP(Constant.cep());
 		cadastro.info("CEP inserido");
 
 		RegisterPage.clicaNoBotaoPromocoes();
@@ -122,8 +122,9 @@ public class CenarioCadastroTest {
 
 		Assert.assertTrue(HomePage.nomeUsuarioLogado().isDisplayed());
 
-		Screenshot.printScreen(driver, "UsuarioCadastrado", MassaDeDados.getPrintPath());
+		Screenshot.printScreen(driver, "UsuarioCadastrado", Constant.getPrintPath());
 		print.info("Print da tela efetuado");
+
 		Reporter.log("Aplicação Web encerrada");
 	}
 
@@ -134,10 +135,10 @@ public class CenarioCadastroTest {
 		HomePage.clicaEmBotaoConta();
 		login.info("Botao conta clicado");
 
-		LoginPage.insereUsuario(MassaDeDados.usuario());
+		LoginPage.insereUsuario(Constant.usuario());
 		login.info("Nome de usuario inserido no campo username");
 
-		LoginPage.insereSenha(MassaDeDados.senha());
+		LoginPage.insereSenha(Constant.senha());
 		login.info("Senha do usuario inserida no campo password");
 
 		LoginPage.clicaEmBotaoLogar();
@@ -147,7 +148,7 @@ public class CenarioCadastroTest {
 
 		Assert.assertTrue(HomePage.nomeUsuarioLogado().isDisplayed());
 
-		Screenshot.printScreen(driver, "UsuarioLogado", MassaDeDados.getPrintPath());
+		Screenshot.printScreen(driver, "UsuarioLogado", Constant.getPrintPath());
 		print.info("Print da tela efetuado");
 
 		Reporter.log("Aplicação Web encerrada");
@@ -163,41 +164,41 @@ public class CenarioCadastroTest {
 		RegisterPage.clicaEmBotaoCriarConta();
 		cadastro.info("Botao criar nova conta clicado");
 
-		RegisterPage.insereUsername(MassaDeDados.usuario());
+		RegisterPage.insereUsername(Constant.usuario());
 		cadastro.info("Iniciado o cadastro");
 		cadastro.info("Nome de usuario inserido");
 
-		RegisterPage.insereEmail(MassaDeDados.email());
+		RegisterPage.insereEmail(Constant.email());
 		cadastro.info("Email inserido");
 
-		RegisterPage.insereSenha(MassaDeDados.senha());
+		RegisterPage.insereSenha(Constant.senha());
 		cadastro.info("Senha inserida");
 
-		RegisterPage.confirmaSenha(MassaDeDados.senha());
+		RegisterPage.confirmaSenha(Constant.senha());
 		cadastro.info("Senha confirmada");
 
-		RegisterPage.insereNomeDoUsuario(MassaDeDados.nome());
+		RegisterPage.insereNomeDoUsuario(Constant.nome());
 		cadastro.info("Nome inserido");
 
-		RegisterPage.insereSobrenomeDoUsuario(MassaDeDados.sobrenome());
+		RegisterPage.insereSobrenomeDoUsuario(Constant.sobrenome());
 		cadastro.info("Sobrenome inserido");
 
-		RegisterPage.insereTelefone(MassaDeDados.telefone());
+		RegisterPage.insereTelefone(Constant.telefone());
 		cadastro.info("Telefone inserido");
 
-		RegisterPage.insereNacionalidade(MassaDeDados.nacionalidade());
+		RegisterPage.insereNacionalidade(Constant.nacionalidade());
 		cadastro.info("Nacionalidade selecionada");
 
-		RegisterPage.insereCidade(MassaDeDados.cidade());
+		RegisterPage.insereCidade(Constant.cidade());
 		cadastro.info("Cidade inserida");
 
-		RegisterPage.insereEndereco(MassaDeDados.endereco());
+		RegisterPage.insereEndereco(Constant.endereco());
 		cadastro.info("Endereco inserido");
 
-		RegisterPage.insereEstado(MassaDeDados.estado());
+		RegisterPage.insereEstado(Constant.estado());
 		cadastro.info("Estado inserido");
 
-		RegisterPage.insereCEP(MassaDeDados.cep());
+		RegisterPage.insereCEP(Constant.cep());
 		cadastro.info("CEP inserido");
 
 		RegisterPage.clicaNoBotaoPromocoes();
@@ -216,7 +217,7 @@ public class CenarioCadastroTest {
 
 		Assert.assertFalse(HomePage.nomeUsuarioLogadoApareceNaTela());
 
-		Screenshot.printScreen(driver, "UsuarioNaoCadastrado", MassaDeDados.getPrintPath());
+		Screenshot.printScreen(driver, "UsuarioNaoCadastrado", Constant.getPrintPath());
 		print.info("Print da tela efetuado");
 
 		Reporter.log("Aplicação Web encerrada");

@@ -1,6 +1,5 @@
 package br.com.rsinet.hub_tdd.pageObjectFactory;
 
-import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -11,7 +10,6 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 public class ProductPage_POF {
 
 	private final WebDriver driver;
-	private static Logger log = Logger.getLogger("HomePage Actions");
 
 	public ProductPage_POF(WebDriver driver) {
 		this.driver = driver;

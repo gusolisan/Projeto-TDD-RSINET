@@ -2,9 +2,7 @@ package br.com.rsinet.hub_tdd.pageObjectFactory;
 
 import java.util.concurrent.TimeUnit;
 
-import org.apache.log4j.Logger;
 import org.openqa.selenium.Keys;
-import org.openqa.selenium.PageLoadStrategy;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -12,12 +10,11 @@ import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import br.com.rsinet.hub_tdd.utility.MassaDeDados;
+import br.com.rsinet.hub_tdd.utility.Constant;
 
 public class HomePage_POF {
 
 	private final WebDriver driver;
-	private static Logger log = Logger.getLogger("HomePage Actions");
 
 	public HomePage_POF(WebDriver driver) {
 		this.driver = driver;
@@ -109,29 +106,21 @@ public class HomePage_POF {
 
 	public void myAccount() {
 		botaoMyAccount.click();
-		log.info("Botao MyAccount clicado");
 	}
 
 	public void myOrders() {
 		botaoMyOrders.click();
-		log.info("Botao MyOrders clicado");
 	}
 
 	public void deslogar() {
 		botaoDeslogar.click();
-		log.info("Botao SignOut clicado");
 	}
 
 	public void pesquisarProduto(String produto) {
 		WebDriverWait wait = new WebDriverWait(driver, 10);
 		wait.until(ExpectedConditions.elementToBeClickable(botaoPesquisa)).click();
-		log.info("Botao pesquisar clicado");
-
 		wait.until(ExpectedConditions.elementToBeClickable(campoPesquisa)).sendKeys(produto);
-		log.info("Nome do produto inserido: " + produto);
-
 		campoPesquisa.sendKeys(Keys.ENTER);
-		log.info("Produto pesquisado");
 	}
 
 	public boolean nomeUsuarioLogadoApareceNaTela() throws Exception {
@@ -142,7 +131,7 @@ public class HomePage_POF {
 	public WebElement nomeUsuarioLogado() {
 		WebDriverWait wait = new WebDriverWait(driver, 10);
 		try {
-			wait.until(ExpectedConditions.textToBePresentInElement(nomeUsuarioLogado, MassaDeDados.usuario()));
+			wait.until(ExpectedConditions.textToBePresentInElement(nomeUsuarioLogado, Constant.usuario()));
 			return nomeUsuarioLogado;
 		} catch (Exception e) {
 			return nomeUsuarioLogado;

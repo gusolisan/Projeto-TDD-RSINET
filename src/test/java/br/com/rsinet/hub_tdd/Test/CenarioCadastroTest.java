@@ -120,7 +120,7 @@ public class CenarioCadastroTest {
 
 		Reporter.log("Cadastro realizado com sucesso | ");
 
-		Assert.assertTrue(HomePage.nomeUsuarioLogado().isDisplayed());
+		Assert.assertTrue(HomePage.nomeUsuarioLogadoApareceNaPagina());
 
 		Screenshot.printScreen(driver, "UsuarioCadastrado", Constant.getPrintPath());
 		print.info("Print da tela efetuado");
@@ -146,7 +146,7 @@ public class CenarioCadastroTest {
 
 		Reporter.log("Login realizado com sucesso | ");
 
-		Assert.assertTrue(HomePage.nomeUsuarioLogado().isDisplayed());
+		Assert.assertTrue(HomePage.nomeUsuarioLogadoApareceNaPagina());
 
 		Screenshot.printScreen(driver, "UsuarioLogado", Constant.getPrintPath());
 		print.info("Print da tela efetuado");

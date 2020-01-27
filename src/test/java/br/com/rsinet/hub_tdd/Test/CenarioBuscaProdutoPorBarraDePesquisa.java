@@ -62,6 +62,9 @@ public class CenarioBuscaProdutoPorBarraDePesquisa {
 		Pesquisa.info("Produto a pesquisar digitado: " + Constant.produtoExistente());
 		Pesquisa.info("Pesquisa executada");
 
+		SearchPage.fecharPesquisa();
+		Pesquisa.info("Aba pesquisa fechada");
+
 		Screenshot.printScreen(driver, "ProdutoEncontrado", Constant.getPrintPath());
 		print.info("Print da tela efetuado");
 
@@ -81,9 +84,12 @@ public class CenarioBuscaProdutoPorBarraDePesquisa {
 		Pesquisa.info("Produto a pesquisar digitado: " + Constant.produtoInexistente());
 		Pesquisa.info("Pesquisa executada");
 
+		SearchPage.fecharPesquisa();
+		Pesquisa.info("Aba pesquisa fechada");
+
 		Screenshot.printScreen(driver, "ProdutoNaoEncontrado", Constant.getPrintPath());
 		print.info("Print da tela efetuado");
-
+		
 		Reporter.log("Sem resultados de pesquisa | ");
 
 		Assert.assertFalse(SearchPage.validaPresencaDoProdutoInexistente());

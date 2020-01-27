@@ -18,11 +18,16 @@ public class SearchPage_POF {
 		this.driver = driver;
 	}
 
-	@FindBy(how = How.XPATH, using = "//*[@id=\"search\"]/div/div")
+	@FindBy(how = How.XPATH, using = "//*[@id=\"search\"]/div/div/img")
 	private WebElement fecharPesquisa;
 
 	@FindBy(how = How.ID, using = "searchResultLabel")
 	private WebElement resultadoDaPesquisa;
+
+	public void fecharPesquisa() {
+		WebDriverWait wait = new WebDriverWait(driver, 10);
+		wait.until(ExpectedConditions.elementToBeClickable(fecharPesquisa)).click();
+	}
 
 	public boolean validaPresencaDoProdutoInexistente() {
 		return resultadoDaPesquisa.isDisplayed();

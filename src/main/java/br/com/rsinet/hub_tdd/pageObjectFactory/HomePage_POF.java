@@ -128,13 +128,12 @@ public class HomePage_POF {
 		return nomeUsuarioLogado.isDisplayed();
 	}
 
-	public WebElement nomeUsuarioLogado() {
+	public Boolean nomeUsuarioLogadoApareceNaPagina() {
 		WebDriverWait wait = new WebDriverWait(driver, 10);
 		try {
-			wait.until(ExpectedConditions.textToBePresentInElement(nomeUsuarioLogado, Constant.usuario()));
-			return nomeUsuarioLogado;
+			return wait.until(ExpectedConditions.textToBePresentInElement(nomeUsuarioLogado, Constant.usuario()));
 		} catch (Exception e) {
-			return nomeUsuarioLogado;
+			return false;
 		}
 	}
 }

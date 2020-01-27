@@ -79,6 +79,7 @@ public class CenarioBuscaProdutoPelaTela {
 		Screenshot.printScreen(driver, "ProdutoNaoRespectivo", Constant.getPrintPath());
 		print.info("Print da tela efetuado");
 		
+		
 		String nomeDoProdutoCarregado = ProductPage.getNomeDoProduto();
 		busca.info("Produto diferente aparece na pagina de compra");
 		

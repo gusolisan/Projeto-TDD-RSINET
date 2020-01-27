@@ -12,12 +12,13 @@ import org.testng.annotations.Test;
 
 import br.com.rsinet.hub_tdd.pageObjectFactory.HomePage_POF;
 import br.com.rsinet.hub_tdd.pageObjectFactory.SearchPage_POF;
-import br.com.rsinet.hub_tdd.utility.Constant;
+import br.com.rsinet.hub_tdd.utility.MassaDeDados;
 import br.com.rsinet.hub_tdd.utility.DriverFactory;
 import br.com.rsinet.hub_tdd.utility.ExcelUtils;
 import br.com.rsinet.hub_tdd.utility.Screenshot;
 
 public class CenarioBuscaProdutoPorBarraDePesquisa {
+
 	private static Logger log = Logger.getLogger("ConfigInicial");
 	private static Logger print = Logger.getLogger("PrintScreen");
 
@@ -40,14 +41,14 @@ public class CenarioBuscaProdutoPorBarraDePesquisa {
 		SearchPage = PageFactory.initElements(driver, SearchPage_POF.class);
 		log.info("SearchPageFactory inicializada");
 
-		ExcelUtils.setExcelFile(Constant.Path_DadosParaTeste, "CenariosDeTeste");
+		ExcelUtils.setExcelFile(MassaDeDados.Path_DadosParaTeste, "CenariosDeTeste");
 		log.info("Massa de dados inicializada");
 		log.info("Configuracoes iniciais concluidas");
 	}
 
 	@AfterMethod
 	public void encerraConfiguracoes() {
-		DriverFactory.driverQuit();
+		DriverFactory.endDriver();
 		log.info("Navegador encerrado");
 	}
 
@@ -55,10 +56,9 @@ public class CenarioBuscaProdutoPorBarraDePesquisa {
 	public void deveMostrarProdutoExistente() throws Exception {
 		Reporter.log("Aplicação Web iniciada | ");
 
-		HomePage.pesquisarProduto(Constant.produtoExistente());
+		HomePage.pesquisarProduto(MassaDeDados.produtoExistente());
 
-		Screenshot.printScreen(driver, "ProdutoEncontrado",
-				"C:\\Users\\g.santos\\eclipse-workspace\\ProjetoTDD\\src\\main\\java\\br\\com\\rsinet\\hub_tdd\\screenshotsDosTestes\\Cenario de Busca de Produto\\");
+		Screenshot.printScreen(driver, "ProdutoEncontrado", MassaDeDados.getPrintPath());
 		print.info("Print da tela efetuado");
 
 		Assert.assertTrue(SearchPage.validaPresencaDoProdutoExistente());
@@ -72,15 +72,15 @@ public class CenarioBuscaProdutoPorBarraDePesquisa {
 	public void naoDeveMostrarProdutoInexistente() throws Exception {
 		Reporter.log("Aplicação Web iniciada | ");
 
-		HomePage.pesquisarProduto(Constant.produtoInexistente());
+		HomePage.pesquisarProduto(MassaDeDados.produtoInexistente());
 
 		Screenshot.printScreen(driver, "ProdutoNaoEncontrado",
 				"C:\\Users\\g.santos\\eclipse-workspace\\ProjetoTDD\\src\\main\\java\\br\\com\\rsinet\\hub_tdd\\screenshotsDosTestes\\Cenario de Busca de Produto\\");
 		print.info("Print da tela efetuado");
 
-		Assert.assertFalse(SearchPage.validaPresencaDoProdutoInexistente());
-
 		Reporter.log("Sem resultados de pesquisa | ");
+
+		Assert.assertFalse(SearchPage.validaPresencaDoProdutoInexistente());
 
 		Reporter.log("Aplicação Web finalizada");
 	}

@@ -6,8 +6,6 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -15,9 +13,9 @@ import org.testng.annotations.Test;
 
 import br.com.rsinet.hub_tdd.pageObjectFactory.HomePage_POF;
 import br.com.rsinet.hub_tdd.pageObjectFactory.ProductPage_POF;
-import br.com.rsinet.hub_tdd.utility.Constant;
 import br.com.rsinet.hub_tdd.utility.DriverFactory;
 import br.com.rsinet.hub_tdd.utility.ExcelUtils;
+import br.com.rsinet.hub_tdd.utility.MassaDeDados;
 import br.com.rsinet.hub_tdd.utility.Screenshot;
 
 public class CenarioBuscaProdutoPelaTela {
@@ -45,34 +43,27 @@ public class CenarioBuscaProdutoPelaTela {
 		ProductPage = PageFactory.initElements(driver, ProductPage_POF.class);
 		log.info("ProductPageFactory inicializada");
 
-		printPath = "C:\\Users\\g.santos\\eclipse-workspace\\ProjetoTDD\\src\\main\\java\\br\\com\\rsinet\\hub_tdd\\screenshotsDosTestes\\Cenario de Busca de Produto\\";
+		printPath = "C:\\Users\\g.santos\\eclipse-workspace\\ProjetoTDD\\target\\Screenshots";
 		log.info("Caminho para envio das capturas de tela definido");
 		
-		ExcelUtils.setExcelFile(Constant.Path_DadosParaTeste, "CenariosDeTeste");
+		ExcelUtils.setExcelFile(MassaDeDados.Path_DadosParaTeste, "CenariosDeTeste");
 		log.info("Massa de dados inicializada");
 		log.info("Configuracoes iniciais concluidas");
 	}
 	
 	@AfterMethod
 	public void encerraConfiguracoes() {
-		DriverFactory.driverQuit();
+		DriverFactory.endDriver();
 		log.info("Navegador encerrado");
 	}
 
 	@Test(priority = 0)
 	public void deveEncontrarProdutoRespectivoAoExibido() throws Exception {
-		Actions action = new Actions(driver);
-		action.sendKeys(Keys.PAGE_DOWN).sendKeys(Keys.PAGE_DOWN).sendKeys(Keys.PAGE_DOWN).perform();
-
-		Thread.sleep(2000); // Espera para print
-		Screenshot.printScreen(driver, "ProdutoClicadoTestePositivo", printPath);
-		
 		String nomeDoProdutoSelecionado = HomePage.getNomeDoTerceiroProduto();
 
 		HomePage.clicaNoTerceiroProdutoPopular();
 		
-		Thread.sleep(2000); // Espera para print
-		Screenshot.printScreen(driver, "ProdutoRespectivo", printPath);
+		Screenshot.printScreen(driver, "ProdutoRespectivo", MassaDeDados.getPrintPath());
 
 		String nomeDoProdutoCarregado = ProductPage.getNomeDoProduto();
 
@@ -81,18 +72,11 @@ public class CenarioBuscaProdutoPelaTela {
 
 	@Test(priority = 1)
 	public void naoDeveEncontrarProdutoRespectivoAoExibido() throws Exception {
-		Actions action = new Actions(driver);
-		action.sendKeys(Keys.PAGE_DOWN).sendKeys(Keys.PAGE_DOWN).sendKeys(Keys.PAGE_DOWN).perform();
-		
-		Thread.sleep(2000); // Espera para print
-		Screenshot.printScreen(driver, "ProdutoClicadoTesteNegativo", printPath);
-		
 		String nomeDoProdutoSelecionado = HomePage.getNomeDoSegundoProduto();
 		
 		HomePage.clicaNoSegundoProdutoPopular();
 		
-		Thread.sleep(2000); // Espera para print
-		Screenshot.printScreen(driver, "ProdutoNaoRespectivo", printPath);
+		Screenshot.printScreen(driver, "ProdutoNaoRespectivo", MassaDeDados.getPrintPath());
 		
 		String nomeDoProdutoCarregado = ProductPage.getNomeDoProduto();
 		

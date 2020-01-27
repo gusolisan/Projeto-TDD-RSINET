@@ -1,37 +1,195 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
   <reporter-output>
+    <line>
+      <![CDATA[Aplicação Web inicializada | ]]>
+    </line>
+    <line>
+      <![CDATA[Cadastro realizado com sucesso | ]]>
+    </line>
+    <line>
+      <![CDATA[Aplicação Web encerrada]]>
+    </line>
+    <line>
+      <![CDATA[Aplicação Web inicializada | ]]>
+    </line>
+    <line>
+      <![CDATA[Login realizado com sucesso | ]]>
+    </line>
+    <line>
+      <![CDATA[Aplicação Web encerrada]]>
+    </line>
+    <line>
+      <![CDATA[Aplicação Web inicializada | ]]>
+    </line>
+    <line>
+      <![CDATA[Cadastro não realizado (usuario já existente) | ]]>
+    </line>
+    <line>
+      <![CDATA[Aplicação Web encerrada]]>
+    </line>
+    <line>
+      <![CDATA[Aplicação Web iniciada | ]]>
+    </line>
+    <line>
+      <![CDATA[Produto pesquisado aparece com sucesso | ]]>
+    </line>
+    <line>
+      <![CDATA[Aplicação Web finalizada]]>
+    </line>
+    <line>
+      <![CDATA[Aplicação Web iniciada | ]]>
+    </line>
+    <line>
+      <![CDATA[Sem resultados de pesquisa | ]]>
+    </line>
+    <line>
+      <![CDATA[Aplicação Web finalizada]]>
+    </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="35758" started-at="2020-01-17T17:50:17 BRT" finished-at="2020-01-17T17:50:52 BRT">
+  <suite name="Cenarios de Teste" duration-ms="111919" started-at="2020-01-27T11:46:21 BRT" finished-at="2020-01-27T11:48:13 BRT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="35758" started-at="2020-01-17T17:50:17 BRT" finished-at="2020-01-17T17:50:52 BRT">
-      <class name="br.com.rsinet.hub_tdd.Test.CenarioBuscaProdutoPelaTela">
-        <test-method status="PASS" signature="iniciaConfiguracoes()[pri:0, instance:br.com.rsinet.hub_tdd.Test.CenarioBuscaProdutoPelaTela@2353b3e6]" name="iniciaConfiguracoes" is-config="true" duration-ms="12845" started-at="2020-01-17T17:50:17 BRT" finished-at="2020-01-17T17:50:29 BRT">
+    <test name="Testes de Cadastro" duration-ms="56993" started-at="2020-01-27T11:46:21 BRT" finished-at="2020-01-27T11:47:18 BRT">
+      <class name="br.com.rsinet.hub_tdd.Test.CenarioCadastroTest">
+        <test-method status="PASS" signature="iniciaConfiguracoes()[pri:0, instance:br.com.rsinet.hub_tdd.Test.CenarioCadastroTest@2353b3e6]" name="iniciaConfiguracoes" is-config="true" duration-ms="13530" started-at="2020-01-27T11:46:21 BRT" finished-at="2020-01-27T11:46:34 BRT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- iniciaConfiguracoes -->
-        <test-method status="PASS" signature="deveEncontrarProdutoRespectivoAoExibido()[pri:0, instance:br.com.rsinet.hub_tdd.Test.CenarioBuscaProdutoPelaTela@2353b3e6]" name="deveEncontrarProdutoRespectivoAoExibido" duration-ms="5401" started-at="2020-01-17T17:50:29 BRT" finished-at="2020-01-17T17:50:35 BRT">
+        <test-method status="PASS" signature="deveCadastrarNovoUsuario()[pri:0, instance:br.com.rsinet.hub_tdd.Test.CenarioCadastroTest@2353b3e6]" name="deveCadastrarNovoUsuario" duration-ms="8684" started-at="2020-01-27T11:46:34 BRT" finished-at="2020-01-27T11:46:43 BRT">
           <reporter-output>
+            <line>
+              <![CDATA[Aplicação Web inicializada | ]]>
+            </line>
+            <line>
+              <![CDATA[Cadastro realizado com sucesso | ]]>
+            </line>
+            <line>
+              <![CDATA[Aplicação Web encerrada]]>
+            </line>
           </reporter-output>
-        </test-method> <!-- deveEncontrarProdutoRespectivoAoExibido -->
-        <test-method status="PASS" signature="encerraConfiguracoes()[pri:0, instance:br.com.rsinet.hub_tdd.Test.CenarioBuscaProdutoPelaTela@2353b3e6]" name="encerraConfiguracoes" is-config="true" duration-ms="707" started-at="2020-01-17T17:50:35 BRT" finished-at="2020-01-17T17:50:36 BRT">
+        </test-method> <!-- deveCadastrarNovoUsuario -->
+        <test-method status="PASS" signature="encerraConfiguracoes()[pri:0, instance:br.com.rsinet.hub_tdd.Test.CenarioCadastroTest@2353b3e6]" name="encerraConfiguracoes" is-config="true" duration-ms="690" started-at="2020-01-27T11:46:43 BRT" finished-at="2020-01-27T11:46:44 BRT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- encerraConfiguracoes -->
-        <test-method status="PASS" signature="iniciaConfiguracoes()[pri:0, instance:br.com.rsinet.hub_tdd.Test.CenarioBuscaProdutoPelaTela@2353b3e6]" name="iniciaConfiguracoes" is-config="true" duration-ms="10577" started-at="2020-01-17T17:50:36 BRT" finished-at="2020-01-17T17:50:46 BRT">
+        <test-method status="PASS" signature="iniciaConfiguracoes()[pri:0, instance:br.com.rsinet.hub_tdd.Test.CenarioCadastroTest@2353b3e6]" name="iniciaConfiguracoes" is-config="true" duration-ms="10758" started-at="2020-01-27T11:46:44 BRT" finished-at="2020-01-27T11:46:55 BRT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- iniciaConfiguracoes -->
-        <test-method status="PASS" signature="naoDeveEncontrarProdutoRespectivoAoExibido()[pri:1, instance:br.com.rsinet.hub_tdd.Test.CenarioBuscaProdutoPelaTela@2353b3e6]" name="naoDeveEncontrarProdutoRespectivoAoExibido" duration-ms="5468" started-at="2020-01-17T17:50:46 BRT" finished-at="2020-01-17T17:50:52 BRT">
+        <test-method status="PASS" signature="deveLogarUsuarioExistente()[pri:1, instance:br.com.rsinet.hub_tdd.Test.CenarioCadastroTest@2353b3e6]" name="deveLogarUsuarioExistente" duration-ms="3441" started-at="2020-01-27T11:46:55 BRT" finished-at="2020-01-27T11:46:58 BRT">
+          <reporter-output>
+            <line>
+              <![CDATA[Aplicação Web inicializada | ]]>
+            </line>
+            <line>
+              <![CDATA[Login realizado com sucesso | ]]>
+            </line>
+            <line>
+              <![CDATA[Aplicação Web encerrada]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- deveLogarUsuarioExistente -->
+        <test-method status="PASS" signature="encerraConfiguracoes()[pri:0, instance:br.com.rsinet.hub_tdd.Test.CenarioCadastroTest@2353b3e6]" name="encerraConfiguracoes" is-config="true" duration-ms="688" started-at="2020-01-27T11:46:58 BRT" finished-at="2020-01-27T11:46:59 BRT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- encerraConfiguracoes -->
+        <test-method status="PASS" signature="iniciaConfiguracoes()[pri:0, instance:br.com.rsinet.hub_tdd.Test.CenarioCadastroTest@2353b3e6]" name="iniciaConfiguracoes" is-config="true" duration-ms="10957" started-at="2020-01-27T11:46:59 BRT" finished-at="2020-01-27T11:47:10 BRT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iniciaConfiguracoes -->
+        <test-method status="PASS" signature="naoDeveCadastrarUsuarioExistente()[pri:2, instance:br.com.rsinet.hub_tdd.Test.CenarioCadastroTest@2353b3e6]" name="naoDeveCadastrarUsuarioExistente" duration-ms="7504" started-at="2020-01-27T11:47:10 BRT" finished-at="2020-01-27T11:47:17 BRT">
+          <reporter-output>
+            <line>
+              <![CDATA[Aplicação Web inicializada | ]]>
+            </line>
+            <line>
+              <![CDATA[Cadastro não realizado (usuario já existente) | ]]>
+            </line>
+            <line>
+              <![CDATA[Aplicação Web encerrada]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- naoDeveCadastrarUsuarioExistente -->
+        <test-method status="PASS" signature="encerraConfiguracoes()[pri:0, instance:br.com.rsinet.hub_tdd.Test.CenarioCadastroTest@2353b3e6]" name="encerraConfiguracoes" is-config="true" duration-ms="676" started-at="2020-01-27T11:47:17 BRT" finished-at="2020-01-27T11:47:18 BRT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- encerraConfiguracoes -->
+      </class> <!-- br.com.rsinet.hub_tdd.Test.CenarioCadastroTest -->
+    </test> <!-- Testes de Cadastro -->
+    <test name="Testes de busca de produto pela barra de pesquisa" duration-ms="27779" started-at="2020-01-27T11:47:18 BRT" finished-at="2020-01-27T11:47:46 BRT">
+      <class name="br.com.rsinet.hub_tdd.Test.CenarioBuscaProdutoPorBarraDePesquisa">
+        <test-method status="PASS" signature="iniciaConfiguracoes()[pri:0, instance:br.com.rsinet.hub_tdd.Test.CenarioBuscaProdutoPorBarraDePesquisa@5f3a4b84]" name="iniciaConfiguracoes" is-config="true" duration-ms="10626" started-at="2020-01-27T11:47:18 BRT" finished-at="2020-01-27T11:47:29 BRT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iniciaConfiguracoes -->
+        <test-method status="PASS" signature="deveMostrarProdutoExistente()[pri:0, instance:br.com.rsinet.hub_tdd.Test.CenarioBuscaProdutoPorBarraDePesquisa@5f3a4b84]" name="deveMostrarProdutoExistente" duration-ms="2496" started-at="2020-01-27T11:47:29 BRT" finished-at="2020-01-27T11:47:31 BRT">
+          <reporter-output>
+            <line>
+              <![CDATA[Aplicação Web iniciada | ]]>
+            </line>
+            <line>
+              <![CDATA[Produto pesquisado aparece com sucesso | ]]>
+            </line>
+            <line>
+              <![CDATA[Aplicação Web finalizada]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- deveMostrarProdutoExistente -->
+        <test-method status="PASS" signature="encerraConfiguracoes()[pri:0, instance:br.com.rsinet.hub_tdd.Test.CenarioBuscaProdutoPorBarraDePesquisa@5f3a4b84]" name="encerraConfiguracoes" is-config="true" duration-ms="698" started-at="2020-01-27T11:47:31 BRT" finished-at="2020-01-27T11:47:32 BRT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- encerraConfiguracoes -->
+        <test-method status="PASS" signature="iniciaConfiguracoes()[pri:0, instance:br.com.rsinet.hub_tdd.Test.CenarioBuscaProdutoPorBarraDePesquisa@5f3a4b84]" name="iniciaConfiguracoes" is-config="true" duration-ms="10688" started-at="2020-01-27T11:47:32 BRT" finished-at="2020-01-27T11:47:43 BRT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iniciaConfiguracoes -->
+        <test-method status="PASS" signature="naoDeveMostrarProdutoInexistente()[pri:0, instance:br.com.rsinet.hub_tdd.Test.CenarioBuscaProdutoPorBarraDePesquisa@5f3a4b84]" name="naoDeveMostrarProdutoInexistente" duration-ms="2114" started-at="2020-01-27T11:47:43 BRT" finished-at="2020-01-27T11:47:45 BRT">
+          <reporter-output>
+            <line>
+              <![CDATA[Aplicação Web iniciada | ]]>
+            </line>
+            <line>
+              <![CDATA[Sem resultados de pesquisa | ]]>
+            </line>
+            <line>
+              <![CDATA[Aplicação Web finalizada]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- naoDeveMostrarProdutoInexistente -->
+        <test-method status="PASS" signature="encerraConfiguracoes()[pri:0, instance:br.com.rsinet.hub_tdd.Test.CenarioBuscaProdutoPorBarraDePesquisa@5f3a4b84]" name="encerraConfiguracoes" is-config="true" duration-ms="1146" started-at="2020-01-27T11:47:45 BRT" finished-at="2020-01-27T11:47:46 BRT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- encerraConfiguracoes -->
+      </class> <!-- br.com.rsinet.hub_tdd.Test.CenarioBuscaProdutoPorBarraDePesquisa -->
+    </test> <!-- Testes de busca de produto pela barra de pesquisa -->
+    <test name="Testes de busca de produto pela tela" duration-ms="26937" started-at="2020-01-27T11:47:46 BRT" finished-at="2020-01-27T11:48:13 BRT">
+      <class name="br.com.rsinet.hub_tdd.Test.CenarioBuscaProdutoPelaTela">
+        <test-method status="PASS" signature="iniciaConfiguracoes()[pri:0, instance:br.com.rsinet.hub_tdd.Test.CenarioBuscaProdutoPelaTela@13c27452]" name="iniciaConfiguracoes" is-config="true" duration-ms="10739" started-at="2020-01-27T11:47:46 BRT" finished-at="2020-01-27T11:47:57 BRT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iniciaConfiguracoes -->
+        <test-method status="PASS" signature="deveEncontrarProdutoRespectivoAoExibido()[pri:0, instance:br.com.rsinet.hub_tdd.Test.CenarioBuscaProdutoPelaTela@13c27452]" name="deveEncontrarProdutoRespectivoAoExibido" duration-ms="1706" started-at="2020-01-27T11:47:57 BRT" finished-at="2020-01-27T11:47:58 BRT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deveEncontrarProdutoRespectivoAoExibido -->
+        <test-method status="PASS" signature="encerraConfiguracoes()[pri:0, instance:br.com.rsinet.hub_tdd.Test.CenarioBuscaProdutoPelaTela@13c27452]" name="encerraConfiguracoes" is-config="true" duration-ms="691" started-at="2020-01-27T11:47:58 BRT" finished-at="2020-01-27T11:47:59 BRT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- encerraConfiguracoes -->
+        <test-method status="PASS" signature="iniciaConfiguracoes()[pri:0, instance:br.com.rsinet.hub_tdd.Test.CenarioBuscaProdutoPelaTela@13c27452]" name="iniciaConfiguracoes" is-config="true" duration-ms="10701" started-at="2020-01-27T11:47:59 BRT" finished-at="2020-01-27T11:48:10 BRT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iniciaConfiguracoes -->
+        <test-method status="PASS" signature="naoDeveEncontrarProdutoRespectivoAoExibido()[pri:1, instance:br.com.rsinet.hub_tdd.Test.CenarioBuscaProdutoPelaTela@13c27452]" name="naoDeveEncontrarProdutoRespectivoAoExibido" duration-ms="1577" started-at="2020-01-27T11:48:10 BRT" finished-at="2020-01-27T11:48:11 BRT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- naoDeveEncontrarProdutoRespectivoAoExibido -->
-        <test-method status="PASS" signature="encerraConfiguracoes()[pri:0, instance:br.com.rsinet.hub_tdd.Test.CenarioBuscaProdutoPelaTela@2353b3e6]" name="encerraConfiguracoes" is-config="true" duration-ms="688" started-at="2020-01-17T17:50:52 BRT" finished-at="2020-01-17T17:50:52 BRT">
+        <test-method status="PASS" signature="encerraConfiguracoes()[pri:0, instance:br.com.rsinet.hub_tdd.Test.CenarioBuscaProdutoPelaTela@13c27452]" name="encerraConfiguracoes" is-config="true" duration-ms="1518" started-at="2020-01-27T11:48:11 BRT" finished-at="2020-01-27T11:48:13 BRT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- encerraConfiguracoes -->
       </class> <!-- br.com.rsinet.hub_tdd.Test.CenarioBuscaProdutoPelaTela -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Testes de busca de produto pela tela -->
+  </suite> <!-- Cenarios de Teste -->
 </testng-results>

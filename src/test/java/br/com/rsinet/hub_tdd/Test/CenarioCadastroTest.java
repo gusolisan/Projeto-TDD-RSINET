@@ -15,7 +15,7 @@ import org.testng.annotations.Test;
 import br.com.rsinet.hub_tdd.pageObjectFactory.HomePage_POF;
 import br.com.rsinet.hub_tdd.pageObjectFactory.LoginPage_POF;
 import br.com.rsinet.hub_tdd.pageObjectFactory.RegisterPage_POF;
-import br.com.rsinet.hub_tdd.utility.Constant;
+import br.com.rsinet.hub_tdd.utility.MassaDeDados;
 import br.com.rsinet.hub_tdd.utility.DriverFactory;
 import br.com.rsinet.hub_tdd.utility.ExcelUtils;
 import br.com.rsinet.hub_tdd.utility.Screenshot;
@@ -50,15 +50,15 @@ public class CenarioCadastroTest {
 
 		RegisterPage = PageFactory.initElements(driver, RegisterPage_POF.class);
 		log.info("RegisterPageFactory inicializado");
-		
-		ExcelUtils.setExcelFile(Constant.Path_DadosParaTeste, "CenariosDeTeste");
+
+		ExcelUtils.setExcelFile(MassaDeDados.Path_DadosParaTeste, "CenariosDeTeste");
 		log.info("Massa de dados inicializada");
 		log.info("Configuracoes iniciais concluidas");
 	}
 
 	@AfterMethod
 	public void encerraConfiguracoes() {
-		DriverFactory.driverQuit();
+		DriverFactory.endDriver();
 		log.info("Navegador encerrado");
 	}
 
@@ -72,41 +72,41 @@ public class CenarioCadastroTest {
 		RegisterPage.clicaEmBotaoCriarConta();
 		cadastro.info("Botao criar nova conta clicado");
 
-		RegisterPage.insereUsername(Constant.usuario());
+		RegisterPage.insereUsername(MassaDeDados.usuario());
 		cadastro.info("Iniciado o cadastro");
 		cadastro.info("Nome de usuario inserido");
 
-		RegisterPage.insereEmail(Constant.email());
+		RegisterPage.insereEmail(MassaDeDados.email());
 		cadastro.info("Email inserido");
 
-		RegisterPage.insereSenha(Constant.senha());
+		RegisterPage.insereSenha(MassaDeDados.senha());
 		cadastro.info("Senha inserida");
 
-		RegisterPage.confirmaSenha(Constant.senha());
+		RegisterPage.confirmaSenha(MassaDeDados.senha());
 		cadastro.info("Senha confirmada");
 
-		RegisterPage.insereNomeDoUsuario(Constant.nome());
+		RegisterPage.insereNomeDoUsuario(MassaDeDados.nome());
 		cadastro.info("Nome inserido");
 
-		RegisterPage.insereSobrenomeDoUsuario(Constant.sobrenome());
+		RegisterPage.insereSobrenomeDoUsuario(MassaDeDados.sobrenome());
 		cadastro.info("Sobrenome inserido");
 
-		RegisterPage.insereTelefone(Constant.telefone());
+		RegisterPage.insereTelefone(MassaDeDados.telefone());
 		cadastro.info("Telefone inserido");
 
-		RegisterPage.insereNacionalidade(Constant.nacionalidade());
+		RegisterPage.insereNacionalidade(MassaDeDados.nacionalidade());
 		cadastro.info("Nacionalidade selecionada");
 
-		RegisterPage.insereCidade(Constant.cidade());
+		RegisterPage.insereCidade(MassaDeDados.cidade());
 		cadastro.info("Cidade inserida");
 
-		RegisterPage.insereEndereco(Constant.endereco());
+		RegisterPage.insereEndereco(MassaDeDados.endereco());
 		cadastro.info("Endereco inserido");
 
-		RegisterPage.insereEstado(Constant.estado());
+		RegisterPage.insereEstado(MassaDeDados.estado());
 		cadastro.info("Estado inserido");
 
-		RegisterPage.insereCEP(Constant.cep());
+		RegisterPage.insereCEP(MassaDeDados.cep());
 		cadastro.info("CEP inserido");
 
 		RegisterPage.clicaNoBotaoPromocoes();
@@ -117,14 +117,12 @@ public class CenarioCadastroTest {
 
 		RegisterPage.clicaNoBotaoRegistrar();
 		cadastro.info("Botao register clicado");
-		
 
 		Reporter.log("Cadastro realizado com sucesso | ");
 
-		Assert.assertEquals(HomePage.nomeUsuarioLogado(), Constant.usuario());
+		Assert.assertTrue(HomePage.nomeUsuarioLogado().isDisplayed());
 
-		Screenshot.printScreen(driver, "ProdutoEncontrado",
-				"C:\\Users\\g.santos\\eclipse-workspace\\ProjetoTDD\\src\\main\\java\\br\\com\\rsinet\\hub_tdd\\screenshotsDosTestes\\Cenario de Cadastro\\");
+		Screenshot.printScreen(driver, "UsuarioCadastrado", MassaDeDados.getPrintPath());
 		print.info("Print da tela efetuado");
 		Reporter.log("Aplicação Web encerrada");
 	}
@@ -136,10 +134,10 @@ public class CenarioCadastroTest {
 		HomePage.clicaEmBotaoConta();
 		login.info("Botao conta clicado");
 
-		LoginPage.insereUsuario(Constant.usuario());
+		LoginPage.insereUsuario(MassaDeDados.usuario());
 		login.info("Nome de usuario inserido no campo username");
 
-		LoginPage.insereSenha(Constant.senha());
+		LoginPage.insereSenha(MassaDeDados.senha());
 		login.info("Senha do usuario inserida no campo password");
 
 		LoginPage.clicaEmBotaoLogar();
@@ -147,10 +145,9 @@ public class CenarioCadastroTest {
 
 		Reporter.log("Login realizado com sucesso | ");
 
-		Assert.assertTrue(HomePage.nomeUsuarioLogadoApareceNaTela());
+		Assert.assertTrue(HomePage.nomeUsuarioLogado().isDisplayed());
 
-		Screenshot.printScreen(driver, "ProdutoEncontrado",
-				"C:\\Users\\g.santos\\eclipse-workspace\\ProjetoTDD\\src\\main\\java\\br\\com\\rsinet\\hub_tdd\\screenshotsDosTestes\\Cenario de Cadastro\\");
+		Screenshot.printScreen(driver, "UsuarioLogado", MassaDeDados.getPrintPath());
 		print.info("Print da tela efetuado");
 
 		Reporter.log("Aplicação Web encerrada");
@@ -166,41 +163,41 @@ public class CenarioCadastroTest {
 		RegisterPage.clicaEmBotaoCriarConta();
 		cadastro.info("Botao criar nova conta clicado");
 
-		RegisterPage.insereUsername(Constant.usuario());
+		RegisterPage.insereUsername(MassaDeDados.usuario());
 		cadastro.info("Iniciado o cadastro");
 		cadastro.info("Nome de usuario inserido");
 
-		RegisterPage.insereEmail(Constant.email());
+		RegisterPage.insereEmail(MassaDeDados.email());
 		cadastro.info("Email inserido");
 
-		RegisterPage.insereSenha(Constant.senha());
+		RegisterPage.insereSenha(MassaDeDados.senha());
 		cadastro.info("Senha inserida");
 
-		RegisterPage.confirmaSenha(Constant.senha());
+		RegisterPage.confirmaSenha(MassaDeDados.senha());
 		cadastro.info("Senha confirmada");
 
-		RegisterPage.insereNomeDoUsuario(Constant.nome());
+		RegisterPage.insereNomeDoUsuario(MassaDeDados.nome());
 		cadastro.info("Nome inserido");
 
-		RegisterPage.insereSobrenomeDoUsuario(Constant.sobrenome());
+		RegisterPage.insereSobrenomeDoUsuario(MassaDeDados.sobrenome());
 		cadastro.info("Sobrenome inserido");
 
-		RegisterPage.insereTelefone(Constant.telefone());
+		RegisterPage.insereTelefone(MassaDeDados.telefone());
 		cadastro.info("Telefone inserido");
 
-		RegisterPage.insereNacionalidade(Constant.nacionalidade());
+		RegisterPage.insereNacionalidade(MassaDeDados.nacionalidade());
 		cadastro.info("Nacionalidade selecionada");
 
-		RegisterPage.insereCidade(Constant.cidade());
+		RegisterPage.insereCidade(MassaDeDados.cidade());
 		cadastro.info("Cidade inserida");
 
-		RegisterPage.insereEndereco(Constant.endereco());
+		RegisterPage.insereEndereco(MassaDeDados.endereco());
 		cadastro.info("Endereco inserido");
 
-		RegisterPage.insereEstado(Constant.estado());
+		RegisterPage.insereEstado(MassaDeDados.estado());
 		cadastro.info("Estado inserido");
 
-		RegisterPage.insereCEP(Constant.cep());
+		RegisterPage.insereCEP(MassaDeDados.cep());
 		cadastro.info("CEP inserido");
 
 		RegisterPage.clicaNoBotaoPromocoes();
@@ -211,16 +208,15 @@ public class CenarioCadastroTest {
 
 		RegisterPage.clicaNoBotaoRegistrar();
 		cadastro.info("Botao register clicado");
-		
+
 		Actions actions = new Actions(driver);
 		actions.sendKeys(Keys.TAB).sendKeys(Keys.TAB).perform();
 
 		Reporter.log("Cadastro não realizado (usuario já existente) | ");
 
 		Assert.assertFalse(HomePage.nomeUsuarioLogadoApareceNaTela());
-		
-		Screenshot.printScreen(driver, "ProdutoEncontrado",
-				"C:\\Users\\g.santos\\eclipse-workspace\\ProjetoTDD\\src\\main\\java\\br\\com\\rsinet\\hub_tdd\\screenshotsDosTestes\\Cenario de Cadastro\\");
+
+		Screenshot.printScreen(driver, "UsuarioNaoCadastrado", MassaDeDados.getPrintPath());
 		print.info("Print da tela efetuado");
 
 		Reporter.log("Aplicação Web encerrada");

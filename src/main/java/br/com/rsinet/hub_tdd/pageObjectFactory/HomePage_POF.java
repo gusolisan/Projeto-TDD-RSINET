@@ -1,7 +1,10 @@
 package br.com.rsinet.hub_tdd.pageObjectFactory;
 
+import java.util.concurrent.TimeUnit;
+
 import org.apache.log4j.Logger;
 import org.openqa.selenium.Keys;
+import org.openqa.selenium.PageLoadStrategy;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -9,7 +12,7 @@ import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import br.com.rsinet.hub_tdd.utility.Constant;
+import br.com.rsinet.hub_tdd.utility.MassaDeDados;
 
 public class HomePage_POF {
 
@@ -132,21 +135,17 @@ public class HomePage_POF {
 	}
 
 	public boolean nomeUsuarioLogadoApareceNaTela() throws Exception {
-		WebDriverWait wait = new WebDriverWait(driver, 10);
-		try {
-			return wait.until(ExpectedConditions.elementToBeClickable(nomeUsuarioLogado)).isDisplayed();
-		} catch (Exception e) {
-			return wait.until(ExpectedConditions.elementToBeClickable(nomeUsuarioLogado)).isDisplayed();
-		}
+		driver.manage().timeouts().pageLoadTimeout(3, TimeUnit.SECONDS);
+		return nomeUsuarioLogado.isDisplayed();
 	}
 
-	public String nomeUsuarioLogado() {
+	public WebElement nomeUsuarioLogado() {
 		WebDriverWait wait = new WebDriverWait(driver, 10);
 		try {
-			wait.until(ExpectedConditions.textToBePresentInElement(nomeUsuarioLogado, Constant.usuario()));
-			return nomeUsuarioLogado.getText();
+			wait.until(ExpectedConditions.textToBePresentInElement(nomeUsuarioLogado, MassaDeDados.usuario()));
+			return nomeUsuarioLogado;
 		} catch (Exception e) {
-			return nomeUsuarioLogado.getText();
+			return nomeUsuarioLogado;
 		}
 	}
 }

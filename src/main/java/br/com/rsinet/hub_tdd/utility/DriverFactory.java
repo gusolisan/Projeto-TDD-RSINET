@@ -7,7 +7,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class DriverFactory {
-	private static WebDriver driver = null;
+	private static WebDriver driver;
 	private static Logger log = Logger.getLogger("DriverFactory");
 
 	public static WebDriver driverInit() {
@@ -15,7 +15,7 @@ public class DriverFactory {
 			driver = new ChromeDriver();
 			log.info("Driver criado");
 
-			driver.get(Constant.url);
+			driver.get(MassaDeDados.url);
 			log.info("Navegador inicializado com o site https://www.advantageonlineshopping.com/#/");
 
 			driver.manage().window().maximize();
@@ -27,7 +27,7 @@ public class DriverFactory {
 		return driver;
 	}
 
-	public static void driverQuit() {
+	public static void endDriver() {
 		if (driver != null) {
 			driver.quit();
 			log.info("Driver encerrado");

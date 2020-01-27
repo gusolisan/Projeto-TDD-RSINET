@@ -1,8 +1,13 @@
 package br.com.rsinet.hub_tdd.utility;
 
-public class Constant {
+public class MassaDeDados {
+	private static final String printPath = "C:\\Users\\g.santos\\eclipse-workspace\\ProjetoTDD\\target\\Screenshots\\";
 	public static final String url = "https://www.advantageonlineshopping.com/#/";
-	public static final String Path_DadosParaTeste = "C:\\Users\\g.santos\\Documents\\Massa de dados\\DadosParaTeste.xlsx";
+	public static final String Path_DadosParaTeste = "C:\\Users\\g.santos\\eclipse-workspace\\ProjetoTDD\\src\\main\\java\\br\\com\\rsinet\\hub_tdd\\dadosParaTeste\\DadosParaTeste.xlsx";
+
+	public static String getPrintPath() {
+		return printPath;
+	}
 
 	public static final String usuario() throws Exception {
 		return ExcelUtils.getCellData(1, 2);

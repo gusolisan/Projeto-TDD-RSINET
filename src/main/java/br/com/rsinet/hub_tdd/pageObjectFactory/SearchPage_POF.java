@@ -8,7 +8,7 @@ import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import br.com.rsinet.hub_tdd.utility.Constant;
+import br.com.rsinet.hub_tdd.utility.MassaDeDados;
 
 public class SearchPage_POF {
 
@@ -30,7 +30,7 @@ public class SearchPage_POF {
 
 	public boolean validaPresencaDoProdutoExistente() throws Exception {
 		WebDriverWait wait = new WebDriverWait(driver, 10);
-		return wait.until(ExpectedConditions.elementToBeClickable(By.partialLinkText(Constant.produtoExistente())))
+		return wait.until(ExpectedConditions.elementToBeClickable(By.partialLinkText(MassaDeDados.produtoExistente())))
 				.isDisplayed();
 	}
 }

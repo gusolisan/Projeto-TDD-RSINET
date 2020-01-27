@@ -9,10 +9,10 @@ import org.openqa.selenium.WebDriver;
 
 public class Screenshot {
 	
-	public static void printScreen(WebDriver driver, String nomeDoArquivoImagem, String caminhoDeArmazenamento) throws Exception {
+	public static void printScreen(WebDriver driver, String nomeDoArquivoImagem, String printPath) throws Exception {
 		TakesScreenshot scrShot = ((TakesScreenshot) driver);
 		File srcFile = scrShot.getScreenshotAs(OutputType.FILE);
-		String imageFileDir = caminhoDeArmazenamento;
+		String imageFileDir = printPath;
 		FileUtils.copyFile(srcFile, new File(imageFileDir, nomeDoArquivoImagem + ".png"));
 	}
 }

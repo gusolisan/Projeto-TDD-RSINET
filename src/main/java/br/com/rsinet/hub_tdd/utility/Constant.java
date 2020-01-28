@@ -1,9 +1,10 @@
 package br.com.rsinet.hub_tdd.utility;
 
 public class Constant {
-	private static final String printPath = "C:\\My Workspace\\TDD\\target\\Screenshots";
+	
 	public static final String url = "https://www.advantageonlineshopping.com/#/";
-	public static final String Path_DadosParaTeste = "C:\\My Workspace\\TDD\\src\\main\\java\\br\\com\\rsinet\\hub_tdd\\dadosParaTeste\\DadosParaTeste.xlsx";
+	private static final String printPath = "C:\\My Workspace\\ProjetoTDD\\target\\Screenshots\\";
+	public static final String Path_DadosParaTeste = "C:\\My Workspace\\ProjetoTDD\\src\\main\\java\\br\\com\\rsinet\\hub_tdd\\dadosParaTeste\\DadosParaTeste.xlsx";
 
 	public static String getPrintPath() {
 		return printPath;

@@ -27,8 +27,6 @@ public class CenarioCadastroTest {
 	private static Logger login = Logger.getLogger("Login");
 	private static Logger print = Logger.getLogger("PrintScreen");
 
-	private WebDriver driver;
-
 	HomePage_POF HomePage;
 	LoginPage_POF LoginPage;
 	RegisterPage_POF RegisterPage;
@@ -39,16 +37,16 @@ public class CenarioCadastroTest {
 		DOMConfigurator.configure("log4j.xml");
 		log.info("Configuracoes iniciais em andamento");
 
-		driver = DriverFactory.driverInit();
+		DriverFactory.driverInit();
 		log.info("Driver fabricado");
 
-		HomePage = PageFactory.initElements(driver, HomePage_POF.class);
+		HomePage = PageFactory.initElements(DriverFactory.driverInit(), HomePage_POF.class);
 		log.info("HomePageFactory inicializado");
 
-		LoginPage = PageFactory.initElements(driver, LoginPage_POF.class);
+		LoginPage = PageFactory.initElements(DriverFactory.driverInit(), LoginPage_POF.class);
 		log.info("LoginPageFactory inicializado");
 
-		RegisterPage = PageFactory.initElements(driver, RegisterPage_POF.class);
+		RegisterPage = PageFactory.initElements(DriverFactory.driverInit(), RegisterPage_POF.class);
 		log.info("RegisterPageFactory inicializado");
 
 		ExcelUtils.setExcelFile(Constant.Path_DadosParaTeste, "CenariosDeTeste");
@@ -122,7 +120,7 @@ public class CenarioCadastroTest {
 
 		Assert.assertTrue(HomePage.nomeUsuarioLogadoApareceNaPagina());
 
-		Screenshot.printScreen(driver, "UsuarioCadastrado", Constant.getPrintPath());
+		Screenshot.printScreen(DriverFactory.driverInit(), "UsuarioCadastrado", Constant.getPrintPath());
 		print.info("Print da tela efetuado");
 
 		Reporter.log("Aplicação Web encerrada");
@@ -148,7 +146,7 @@ public class CenarioCadastroTest {
 
 		Assert.assertTrue(HomePage.nomeUsuarioLogadoApareceNaPagina());
 
-		Screenshot.printScreen(driver, "UsuarioLogado", Constant.getPrintPath());
+		Screenshot.printScreen(DriverFactory.driverInit(), "UsuarioLogado", Constant.getPrintPath());
 		print.info("Print da tela efetuado");
 
 		Reporter.log("Aplicação Web encerrada");
@@ -210,14 +208,14 @@ public class CenarioCadastroTest {
 		RegisterPage.clicaNoBotaoRegistrar();
 		cadastro.info("Botao register clicado");
 
-		Actions actions = new Actions(driver);
+		Actions actions = new Actions(DriverFactory.driverInit());
 		actions.sendKeys(Keys.TAB).sendKeys(Keys.TAB).perform();
 
 		Reporter.log("Cadastro não realizado (usuario já existente) | ");
 
 		Assert.assertFalse(HomePage.nomeUsuarioLogadoApareceNaTela());
 
-		Screenshot.printScreen(driver, "UsuarioNaoCadastrado", Constant.getPrintPath());
+		Screenshot.printScreen(DriverFactory.driverInit(), "UsuarioNaoCadastrado", Constant.getPrintPath());
 		print.info("Print da tela efetuado");
 
 		Reporter.log("Aplicação Web encerrada");

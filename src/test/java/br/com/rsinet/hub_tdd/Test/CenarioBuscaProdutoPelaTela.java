@@ -22,9 +22,6 @@ public class CenarioBuscaProdutoPelaTela {
 	private static Logger busca = Logger.getLogger("Busca de Produto");
 	private static Logger print = Logger.getLogger("PrintScreen");
 
-	WebDriver driver;
-	String printPath;
-
 	HomePage_POF HomePage;
 	ProductPage_POF ProductPage;
 
@@ -33,13 +30,13 @@ public class CenarioBuscaProdutoPelaTela {
 		DOMConfigurator.configure("log4j.xml");
 		log.info("Configuracoes iniciais em andamento");
 
-		driver = DriverFactory.driverInit();
+		DriverFactory.driverInit();
 		log.info("Driver fabricado");
 
-		HomePage = PageFactory.initElements(driver, HomePage_POF.class);
+		HomePage = PageFactory.initElements(DriverFactory.driverInit(), HomePage_POF.class);
 		log.info("HomePageFactory inicializada");
 
-		ProductPage = PageFactory.initElements(driver, ProductPage_POF.class);
+		ProductPage = PageFactory.initElements(DriverFactory.driverInit(), ProductPage_POF.class);
 		log.info("ProductPageFactory inicializada");
 
 		ExcelUtils.setExcelFile(Constant.Path_DadosParaTeste, "CenariosDeTeste");
@@ -60,7 +57,7 @@ public class CenarioBuscaProdutoPelaTela {
 		HomePage.clicaNoTerceiroProdutoPopular();
 		busca.info("Terceiro produto popular clicado: " + HomePage.getNomeDoTerceiroProduto());
 		
-		Screenshot.printScreen(driver, "ProdutoRespectivo", Constant.getPrintPath());
+		Screenshot.printScreen(DriverFactory.driverInit(), "ProdutoRespectivo", Constant.getPrintPath());
 		print.info("Print da tela efetuado");
 		
 		String nomeDoProdutoCarregado = ProductPage.getNomeDoProduto();
@@ -76,9 +73,8 @@ public class CenarioBuscaProdutoPelaTela {
 		HomePage.clicaNoSegundoProdutoPopular();
 		busca.info("Segundo produto popular clicado: " + HomePage.getNomeDoSegundoProduto());
 		
-		Screenshot.printScreen(driver, "ProdutoNaoRespectivo", Constant.getPrintPath());
+		Screenshot.printScreen(DriverFactory.driverInit(), "ProdutoNaoRespectivo", Constant.getPrintPath());
 		print.info("Print da tela efetuado");
-		
 		
 		String nomeDoProdutoCarregado = ProductPage.getNomeDoProduto();
 		busca.info("Produto diferente aparece na pagina de compra");

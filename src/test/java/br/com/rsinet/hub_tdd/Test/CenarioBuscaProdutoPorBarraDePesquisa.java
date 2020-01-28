@@ -23,8 +23,6 @@ public class CenarioBuscaProdutoPorBarraDePesquisa {
 	private static Logger Pesquisa = Logger.getLogger("Pesquisa de Produto");
 	private static Logger print = Logger.getLogger("PrintScreen");
 
-	WebDriver driver;
-
 	HomePage_POF HomePage;
 	SearchPage_POF SearchPage;
 
@@ -33,13 +31,13 @@ public class CenarioBuscaProdutoPorBarraDePesquisa {
 		DOMConfigurator.configure("log4j.xml");
 		log.info("Configuracoes iniciais em andamento");
 
-		driver = DriverFactory.driverInit();
+		DriverFactory.driverInit();
 		log.info("Driver fabricado");
 
-		HomePage = PageFactory.initElements(driver, HomePage_POF.class);
+		HomePage = PageFactory.initElements(DriverFactory.driverInit(), HomePage_POF.class);
 		log.info("HomePageFactory inicializada");
 
-		SearchPage = PageFactory.initElements(driver, SearchPage_POF.class);
+		SearchPage = PageFactory.initElements(DriverFactory.driverInit(), SearchPage_POF.class);
 		log.info("SearchPageFactory inicializada");
 
 		ExcelUtils.setExcelFile(Constant.Path_DadosParaTeste, "CenariosDeTeste");
@@ -65,7 +63,7 @@ public class CenarioBuscaProdutoPorBarraDePesquisa {
 		SearchPage.fecharPesquisa();
 		Pesquisa.info("Aba pesquisa fechada");
 
-		Screenshot.printScreen(driver, "ProdutoEncontrado", Constant.getPrintPath());
+		Screenshot.printScreen(DriverFactory.driverInit(), "ProdutoEncontrado", Constant.getPrintPath());
 		print.info("Print da tela efetuado");
 
 		Assert.assertTrue(SearchPage.validaPresencaDoProdutoExistente());
@@ -87,7 +85,7 @@ public class CenarioBuscaProdutoPorBarraDePesquisa {
 		SearchPage.fecharPesquisa();
 		Pesquisa.info("Aba pesquisa fechada");
 
-		Screenshot.printScreen(driver, "ProdutoNaoEncontrado", Constant.getPrintPath());
+		Screenshot.printScreen(DriverFactory.driverInit(), "ProdutoNaoEncontrado", Constant.getPrintPath());
 		print.info("Print da tela efetuado");
 		
 		Reporter.log("Sem resultados de pesquisa | ");
